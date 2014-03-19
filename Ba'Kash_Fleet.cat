@@ -248,6 +248,9 @@
                 <link id="2832853f-5d78-20b2-7d7d-d39ea5602881" targetId="9cf13844-fbae-a981-ad3e-671e39b36c86" linkType="profile">
                   <modifiers/>
                 </link>
+                <link id="ab9be654-c28c-c6f3-5ed7-a7163f21a46e" targetId="8427194b-5998-fb7b-e6f2-9471c4d786df" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -325,6 +328,9 @@
                     <link id="9ab3d960-699d-924c-0c64-b1cd9d6ce082" targetId="1027d294-d030-ddd5-26c6-4d07ae51bdc7" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="934e21c1-74f7-33c9-b8a0-35910a402b1a" targetId="8427194b-5998-fb7b-e6f2-9471c4d786df" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -371,6 +377,9 @@
                           <modifiers/>
                         </link>
                         <link id="2b02c5b7-e2db-9a2a-9484-674aee3dfe77" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="5e6992da-42b9-51ec-af6a-28ef6e08db97" targetId="8427194b-5998-fb7b-e6f2-9471c4d786df" linkType="rule">
                           <modifiers/>
                         </link>
                       </links>
@@ -613,6 +622,9 @@
                     <link id="9e0352b9-d541-056f-601d-5526d5b7325a" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="77ed124b-8c47-a0ba-1f2e-08a336914b61" targetId="8427194b-5998-fb7b-e6f2-9471c4d786df" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -692,6 +704,10 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
     </rule>
     <rule id="2700661c-0256-346e-878a-ba64a99b58dd" name="Weapon Shielding" hidden="false" page="0">
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8427194b-5998-fb7b-e6f2-9471c4d786df" name="Beam Weapons" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons, the target’s Shield Systems do NOT use the exploding dice mechanic.</description>
       <modifiers/>
     </rule>
   </sharedRules>
