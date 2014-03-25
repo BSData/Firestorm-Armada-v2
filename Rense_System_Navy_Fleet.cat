@@ -1896,8 +1896,13 @@
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
+    <rule id="bae37eef-fb25-0a12-54b7-9327d7335920" name="Ambush" hidden="false" page="0">
+      <description>A Squadron with the Ambush MAR may be deployed using the Hidden Set-Up rules.
+However, rather than only having one Hidden Set-Up Marker, you may place a number of Markers equal to the value of this MAR on the Board. Only one of these Markers has the Squadron name recorded on it, the others are left blank. When a blank Marker is revealed, nothing happens – the Marker is simply discarded.</description>
+      <modifiers/>
+    </rule>
     <rule id="95891eb6-0a90-47f7-d896-ce77467b1424" name="Beam Weapons" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons, the target’s Shield Systems do NOT use the exploding dice mechanic.</description>
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
       <modifiers/>
     </rule>
     <rule id="5f5c603b-8e76-8932-a300-2e858565c809" name="Bigger Batteries" hidden="false" page="0">
@@ -1920,12 +1925,20 @@
       <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
       <modifiers/>
     </rule>
+    <rule id="de9f2f94-73a0-e023-4c70-1f327f2e50b7" name="Dirty Secrets" hidden="false" page="0">
+      <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card.</description>
+      <modifiers/>
+    </rule>
     <rule id="b79cfe64-0c8e-80d5-beb0-3ababef29568" name="Elite Crew" hidden="false" page="0">
       <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
       <modifiers/>
     </rule>
     <rule id="9b93fb85-c72d-ac0a-51c0-c59789d77cbe" name="Hidden Killer" hidden="false" page="0">
       <description>A Hidden Killer CANNOT be targeted by ANY weapons firing from further than 20” if it is at a Full Stop.</description>
+      <modifiers/>
+    </rule>
+    <rule id="699eaed2-84c7-7342-d194-18b8278e4f7b" name="High Energy" hidden="false" page="0">
+      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
       <modifiers/>
     </rule>
     <rule id="d629349a-57a1-6e82-7f9d-3b36350231be" name="Impervious" hidden="false" page="0">
@@ -1940,6 +1953,14 @@
       <description>Coherence Effect - If ALL weapons involved in an attack are Nuclear Weapons and the attack causes a Critical Hit, every model whose Flight Peg is within 4” of the target’s Flight Peg suffers an attack with HALF the Attack Dice of the initial attack.</description>
       <modifiers/>
     </rule>
+    <rule id="026e0d99-5c5e-6e3a-36ec-a9859c087117" name="Ops Center" hidden="false" page="0">
+      <description>If a model with the Ops Centre MAR is your Fleet Admiral’s Vessel you may take an additional TAC at no extra cost.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c6cf24a2-4dc4-244e-2a34-79155f46fe0e" name="Precision Strike" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
+      <modifiers/>
+    </rule>
     <rule id="aea705fe-9c9d-8ad2-a754-9169b0a03f75" name="Quick Launch" hidden="false" page="0">
       <description>When Launched from a Carrier with Quick Launch, SRS Tokens may be placed anywhere within the Carrier’s Command Distance, they are not restricted to being placed in contact with it.</description>
       <modifiers/>
@@ -1952,29 +1973,21 @@ The model’s Shield Rating is reduced by 1 against any Attack NOT from the nomi
 A model may be deployed with Sector Shielding engaged, nominate the direction at the time of deployment.</description>
       <modifiers/>
     </rule>
+    <rule id="5893402a-168a-a752-5ec1-e77685b29b55" name="Special Forces" hidden="false" page="0">
+      <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier.
+If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
+      <modifiers/>
+    </rule>
     <rule id="ef4e2b68-0a64-3724-ff58-48c027420ff9" name="Split Fire" hidden="false" page="0">
       <description>A Weapon with the Split Fire MAR may declare an Attack against any number of targets in its Arc of Fire and a single Attack Dice Range Band. It must divide its Attack Dice as evenly as possible between these Attacks. This cannot be used in conjunction with any Firing Options.</description>
       <modifiers/>
     </rule>
-    <rule id="57f96d9f-cbcc-1354-5af0-98b8f243d21c" name="Torpedo Spook" hidden="false" page="0">
-      <description>If ALL models contributing to a Torpedo Attack have the Torpedo Spook MAR, all successful Point Defense rolls against this attack MUST be Re-Rolled. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e6e4a3e0-5a30-c853-c3c7-9aca9ba2245d" name="Weapon Shielding" hidden="false" page="0">
-      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
-      <modifiers/>
-    </rule>
-    <rule id="bae37eef-fb25-0a12-54b7-9327d7335920" name="Ambush" hidden="false" page="0">
-      <description>A Squadron with the Ambush MAR may be deployed using the Hidden Set-Up rules.
-However, rather than only having one Hidden Set-Up Marker, you may place a number of Markers equal to the value of this MAR on the Board. Only one of these Markers has the Squadron name recorded on it, the others are left blank. When a blank Marker is revealed, nothing happens – the Marker is simply discarded.</description>
-      <modifiers/>
-    </rule>
-    <rule id="de9f2f94-73a0-e023-4c70-1f327f2e50b7" name="Dirty Secrets" hidden="false" page="0">
-      <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card.</description>
-      <modifiers/>
-    </rule>
     <rule id="11563c5e-f4a3-b271-c920-7a8dc9d2458c" name="Stealth Systems" hidden="false" page="0">
       <description>Any Attack against a model with the Stealth Systems MAR must re-roll ALL successful rolls if any weapon in the Attack is firing from further than 20”. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6cce4f01-cb00-575f-630e-bef9777c0dca" name="Superior Design" hidden="false" page="0">
+      <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
       <modifiers/>
     </rule>
     <rule id="92262bfe-e4e1-70d6-a9f1-ec16245cb383" name="Target Resolution" hidden="false" page="0">
@@ -1986,25 +1999,12 @@ If the Test is passed, the firing model receives a +1 ‘to hit’ modifier for 
 Only one Target Resolution attempt may be made for any one attack.</description>
       <modifiers/>
     </rule>
-    <rule id="026e0d99-5c5e-6e3a-36ec-a9859c087117" name="Ops Center" hidden="false" page="0">
-      <description>If a model with the Ops Centre MAR is your Fleet Admiral’s Vessel you may take an additional TAC at no extra cost.</description>
+    <rule id="57f96d9f-cbcc-1354-5af0-98b8f243d21c" name="Torpedo Spook" hidden="false" page="0">
+      <description>If ALL models contributing to a Torpedo Attack have the Torpedo Spook MAR, all successful Point Defense rolls against this attack MUST be Re-Rolled. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
       <modifiers/>
     </rule>
-    <rule id="699eaed2-84c7-7342-d194-18b8278e4f7b" name="High Energy" hidden="false" page="0">
-      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5893402a-168a-a752-5ec1-e77685b29b55" name="Special Forces" hidden="false" page="0">
-      <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier.
-If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c6cf24a2-4dc4-244e-2a34-79155f46fe0e" name="Precision Strike" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6cce4f01-cb00-575f-630e-bef9777c0dca" name="Superior Design" hidden="false" page="0">
-      <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
+    <rule id="e6e4a3e0-5a30-c853-c3c7-9aca9ba2245d" name="Weapon Shielding" hidden="false" page="0">
+      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2071,21 +2071,21 @@ If a model with Special Forces is the target of a Boarding Assault, the Assault 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3fb2ae99-c80c-6ae3-3722-c098823aedb6" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spook Starboard/Port" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="865debb7-b1ec-aa34-d869-771c3ce8b7d6" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spook Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3fb2ae99-c80c-6ae3-3722-c098823aedb6" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spook Starboard/Port" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
       </characteristics>
