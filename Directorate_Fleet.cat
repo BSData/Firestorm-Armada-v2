@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Directorate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Directorate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d0f5fda7-8c5f-15cc-bb90-f426bac616ed" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -2313,23 +2313,93 @@
   </entries>
   <rules/>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="4672401d-76da-2577-4ca1-fd03484ede0c" name="Escorts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="0776849e-ec50-bca9-4fc6-0964d053327f" name="Punisher/Suppression Escort" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="530fd360-c0c1-daf1-3541-d8cdc8470ef0" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="dd7f9312-71a5-a556-b92d-d4afbacbe46c" name="+2 AP" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9eae4f94-8471-9c48-d237-f034d29379ba" targetId="567c6618-9a8e-9fe7-31fb-137c29d27cc1" linkType="profile">
+              <modifiers>
+                <modifier type="increment" field="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="2" repeat="true" numRepeats="1" incrementParentId="0776849e-ec50-bca9-4fc6-0964d053327f" incrementChildId="dd7f9312-71a5-a556-b92d-d4afbacbe46c" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="1a09d616-6769-07e2-7518-36cf6c93d632" targetId="be2a4029-2415-13ab-3019-31290febb35b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="67b4f860-95dc-7752-2289-af872099bc7f" targetId="06ca9d9d-06ac-53f1-2b18-00ef255e8b66" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="5a9393eb-0bba-e54f-b798-09b6ead017cd" name="Assault Robot Torpedoes" hidden="false" page="0">
       <description>A Weapon System with the Assault Robot Torpedoes MAR is a Cyberwarfare Weapon, however it is subject to Defensive Fire as if it were a Torpedo Attack.</description>
       <modifiers/>
     </rule>
+    <rule id="ff5d0cac-aab9-faf1-1c36-bb6e5e1132aa" name="Biohazard" hidden="false" page="0">
+      <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
+      <modifiers/>
+    </rule>
+    <rule id="27c844ef-d47e-a27e-059d-34e53a17a240" name="Corrosive" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons contributing to an attack are Corrosive and the Attack exceeds the target’s Damage Rating, the target model gains a Corroded Marker.
+
+A Repair Attempt MUST be made to remove each Corroded Marker that a model carries during the End Phase of each Turn, on a 4, 5 or 6 the attempt succeeds and the Marker is removed, on a 1, 2 or 3 the attempt fails, the Marker remains and the model loses one Hull Point.</description>
+      <modifiers/>
+    </rule>
     <rule id="f9234579-8c1f-c3d6-8325-fb77ae07b250" name="Countermeasures" hidden="false" page="0">
       <description>Any enemy model within 8” of one or more models with Countermeasures requires one additional success to pass any Command Checks.</description>
       <modifiers/>
     </rule>
-    <rule id="0564671e-aedc-e4f3-fd23-5a4705631e8c" name="Elite Crew" hidden="false" page="0">
-      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+    <rule id="0eab1ffd-e964-e772-7a0b-4efa15e43700" name="Cyberwarfare Weapons" hidden="false" page="0">
+      <description>attacks do not cause Hull Damage or Critical Hits. Instead, if the attack equals or exceeds the target’s Damage Rating, choose a Targeted Strike area and roll a D3 on the relevant table to determine the effect.
+If the attack equals or exceeds the target’s Critical Rating, choose a Targeted Strike area and roll a D6 on the relevant table to determine the effect caused.
+If the target of a Cyberwarfare Attack is a non-Capital Class model, the target instead loses 1 Crew Point if its Damage Rating is equaled or exceeded or 2 Crew Points if its Critical Rating is equaled or exceeded.
+Important Note: Cyberwarfare Attacks are not subject to Defensive Fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c276975f-4288-8d81-5517-27ceccb9fe2f" name="Decimator Warheads" hidden="false" page="0">
+      <description>Coherence Effect - If all Weapons contributing to an Attack have the Decimator Warheads MAR and the Attack equals or exceeds the target’s CR, the target Squadron must take an immediate Disorder Check.</description>
       <modifiers/>
     </rule>
     <rule id="06ca9d9d-06ac-53f1-2b18-00ef255e8b66" name="Difficult Target" hidden="false" page="0">
       <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0564671e-aedc-e4f3-fd23-5a4705631e8c" name="Elite Crew" hidden="false" page="0">
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
       <modifiers/>
     </rule>
     <rule id="6925915a-0748-fba5-aebd-68acd4e3bf70" name="Hidden Killer" hidden="false" page="0">
@@ -2352,12 +2422,24 @@
       <description>A model with No FSD CANNOT perform a Fold Space Escape, or deploy using Shunt Deployment.</description>
       <modifiers/>
     </rule>
+    <rule id="bdbccaa2-4efa-ad82-e082-49b2bc7bdd0c" name="Precision Strike" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
+      <modifiers/>
+    </rule>
     <rule id="3ab2193d-4506-c41e-669b-f391da27ab7d" name="Reinforced (Fore)" hidden="false" page="0">
       <description>A Reinforced model receives +1 to its Critical Rating (CR) against any attack, if the Flight Pegs of all firing models contributing to the attack are entirely within the target model’s listed arc.</description>
       <modifiers/>
     </rule>
+    <rule id="c2c8c362-54eb-589a-085e-58ec462537e4" name="Second Assault" hidden="false" page="0">
+      <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
+      <modifiers/>
+    </rule>
     <rule id="cf3c34af-8746-3a4d-4a58-d5be425bbfbc" name="Special Forces" hidden="false" page="0">
       <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier. If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f1628cc2-6960-2b6a-0687-67e614d8d554" name="Split Fire" hidden="false" page="0">
+      <description>A Weapon with the Split Fire MAR may declare an Attack against any number of targets in its Arc of Fire and a single Attack Dice Range Band. It must divide its Attack Dice as evenly as possible between these Attacks. This cannot be used in conjunction with any Firing Options.</description>
       <modifiers/>
     </rule>
     <rule id="74a76b5c-f752-d381-2fd8-2595c258be2d" name="Stealth Systems" hidden="false" page="0">
@@ -2372,39 +2454,449 @@
       <description>An Unmanned model does not suffer Crew Loss penalties for having zero Crew.</description>
       <modifiers/>
     </rule>
-    <rule id="27c844ef-d47e-a27e-059d-34e53a17a240" name="Corrosive" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons contributing to an attack are Corrosive and the Attack exceeds the target’s Damage Rating, the target model gains a Corroded Marker.
-
-A Repair Attempt MUST be made to remove each Corroded Marker that a model carries during the End Phase of each Turn, on a 4, 5 or 6 the attempt succeeds and the Marker is removed, on a 1, 2 or 3 the attempt fails, the Marker remains and the model loses one Hull Point.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ff5d0cac-aab9-faf1-1c36-bb6e5e1132aa" name="Biohazard" hidden="false" page="0">
-      <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
-      <modifiers/>
-    </rule>
-    <rule id="0eab1ffd-e964-e772-7a0b-4efa15e43700" name="Cyberwarfare Weapons" hidden="false" page="0">
-      <description>attacks do not cause Hull Damage or Critical Hits. Instead, if the attack equals or exceeds the target’s Damage Rating, choose a Targeted Strike area and roll a D3 on the relevant table to determine the effect.
-If the attack equals or exceeds the target’s Critical Rating, choose a Targeted Strike area and roll a D6 on the relevant table to determine the effect caused.
-If the target of a Cyberwarfare Attack is a non-Capital Class model, the target instead loses 1 Crew Point if its Damage Rating is equaled or exceeded or 2 Crew Points if its Critical Rating is equaled or exceeded.
-Important Note: Cyberwarfare Attacks are not subject to Defensive Fire.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c276975f-4288-8d81-5517-27ceccb9fe2f" name="Decimator Warheads" hidden="false" page="0">
-      <description>Coherence Effect - If all Weapons contributing to an Attack have the Decimator Warheads MAR and the Attack equals or exceeds the target’s CR, the target Squadron must take an immediate Disorder Check.</description>
-      <modifiers/>
-    </rule>
-    <rule id="f1628cc2-6960-2b6a-0687-67e614d8d554" name="Split Fire" hidden="false" page="0">
-      <description>A Weapon with the Split Fire MAR may declare an Attack against any number of targets in its Arc of Fire and a single Attack Dice Range Band. It must divide its Attack Dice as evenly as possible between these Attacks. This cannot be used in conjunction with any Firing Options.</description>
-      <modifiers/>
-    </rule>
-    <rule id="bdbccaa2-4efa-ad82-e082-49b2bc7bdd0c" name="Precision Strike" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c2c8c362-54eb-589a-085e-58ec462537e4" name="Second Assault" hidden="false" page="0">
-      <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="6a190a91-2fad-3cd7-0225-435e15fdc1f8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Abraxas/Executioner/Vanquisher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="50c2acd6-a7f8-1eb1-c9ba-330a5d7dd63b" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Abraxas/Executioner/Vanquisher Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d550cb7f-f397-eaf4-1cb1-88784a07989e" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Abraxas/Executioner/Vanquisher Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0b70cc34-187a-9181-1b13-5b7134770593" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Deterrent" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c205ace6-8055-bc43-ff9b-88b17378e7b2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Deterrent Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="079fd1d1-61dc-6d85-3008-0e93aba73ee1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Deterrent Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6770e96c-97ad-d631-c9fd-a7974fbc9506" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Dominance/Overseer" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="490455d4-a4b2-c64f-eb59-c509c6ee63d2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dominance/Overseer Fore" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="109e1c37-0010-7cef-543c-eff4ddc5cac8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dominance/Overseer Starboard/Port" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c2436523-f957-6c4b-2a36-ae77e6c6b38d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dominance/Overseer Torpedo (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0bdccaeb-399f-d695-1427-aa1463a6889d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Eliminator/Judgment" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="11"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="8"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="6"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="5"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="7"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="1"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2465473b-3c7c-0959-5c67-3a339550a1da" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Eliminator/Judgment Fore (Fixed)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="31da7ff8-05e6-cc6d-7b6c-402da7f68096" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Eliminator/Judgment Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="44079219-300d-3238-218d-622d83cc6d89" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Eliminator/Judgment Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="3"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ee326883-a690-2142-0d92-09e8b3d64d06" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Enforcer/Liquidator" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="71f0cc3e-7e5d-8166-a88d-4f17c0bf4fc1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Enforcer/Liquidator Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="95ca96ab-b2e6-d41f-18a4-7ce151ec95d1" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Firewall" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="91479a50-7bff-2857-3c18-851177bd5647" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Firewall Turrets (Any) 1" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2840734a-add1-d18c-3117-4c3938489fd5" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Firewall Turrets (Any) 2" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c6371d3b-2118-e90a-bdbb-4f9cd6939ae6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Firewall Turrets (Any) 3" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5ae3cb49-4831-c9e9-67c2-0dcf5fb1dca4" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Firewall Turrets (Any) 4" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7a6a306c-26dd-b72e-a7f9-97e3a70cd2e9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Hostility" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8b4f4413-04bf-01da-3f84-b8c892111631" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hostility Fore" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c4b50553-1c9b-b93a-fa78-1f4026e097cb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Justice/Subjugator" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7b044a82-ed2d-924e-1be7-76d9f57571ac" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Justice/Subjugator Gun Racks" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b380fb0a-06dd-9397-4eb3-040d2ffbb1d3" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Justice/Subjugator Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="772218e0-537d-3110-90cb-bd9b9a876ae0" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nemesis" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e2e83591-a11d-91d3-473f-6229a795a249" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Nemesis Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d3aff89e-af70-131a-03f8-01bafeb62c11" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Nemesis Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a0a77d1e-e46c-4e1f-a093-bd825e65aaa9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Persecution" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="13"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="11"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="7"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="8"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="7"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="8"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b4b9cc6f-e6a9-2b9f-3930-8931d46ff19b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Persecution Fore (Fixed)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="63b22a85-47d3-ec49-182d-e670a19f3bc9" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Persecution Starboard/Port" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="41763796-bb2f-a648-ee82-8ff7c7c85860" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Persecution Turrets (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="3"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="567c6618-9a8e-9fe7-31fb-137c29d27cc1" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Punisher/Suppression" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="11c42bd6-4092-ff69-bf83-4858ec311850" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Tormentor" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ae5678bb-81fa-407b-4cfa-f2838dac87dd" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Tormentor Fore" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f7e20303-8128-e891-2e00-68240aa4735e" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Tormentor Torpedoes (Str/Prt)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
