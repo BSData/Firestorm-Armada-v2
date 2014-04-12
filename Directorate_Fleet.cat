@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c95b5e15-bf67-0455-73ea-a1101a67981d" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Directorate Grand Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Directorate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="231d532a-343f-06d3-ae8c-ba0e8fb08274" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="d0f5fda7-8c5f-15cc-bb90-f426bac616ed" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="e8d3c49a-5521-e4fe-a782-e1fb51961dbe" name="Ship Class" defaultEntryId="f4fc46ce-6791-5626-7228-7b8fa0f4048d" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -148,12 +148,19 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="03d0ffcb-179e-3dd1-90bd-d124782fc7f8" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" page="0">
+    <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="314c9ce3-7af4-5777-2ff9-acfb06833e1e" name="Ship Class" defaultEntryId="5e05db3b-00ad-6c76-bc05-ee1b65de3670" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -572,12 +579,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="bf877db7-fc8c-e102-e6f2-7527019af280" name="Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="4" collective="false" page="0">
+    <entry id="99747a5f-76b7-8c38-8268-a5a6a617a098" name="Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="db9f8275-1bfa-dd34-d3df-da5b06fdd817" name="Ship Class" defaultEntryId="649ef932-5259-99c1-98ae-cadbf03c9d46" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1168,12 +1200,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="de0dd40a-0073-4993-0e80-c8d3e73d8e22" name="Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="4" collective="false" page="0">
+    <entry id="05bbbb17-7eb9-f379-0d14-0ce3051631e9" name="Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="0c345ba6-2b58-0fb3-a23e-860dedb60ed9" name="Ship Class" defaultEntryId="5a0c76ac-d52f-cdb6-4d8b-03f789e9825d" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1208,7 +1265,7 @@
                     </entryGroup>
                   </entryGroups>
                   <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="de0dd40a-0073-4993-0e80-c8d3e73d8e22" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="05bbbb17-7eb9-f379-0d14-0ce3051631e9" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1328,7 +1385,7 @@
                     </entryGroup>
                   </entryGroups>
                   <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="de0dd40a-0073-4993-0e80-c8d3e73d8e22" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="05bbbb17-7eb9-f379-0d14-0ce3051631e9" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1466,7 +1523,7 @@
                     </entryGroup>
                   </entryGroups>
                   <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="de0dd40a-0073-4993-0e80-c8d3e73d8e22" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="05bbbb17-7eb9-f379-0d14-0ce3051631e9" incrementChildId="95359916-c988-7843-3997-2f4a9b23853e" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -1580,12 +1637,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="1f7b58f2-f4ed-3700-5fad-23840a7c0004" name="Destroyer Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" page="0">
+    <entry id="8094d89d-1ac5-f4ef-0888-44a70e18f9e0" name="Destroyer Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="3ca579c0-a881-92b5-90c8-429aa77a93cf" name="Ship Class" defaultEntryId="08719b8d-0eed-b6c4-53dd-9653f99cfdee" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1636,12 +1718,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="930e5d0c-2d84-1190-e855-7661c23045ae" name="Dreadnought" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="7699ae12-0191-48b2-6c57-8802e90d60e7" name="Dreadnought" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="f737bbef-6681-e299-bc1a-3585568c8980" name="Ship Class" defaultEntryId="079d83fc-f2ad-9fca-4fcc-a192bff2402a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1807,12 +1914,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="5b3abdda-226c-b345-176f-81d58f60840e" name="Drone Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="4" collective="false" page="0">
+    <entry id="5b3abdda-226c-b345-176f-81d58f60840e" name="Drone Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="168f0637-d46e-02f5-190a-8a187294cd50" name="Ship Class" defaultEntryId="d7dd3d3c-ae2d-fbce-9e49-1e896df3c3e8" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1850,12 +1982,25 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="1d214934-1bf6-441e-55d3-84508502ef97" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="4" collective="false" page="0">
+    <entry id="2b3c7012-1058-f94b-ded1-6bc639ec11c1" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="e38d6f85-90a1-b3c3-2707-4083ba0cc5b6" name="Ship Class" defaultEntryId="95577c7b-fd1c-276f-fd35-485186d0f319" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -1946,12 +2091,25 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="ef57f9ba-bb70-7df9-599f-c1033dcb7816" name="Heavy Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="78ee48d7-93c4-301f-a8fa-8445042d4e87" name="Heavy Cruiser Squadron (Tier 2)" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="b148570d-796e-f1ac-9324-bd52f2443d00" name="Ship Class" defaultEntryId="ba01dbb4-ea89-9c2b-8120-32f0c5b08543" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2042,12 +2200,37 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="bec2d36c-2356-23c3-8d03-03d564a53105" name="R&amp;D Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
+    <entry id="bec2d36c-2356-23c3-8d03-03d564a53105" name="R&amp;D Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="a5e56e01-3b96-6ed2-913b-0c6774619120" name="Ship Class" defaultEntryId="4bfcd1bc-0bff-d506-498b-75ef6c4d204b" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2109,7 +2292,20 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
+                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -2119,6 +2315,96 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="5a9393eb-0bba-e54f-b798-09b6ead017cd" name="Assault Robot Torpedoes" hidden="false" page="0">
+      <description>A Weapon System with the Assault Robot Torpedoes MAR is a Cyberwarfare Weapon, however it is subject to Defensive Fire as if it were a Torpedo Attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f9234579-8c1f-c3d6-8325-fb77ae07b250" name="Countermeasures" hidden="false" page="0">
+      <description>Any enemy model within 8” of one or more models with Countermeasures requires one additional success to pass any Command Checks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0564671e-aedc-e4f3-fd23-5a4705631e8c" name="Elite Crew" hidden="false" page="0">
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+      <modifiers/>
+    </rule>
+    <rule id="06ca9d9d-06ac-53f1-2b18-00ef255e8b66" name="Difficult Target" hidden="false" page="0">
+      <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6925915a-0748-fba5-aebd-68acd4e3bf70" name="Hidden Killer" hidden="false" page="0">
+      <description>A Hidden Killer CANNOT be targeted by ANY weapons firing from further than 20” if it is at a Full Stop.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5e5388a1-8167-2d72-b428-95f89f1276c2" name="Impervious" hidden="false" page="0">
+      <description>To Capture a model with Impervious, a Boarding Assault must roll successes equal to or in excess of TRIPLE the model’s current Crew Point total.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6df86bb7-3492-da01-345d-9d9ece184c7d" name="Launch Tubes" hidden="false" page="0">
+      <description>A model with Launch Tubes can initiate a Boarding Assault against a target within 12”.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1c92ee34-c6c5-27b3-3249-565aedf59c51" name="Maneuverable" hidden="false" page="0">
+      <description>If a Maneuverable model is at a Full Stop, it can rotate up to 90 degrees around its Flight Peg during the Secondary Movement segment of its activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4c3f5e0a-3c61-f552-70f6-4fdd8e259efb" name="No FSD" hidden="false" page="0">
+      <description>A model with No FSD CANNOT perform a Fold Space Escape, or deploy using Shunt Deployment.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3ab2193d-4506-c41e-669b-f391da27ab7d" name="Reinforced (Fore)" hidden="false" page="0">
+      <description>A Reinforced model receives +1 to its Critical Rating (CR) against any attack, if the Flight Pegs of all firing models contributing to the attack are entirely within the target model’s listed arc.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cf3c34af-8746-3a4d-4a58-d5be425bbfbc" name="Special Forces" hidden="false" page="0">
+      <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier. If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="74a76b5c-f752-d381-2fd8-2595c258be2d" name="Stealth Systems" hidden="false" page="0">
+      <description>Any Attack against a model with the Stealth Systems MAR must re-roll ALL successful rolls if any weapon in the Attack is firing from further than 20”. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7e0d0404-1f92-89ac-62c8-65266c542ff3" name="Superior Design" hidden="false" page="0">
+      <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
+      <modifiers/>
+    </rule>
+    <rule id="be2a4029-2415-13ab-3019-31290febb35b" name="Unmanned" hidden="false" page="0">
+      <description>An Unmanned model does not suffer Crew Loss penalties for having zero Crew.</description>
+      <modifiers/>
+    </rule>
+    <rule id="27c844ef-d47e-a27e-059d-34e53a17a240" name="Corrosive" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons contributing to an attack are Corrosive and the Attack exceeds the target’s Damage Rating, the target model gains a Corroded Marker.
+
+A Repair Attempt MUST be made to remove each Corroded Marker that a model carries during the End Phase of each Turn, on a 4, 5 or 6 the attempt succeeds and the Marker is removed, on a 1, 2 or 3 the attempt fails, the Marker remains and the model loses one Hull Point.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ff5d0cac-aab9-faf1-1c36-bb6e5e1132aa" name="Biohazard" hidden="false" page="0">
+      <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0eab1ffd-e964-e772-7a0b-4efa15e43700" name="Cyberwarfare Weapons" hidden="false" page="0">
+      <description>attacks do not cause Hull Damage or Critical Hits. Instead, if the attack equals or exceeds the target’s Damage Rating, choose a Targeted Strike area and roll a D3 on the relevant table to determine the effect.
+If the attack equals or exceeds the target’s Critical Rating, choose a Targeted Strike area and roll a D6 on the relevant table to determine the effect caused.
+If the target of a Cyberwarfare Attack is a non-Capital Class model, the target instead loses 1 Crew Point if its Damage Rating is equaled or exceeded or 2 Crew Points if its Critical Rating is equaled or exceeded.
+Important Note: Cyberwarfare Attacks are not subject to Defensive Fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c276975f-4288-8d81-5517-27ceccb9fe2f" name="Decimator Warheads" hidden="false" page="0">
+      <description>Coherence Effect - If all Weapons contributing to an Attack have the Decimator Warheads MAR and the Attack equals or exceeds the target’s CR, the target Squadron must take an immediate Disorder Check.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f1628cc2-6960-2b6a-0687-67e614d8d554" name="Split Fire" hidden="false" page="0">
+      <description>A Weapon with the Split Fire MAR may declare an Attack against any number of targets in its Arc of Fire and a single Attack Dice Range Band. It must divide its Attack Dice as evenly as possible between these Attacks. This cannot be used in conjunction with any Firing Options.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bdbccaa2-4efa-ad82-e082-49b2bc7bdd0c" name="Precision Strike" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c2c8c362-54eb-589a-085e-58ec462537e4" name="Second Assault" hidden="false" page="0">
+      <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>
