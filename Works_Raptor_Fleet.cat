@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d5630fa1-a8cd-bb03-4e00-b3b62e52f58d" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Works Raptor Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d5630fa1-a8cd-bb03-4e00-b3b62e52f58d" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Works Raptor Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f7b03a2f-1a53-b7db-c620-f0ea4998aceb" name="Assault Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -499,52 +499,45 @@
                   <entries/>
                   <entryGroups>
                     <entryGroup id="5ffeee16-cb39-c2df-dd2e-f2af0e365a99" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-                      <entries/>
-                      <entryGroups>
-                        <entryGroup id="b1c2c656-2d3f-9979-d54e-2702c34c10f7" name="Weapon Upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
-                          <entries>
-                            <entry id="a7346750-8465-95dc-7def-0a937cc6af84" name="Corrosive Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="0fae7e3e-c05d-8d7c-ff8b-9b4f7bbb260a" targetId="d7ac6168-51db-ae93-a3ea-3c12829c6c55" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                            <entry id="9f15acae-b8ca-3b6e-5d7b-84f150572371" name="Biohazard Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="ce586039-d26c-cd90-19f8-af908c5f58ac" targetId="e01a0297-b889-ae7b-53f3-2f347803b55a" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                            <entry id="799e55b7-15e8-2167-af82-30202937b6cf" name="Decimator Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="db6e4183-7394-75f5-074d-fde7baedc22e" targetId="dc1be888-ebc0-60ad-c013-030f53ca4e1f" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                          </entries>
+                      <entries>
+                        <entry id="0d0ac4f1-c4c2-c98b-4332-aaa71a3e9351" name="Biohazard Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
                           <entryGroups/>
                           <modifiers/>
-                          <links/>
-                        </entryGroup>
-                      </entryGroups>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="2783f4bc-9b94-8f26-a507-4b1ed3a9d3c2" targetId="e01a0297-b889-ae7b-53f3-2f347803b55a" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="ca036161-a4eb-1587-b260-1a58f5ceab3c" name="Corrosive Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="7bfbeb6f-7548-3218-c4fc-f4693d77849c" targetId="d7ac6168-51db-ae93-a3ea-3c12829c6c55" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="5667aefa-1466-0600-3265-029bc82565db" name="Decimator Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="01bbc120-b6e9-dc62-10d6-2c67367a10bf" targetId="dc1be888-ebc0-60ad-c013-030f53ca4e1f" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
                       <modifiers/>
                       <links/>
                     </entryGroup>
@@ -561,15 +554,15 @@
                     </link>
                     <link id="505889c4-0277-90ee-92d9-8e62e28afa6e" targetId="1435e987-cae0-7de0-97a1-26a710fc5c9f" linkType="profile">
                       <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Biohazard)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="9f15acae-b8ca-3b6e-5d7b-84f150572371" incrementField="selections" incrementValue="1.0">
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Biohazard)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="0d0ac4f1-c4c2-c98b-4332-aaa71a3e9351" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Decimator)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="799e55b7-15e8-2167-af82-30202937b6cf" incrementField="selections" incrementValue="1.0">
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Decimator)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="5667aefa-1466-0600-3265-029bc82565db" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="a7346750-8465-95dc-7def-0a937cc6af84" incrementField="selections" incrementValue="1.0">
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="ca036161-a4eb-1587-b260-1a58f5ceab3c" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
