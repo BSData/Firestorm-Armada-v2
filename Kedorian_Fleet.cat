@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a78a17d-7609-7db9-f15e-f87149d5b62f" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Kedorian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a78a17d-7609-7db9-f15e-f87149d5b62f" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Kedorian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="63701837-72be-f068-ef4a-1de50083c703" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -8,7 +8,7 @@
           <entries>
             <entry id="6bcb283f-d359-d1ec-92b6-23c585705fe5" name="Dei-Nak" points="220.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="e320568a-bdf7-0f76-32b3-874d83456f49" name="Shunt Matrix (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="e320568a-bdf7-0f76-32b3-874d83456f49" name="Shunt Matrix (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -438,7 +438,7 @@
               <entries>
                 <entry id="abf76fa3-ee6b-fd1d-49c8-6c47bd709358" name="Zai-Dan" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries>
-                    <entry id="d723f453-b63e-e7ab-9a12-6b8f2f69dbaa" name="Energy Transfer (All, 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="d723f453-b63e-e7ab-9a12-6b8f2f69dbaa" name="Energy Transfer (All, 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -450,7 +450,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="14dc9caf-8900-1748-8323-7def66ebb8d2" name="Shunt Matrix (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="14dc9caf-8900-1748-8323-7def66ebb8d2" name="Shunt Matrix (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -466,7 +466,7 @@
                   <entryGroups>
                     <entryGroup id="e894ff90-104d-a78a-7cdc-f01cfe5478d9" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="4f24372f-47ca-2771-2253-779766e60193" name="Beam Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                        <entry id="4f24372f-47ca-2771-2253-779766e60193" name="Beam Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -601,7 +601,7 @@
               <entries>
                 <entry id="d0f45550-f6cd-d5ac-c9d8-8e04b80bd385" name="Zer-Nak" points="30.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries>
-                    <entry id="cfb854e2-cca6-2c6d-d82e-fcf9d1aa8f7a" name="Energy Transfer (All, 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="cfb854e2-cca6-2c6d-d82e-fcf9d1aa8f7a" name="Energy Transfer (All, 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -685,6 +685,10 @@ Command Distance: 7&quot;</description>
 However, rather than only having one Hidden Set-Up Marker, you may place a number of Markers equal to the value of this MAR on the Board. Only one of these Markers has the Squadron name recorded on it, the others are left blank. When a blank Marker is revealed, nothing happens – the Marker is simply discarded.</description>
       <modifiers/>
     </rule>
+    <rule id="dec2d596-64de-4799-fa7c-8b69ea7772fe" name="Beam Weapons" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
+      <modifiers/>
+    </rule>
     <rule id="ffdced69-bd44-a3be-0ca3-6d30c958654b" name="Difficult Target" hidden="false" page="0">
       <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
       <modifiers/>
@@ -693,24 +697,14 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
       <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card.</description>
       <modifiers/>
     </rule>
+    <rule id="c0ad780a-2cd5-e785-7532-45fedda6e855" name="Energy Transfer" hidden="false" page="0">
+      <description>During the Command Segment of its Squadron Activation, a model with Energy Transfer can increase the current Attack Dice (AD) value of ONE weapon system of the listed type by a number up to the value of this MAR, and reduce the current Attack Dice (AD) value of every other weapon system of the listed type by the same number.
+
+The Attack Dice (AD) value of any weapon system on the model will return to their original value during the End Phase of the current Turn. This cannot be used to give a model Attack Dice in an Arc or at a Range where it would otherwise have none.</description>
+      <modifiers/>
+    </rule>
     <rule id="800f34cd-935d-3a04-2171-8e02b222c437" name="Second Assault" hidden="false" page="0">
       <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
-      <modifiers/>
-    </rule>
-    <rule id="69eb93a3-6cce-c03e-6f4b-4d7b9cb518c1" name="Special Forces" hidden="false" page="0">
-      <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier. If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b1912e59-de1a-93c3-f337-b8617e491862" name="Stealth Systems" hidden="false" page="0">
-      <description>Any Attack against a model with the Stealth Systems MAR must re-roll ALL successful rolls if any weapon in the Attack is firing from further than 20”. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
-      <modifiers/>
-    </rule>
-    <rule id="27e80638-a6e8-22bf-434a-833c12e1b365" name="Superior Design" hidden="false" page="0">
-      <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
-      <modifiers/>
-    </rule>
-    <rule id="2700661c-0256-346e-878a-ba64a99b58dd" name="Weapon Shielding" hidden="false" page="0">
-      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
       <modifiers/>
     </rule>
     <rule id="391a3d4e-93ea-ef51-7469-28db9a47fe20" name="Shunt Matrix" hidden="false" page="0">
@@ -728,14 +722,20 @@ A model can make attacks normally after making a Battle Shunt, and can perform a
 Important Note: the Dice rolled to determine how far a model using Shunt Matrix moves does NOT use the Exploding Dice mechanic.</description>
       <modifiers/>
     </rule>
-    <rule id="dec2d596-64de-4799-fa7c-8b69ea7772fe" name="Beam Weapons" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
+    <rule id="69eb93a3-6cce-c03e-6f4b-4d7b9cb518c1" name="Special Forces" hidden="false" page="0">
+      <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier. If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="c0ad780a-2cd5-e785-7532-45fedda6e855" name="Energy Transfer" hidden="false" page="0">
-      <description>During the Command Segment of its Squadron Activation, a model with Energy Transfer can increase the current Attack Dice (AD) value of ONE weapon system of the listed type by a number up to the value of this MAR, and reduce the current Attack Dice (AD) value of every other weapon system of the listed type by the same number.
-
-The Attack Dice (AD) value of any weapon system on the model will return to their original value during the End Phase of the current Turn. This cannot be used to give a model Attack Dice in an Arc or at a Range where it would otherwise have none.</description>
+    <rule id="b1912e59-de1a-93c3-f337-b8617e491862" name="Stealth Systems" hidden="false" page="0">
+      <description>Any Attack against a model with the Stealth Systems MAR must re-roll ALL successful rolls if any weapon in the Attack is firing from further than 20”. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
+      <modifiers/>
+    </rule>
+    <rule id="27e80638-a6e8-22bf-434a-833c12e1b365" name="Superior Design" hidden="false" page="0">
+      <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2700661c-0256-346e-878a-ba64a99b58dd" name="Weapon Shielding" hidden="false" page="0">
+      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -803,6 +803,16 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
       <modifiers/>
     </profile>
     <profile id="1a7c250e-a1ac-3790-08d1-68c8f2a210a2" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Gai-Shar Torpedo 1 (Any)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="-"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="39e03a36-f30a-df4e-0b93-b695db2423fb" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Gai-Shar Torpedo 2 (Any)" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="-"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
@@ -947,16 +957,6 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="39e03a36-f30a-df4e-0b93-b695db2423fb" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Gai-Shar Torpedo 2 (Any)" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="-"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
     </profile>
