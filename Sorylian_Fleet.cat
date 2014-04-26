@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.13b" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1a8a338f-dafb-62b1-4c3e-9537c3ea1635" name="Battle Cruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -704,18 +704,6 @@
               <entryGroups>
                 <entryGroup id="0648bede-cee7-5268-897c-5c85e6434c1a" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="67287b1b-783b-1000-64db-bf9bb5cdc8d8" name="Reinforced (Starboard/Port) MAR" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="8f8488a7-8bbf-58bf-4357-d94b29c1c876" targetId="c4ab97a7-8ac0-aadb-af9b-df38dd010b66" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
                     <entry id="d67a4814-c8f3-b0f6-fcfe-30b32311d7fd" name="Starboard/Port Scatter Weapons gain Split Fire MAR" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
@@ -856,6 +844,9 @@
                     </modifier>
                   </modifiers>
                 </link>
+                <link id="38b44018-ab90-605e-7719-2494bfc3b3a8" targetId="c4ab97a7-8ac0-aadb-af9b-df38dd010b66" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="9bdeee80-6f1e-02e4-6f02-4ed02cb95d90" name="Swordbreaker" points="175.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
@@ -863,18 +854,6 @@
               <entryGroups>
                 <entryGroup id="6efe2055-ac36-3c5b-094c-2ca232672e0f" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="8f92d160-b2de-d892-b82f-c315b0ff25ae" name="Reinforced (Starboard/Port) MAR" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="9df5d2c2-3bfa-1c03-605a-073632cc45a7" targetId="c4ab97a7-8ac0-aadb-af9b-df38dd010b66" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
                     <entry id="7c2b1a12-04a2-8195-0667-d4ceb636d5d4" name="Starboard/Port Scatter Weapons gain Split Fire MAR" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
@@ -1014,6 +993,9 @@
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
+                </link>
+                <link id="1908df12-04fe-aba5-d40d-def5d96454c5" targetId="c4ab97a7-8ac0-aadb-af9b-df38dd010b66" linkType="rule">
+                  <modifiers/>
                 </link>
               </links>
             </entry>
@@ -1917,8 +1899,8 @@
                     </profile>
                     <profile id="d3e3287f-8f9f-a0e0-d784-601dcaaa054a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Plumbata Fore" hidden="false" page="0">
                       <characteristics>
-                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="2"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
                         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
                         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
                         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
@@ -3679,7 +3661,7 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="10"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="7"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="8"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="7"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
@@ -3713,10 +3695,10 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
     </profile>
     <profile id="fdad131b-47b8-7aee-2f54-fea01e43254b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Falx/SwordBreaker Torpedoes (S/P)" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
