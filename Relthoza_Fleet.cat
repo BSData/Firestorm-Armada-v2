@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="146f10de-efcd-49b9-66f0-934be0732e03" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -1435,7 +1435,12 @@
                           <profiles/>
                           <links>
                             <link id="d2e21547-346e-934e-5ffc-d82fddffa6c2" targetId="82b0e585-e644-7618-01ad-0b72e2c010ef" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="76a911af-d124-cab4-e3bc-69e9fb2184ab" incrementChildId="37823753-bfc6-cf7c-f34c-5046f9e5e41d" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="c10afb6a-c0e4-e9f4-3eef-ea95e3ced140" targetId="49c732aa-c5c8-027b-c856-9201ae782e91" linkType="rule">
                               <modifiers/>
@@ -1640,13 +1645,28 @@
                               <modifiers/>
                             </link>
                             <link id="a079e849-5e6c-0467-c95e-16f3cb70d15c" targetId="94c5f999-35a5-776a-3736-106aef45ebff" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="b293131c-f808-dda7-9296-d8cfa10eeb28" targetId="17dd2a1c-f228-3561-ca9b-00abf92bf253" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="759ce269-65ee-7d77-53e6-f40d7ba8eeff" targetId="bc6f717b-dde3-a1cd-24aa-ac077ef1934c" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="35b51ecf-4cf0-9bb4-c5f7-0c8f3fdfb470" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                           </links>
                         </entry>
@@ -1964,7 +1984,12 @@
                           <profiles/>
                           <links>
                             <link id="cabd2dc7-bd08-99ee-bd2f-73a1786364a7" targetId="82b0e585-e644-7618-01ad-0b72e2c010ef" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="0d9c4275-976e-7e2f-4f97-fc81dc7b756c" incrementChildId="c10dcce1-ff70-405b-2dfb-ba30d3786c86" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="dd27a866-80a1-0117-fdca-d8e372d77627" targetId="49c732aa-c5c8-027b-c856-9201ae782e91" linkType="rule">
                               <modifiers/>
@@ -2169,13 +2194,28 @@
                               <modifiers/>
                             </link>
                             <link id="8bd0aafe-f1d8-1b35-2a4a-410e9be198f1" targetId="94c5f999-35a5-776a-3736-106aef45ebff" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="82f9df06-616f-2d59-a90e-d0ea630f9390" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="6befed03-acf2-856e-07f7-40731f3a1e49" targetId="17dd2a1c-f228-3561-ca9b-00abf92bf253" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="82f9df06-616f-2d59-a90e-d0ea630f9390" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="6fcbdef2-6711-b887-34c1-3e03b4f23c94" targetId="bc6f717b-dde3-a1cd-24aa-ac077ef1934c" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="1bba5379-0762-bf36-c3c4-397b86cce044" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                           </links>
                         </entry>
