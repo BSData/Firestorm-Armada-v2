@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.13b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="146f10de-efcd-49b9-66f0-934be0732e03" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -681,7 +681,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="671bf9fd-ff14-eb7d-5ec6-c7b2620f6b46" name="+1&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="671bf9fd-ff14-eb7d-5ec6-c7b2620f6b46" name="+2&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1010,7 +1010,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="cf2e0350-726e-f802-12b4-0d69a1af7f1a" name="+1&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="cf2e0350-726e-f802-12b4-0d69a1af7f1a" name="+2&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1435,7 +1435,12 @@
                           <profiles/>
                           <links>
                             <link id="d2e21547-346e-934e-5ffc-d82fddffa6c2" targetId="82b0e585-e644-7618-01ad-0b72e2c010ef" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="76a911af-d124-cab4-e3bc-69e9fb2184ab" incrementChildId="37823753-bfc6-cf7c-f34c-5046f9e5e41d" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="c10afb6a-c0e4-e9f4-3eef-ea95e3ced140" targetId="49c732aa-c5c8-027b-c856-9201ae782e91" linkType="rule">
                               <modifiers/>
@@ -1599,7 +1604,7 @@
                           <entryGroups>
                             <entryGroup id="5b787708-f3a3-f65d-fa22-70f245b86b17" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -1640,13 +1645,28 @@
                               <modifiers/>
                             </link>
                             <link id="a079e849-5e6c-0467-c95e-16f3cb70d15c" targetId="94c5f999-35a5-776a-3736-106aef45ebff" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="b293131c-f808-dda7-9296-d8cfa10eeb28" targetId="17dd2a1c-f228-3561-ca9b-00abf92bf253" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="8582b14d-342c-a5a7-0bc4-030ccfc0dc8a" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="759ce269-65ee-7d77-53e6-f40d7ba8eeff" targetId="bc6f717b-dde3-a1cd-24aa-ac077ef1934c" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="b96ccecd-34d3-abad-e697-abfc84619be1" incrementChildId="35b51ecf-4cf0-9bb4-c5f7-0c8f3fdfb470" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                           </links>
                         </entry>
@@ -1964,7 +1984,12 @@
                           <profiles/>
                           <links>
                             <link id="cabd2dc7-bd08-99ee-bd2f-73a1786364a7" targetId="82b0e585-e644-7618-01ad-0b72e2c010ef" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="0d9c4275-976e-7e2f-4f97-fc81dc7b756c" incrementChildId="c10dcce1-ff70-405b-2dfb-ba30d3786c86" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="dd27a866-80a1-0117-fdca-d8e372d77627" targetId="49c732aa-c5c8-027b-c856-9201ae782e91" linkType="rule">
                               <modifiers/>
@@ -2128,7 +2153,7 @@
                           <entryGroups>
                             <entryGroup id="43e0f663-6092-57df-47ff-ab2a7aa1d392" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="82f9df06-616f-2d59-a90e-d0ea630f9390" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="82f9df06-616f-2d59-a90e-d0ea630f9390" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2169,13 +2194,28 @@
                               <modifiers/>
                             </link>
                             <link id="8bd0aafe-f1d8-1b35-2a4a-410e9be198f1" targetId="94c5f999-35a5-776a-3736-106aef45ebff" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="82f9df06-616f-2d59-a90e-d0ea630f9390" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="6befed03-acf2-856e-07f7-40731f3a1e49" targetId="17dd2a1c-f228-3561-ca9b-00abf92bf253" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="82f9df06-616f-2d59-a90e-d0ea630f9390" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="6fcbdef2-6711-b887-34c1-3e03b4f23c94" targetId="bc6f717b-dde3-a1cd-24aa-ac077ef1934c" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Corrosive)" repeat="true" numRepeats="1" incrementParentId="35dc6012-f4ae-6cf8-67ca-f5782ea94e42" incrementChildId="1bba5379-0762-bf36-c3c4-397b86cce044" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                           </links>
                         </entry>
@@ -2415,7 +2455,7 @@
                   <entryGroups>
                     <entryGroup id="9dc4a8d7-560c-cb0b-151f-6212811394f8" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="6bfc9a38-fef9-1c20-665e-08c9892c1b94" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                        <entry id="6bfc9a38-fef9-1c20-665e-08c9892c1b94" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -2490,7 +2530,7 @@
               <entryGroups>
                 <entryGroup id="a4879a07-c217-4462-16ba-cb03f526d49f" name="Heavy Cruiser" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="cf91d73d-b0f3-f625-1cac-b65b4b447d8e" name="Huntsman" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="cf91d73d-b0f3-f625-1cac-b65b4b447d8e" name="Huntsman" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="458a94e8-d282-52d5-cccf-168521f6b954" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2498,7 +2538,7 @@
                           <entryGroups>
                             <entryGroup id="49304aaa-8221-dec6-b6e8-27027a501b1d" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="b4d5ea36-100a-b217-5b5f-2cc8bb16ac1c" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="b4d5ea36-100a-b217-5b5f-2cc8bb16ac1c" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2510,7 +2550,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="62df2797-d3de-17f3-6246-6785dad566af" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="62df2797-d3de-17f3-6246-6785dad566af" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2574,7 +2614,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="7392eff4-acf8-7f03-7419-89a566e05895" name="Scarab" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="7392eff4-acf8-7f03-7419-89a566e05895" name="Scarab" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="92382582-766f-4e0d-3a66-631cd7955925" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2582,7 +2622,7 @@
                           <entryGroups>
                             <entryGroup id="0a557c00-732f-2cff-f527-5cd6d1481d5f" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="823f4940-afea-ad72-3e91-dc2009041b76" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="823f4940-afea-ad72-3e91-dc2009041b76" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2594,7 +2634,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="b5e0b2fd-ec7b-bb13-503e-af09f0140aa1" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="b5e0b2fd-ec7b-bb13-503e-af09f0140aa1" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2676,7 +2716,7 @@
                   <entryGroups>
                     <entryGroup id="e894ff90-104d-a78a-7cdc-f01cfe5478d9" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="d1254cd8-a2ff-52e1-8e4b-daf9ca368b5f" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                        <entry id="d1254cd8-a2ff-52e1-8e4b-daf9ca368b5f" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -2751,7 +2791,7 @@
               <entryGroups>
                 <entryGroup id="468dd25d-c8bd-c271-3f40-78d8a0e4b0df" name="Heavy Cruiser" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="6dcafe8c-d6ed-c2f6-109f-9255df34d70c" name="Huntsman" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="6dcafe8c-d6ed-c2f6-109f-9255df34d70c" name="Huntsman" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="c0bec5c6-0dcf-841b-e906-93e5782f3dd3" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2759,7 +2799,7 @@
                           <entryGroups>
                             <entryGroup id="b30fba96-ab4a-9830-b5b9-58d2e64d3bc8" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="744fb9af-e152-8ed3-9625-58772d9a64b5" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="744fb9af-e152-8ed3-9625-58772d9a64b5" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2771,7 +2811,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="4bb06ea8-c5a4-388f-1797-9a8da116fea9" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="4bb06ea8-c5a4-388f-1797-9a8da116fea9" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2835,7 +2875,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="8d8900fd-390f-7ac7-10e3-a22e1778f95b" name="Scarab" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="8d8900fd-390f-7ac7-10e3-a22e1778f95b" name="Scarab" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="c6528229-c44f-8118-dfa2-1a35733b5da2" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -2843,7 +2883,7 @@
                           <entryGroups>
                             <entryGroup id="63c0ccc2-e9f8-dacc-52e4-effc1cf1f3b6" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="777de1b0-31c9-917d-f64f-d50c265a765e" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="777de1b0-31c9-917d-f64f-d50c265a765e" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2855,7 +2895,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="e810208b-04ef-ea87-b6fe-74e19105cfc0" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="e810208b-04ef-ea87-b6fe-74e19105cfc0" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -2937,7 +2977,7 @@
                   <entryGroups>
                     <entryGroup id="7ef3be08-1404-75a1-8219-d179b14395c2" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="d2370690-28d4-84db-367f-6748249d34ab" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                        <entry id="d2370690-28d4-84db-367f-6748249d34ab" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -3012,7 +3052,7 @@
               <entryGroups>
                 <entryGroup id="4392927e-dfbc-c59d-c5f8-98c235d459a7" name="Heavy Cruiser" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                   <entries>
-                    <entry id="f7a27e44-3346-ca0c-5dd3-77a441b7628a" name="Huntsman" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="f7a27e44-3346-ca0c-5dd3-77a441b7628a" name="Huntsman" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="3d45d787-7da6-091c-c73a-b4941346716b" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -3020,7 +3060,7 @@
                           <entryGroups>
                             <entryGroup id="59110ccf-eece-ff53-40db-a52a17927318" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="ebc1542c-7fb9-ab2b-8a75-646a9a7d1bde" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="ebc1542c-7fb9-ab2b-8a75-646a9a7d1bde" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -3032,7 +3072,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="41eaed39-a4f3-c793-e5a2-2eabfbde2346" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="41eaed39-a4f3-c793-e5a2-2eabfbde2346" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -3096,7 +3136,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="8806315d-16d3-3a71-ec79-306f57c7ec8d" name="Scarab" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="8806315d-16d3-3a71-ec79-306f57c7ec8d" name="Scarab" points="90.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups>
                         <entryGroup id="76a7eb7a-367e-6815-d2f1-374bd2f22b64" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -3104,7 +3144,7 @@
                           <entryGroups>
                             <entryGroup id="7a4b2b80-6869-6b3e-e63c-77015747a6e1" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="9b686782-33cc-2c5f-d9c2-ba270984fff6" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="9b686782-33cc-2c5f-d9c2-ba270984fff6" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -3116,7 +3156,7 @@
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="0b58e12f-75d9-8518-ecaf-93be7d233630" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="0b58e12f-75d9-8518-ecaf-93be7d233630" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -3234,7 +3274,7 @@
           <entries>
             <entry id="723d4ffc-71ae-8df0-57be-a884c672015f" name="Venom Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="9a2f205c-f0a2-b288-b118-740eb2fdc910" name="Venom" points="80.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="9a2f205c-f0a2-b288-b118-740eb2fdc910" name="Venom" points="75.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="845d4f5e-e91c-ee52-5fe5-eda2cb3383bd" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -3254,7 +3294,7 @@
                                 </link>
                               </links>
                             </entry>
-                            <entry id="0dddd47d-ff85-f109-bf68-669a93f2d5ca" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="0dddd47d-ff85-f109-bf68-669a93f2d5ca" name="Corrosive Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -3283,7 +3323,7 @@
                       <characteristics>
                         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
                         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="7"/>
-                        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="7"/>
+                        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="8"/>
                         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="6"/>
                         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="5"/>
                         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
@@ -3859,7 +3899,7 @@
             </entry>
             <entry id="470d2b28-9ccc-4a30-bfea-2910f7e4b9c0" name="Nidus Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="1863cdab-0299-cc51-85e2-8a3d8518755d" name="Nidus" points="25.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="1863cdab-0299-cc51-85e2-8a3d8518755d" name="Nidus" points="20.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -4124,7 +4164,7 @@
           <entries>
             <entry id="42a648d9-c75e-5ba5-05c9-400216d0f67c" name="Huntsman Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="bae823ab-5eda-e6ad-0af9-01cdf614614a" name="Huntsman" points="95.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="bae823ab-5eda-e6ad-0af9-01cdf614614a" name="Huntsman" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="5f8be45f-3bee-a831-a272-da8c74ca4f2a" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4132,7 +4172,7 @@
                       <entryGroups>
                         <entryGroup id="806a9335-6744-3506-77e0-ebe24822ba73" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                           <entries>
-                            <entry id="d6737a90-e424-9128-e79b-15c6f4cf4b5d" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="d6737a90-e424-9128-e79b-15c6f4cf4b5d" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4144,7 +4184,7 @@
                                 </link>
                               </links>
                             </entry>
-                            <entry id="48fabcd8-ed63-59a3-022a-ae020cad1065" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="48fabcd8-ed63-59a3-022a-ae020cad1065" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4217,7 +4257,7 @@
             </entry>
             <entry id="32a8cd55-d64e-c455-55e4-4318706f2a3d" name="Scarab Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="16d9238d-efa8-0de6-d0fa-36d9aa77b79b" name="Scarab" points="95.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="16d9238d-efa8-0de6-d0fa-36d9aa77b79b" name="Scarab" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="021cded5-a2ef-fbf3-0df8-1c687fde11be" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4225,7 +4265,7 @@
                       <entryGroups>
                         <entryGroup id="29e2fb66-d86e-1904-776d-40cb44b20f86" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                           <entries>
-                            <entry id="6328e87a-1549-4164-3291-9fb84a414fcf" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="6328e87a-1549-4164-3291-9fb84a414fcf" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4237,7 +4277,7 @@
                                 </link>
                               </links>
                             </entry>
-                            <entry id="45d939dc-c68d-18a7-7380-5cb9b52b9b5e" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="45d939dc-c68d-18a7-7380-5cb9b52b9b5e" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4333,7 +4373,7 @@
           <entries>
             <entry id="5be40109-a62e-2d94-68b6-b691b7fabeae" name="Huntsman Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="18805a4d-b167-8c98-dac7-bfc374035ca5" name="Huntsman" points="95.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="18805a4d-b167-8c98-dac7-bfc374035ca5" name="Huntsman" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="4842f70a-d66c-3d08-d7d4-acb736f13975" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4341,7 +4381,7 @@
                       <entryGroups>
                         <entryGroup id="1caf8452-d954-80ba-3fa0-d3c7e6328259" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                           <entries>
-                            <entry id="d3fe2b7b-bb88-92e0-7b1f-321756b11a5d" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="d3fe2b7b-bb88-92e0-7b1f-321756b11a5d" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4353,7 +4393,7 @@
                                 </link>
                               </links>
                             </entry>
-                            <entry id="2df8ff0a-0c64-04d9-1cee-2f713e4b1f0e" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="2df8ff0a-0c64-04d9-1cee-2f713e4b1f0e" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4426,7 +4466,7 @@
             </entry>
             <entry id="a797bb11-76de-c903-dbad-72b3dd928abf" name="Scarab Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
-                <entry id="db68f0fc-b249-e824-70ad-c7b86891baee" name="Scarab" points="95.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                <entry id="db68f0fc-b249-e824-70ad-c7b86891baee" name="Scarab" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="1b4152e9-5317-ab69-7230-5fcadce0dea1" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
@@ -4434,7 +4474,7 @@
                       <entryGroups>
                         <entryGroup id="9d5843a5-1011-e1a7-8b8b-b81b84b337dc" name="Weapon MAR" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                           <entries>
-                            <entry id="885b08f0-b1e1-f87c-028e-04d5f3c52560" name="Biohazard Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="885b08f0-b1e1-f87c-028e-04d5f3c52560" name="Biohazard Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4446,7 +4486,7 @@
                                 </link>
                               </links>
                             </entry>
-                            <entry id="f4c15fd3-1a48-9301-0734-67676c16fa05" name="Corrosive Primaries" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                            <entry id="f4c15fd3-1a48-9301-0734-67676c16fa05" name="Corrosive Primaries" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4950,7 +4990,7 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
     </profile>
     <profile id="94c5f999-35a5-776a-3736-106aef45ebff" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Assassin/Gila/Swarm Starbrd/Port" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
@@ -5011,7 +5051,7 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="9"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="8"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="4"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="5"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
         <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="CL"/>
@@ -5022,17 +5062,17 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
     </profile>
     <profile id="8109e63d-5cfb-dc24-96c7-0a601ec2fc10" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Brood/Nexus Fore (Fixed)" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="1"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a01aefd0-19d2-5524-f5a9-e2024e36c3c2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Brood/Nexus Starboard/Port" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="15"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
@@ -5052,12 +5092,12 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
     </profile>
     <profile id="0945a9c1-a5c0-d98f-1694-b2411da4bed3" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Drone/Widow" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="5"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="3"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="1"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="2"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
         <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="0"/>
@@ -5143,14 +5183,14 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="35c70c2f-d51a-12b7-9419-250340dc4756" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Huntsman/Scarab Starbrd/Port" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>

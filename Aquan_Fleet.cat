@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.13b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -1098,7 +1098,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="fce24e5c-bde7-338b-41e1-2a126c70b9e7" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="fce24e5c-bde7-338b-41e1-2a126c70b9e7" name="+1 Sh" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1443,7 +1443,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="2c381549-e934-1ab5-5420-d2f75172a91f" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="2c381549-e934-1ab5-5420-d2f75172a91f" name="+1 Sh" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1788,7 +1788,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="14197cf3-9a05-0ae2-04a7-fced1924c42a" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                    <entry id="14197cf3-9a05-0ae2-04a7-fced1924c42a" name="+1 Sh" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -3092,18 +3092,6 @@
                   <entryGroups>
                     <entryGroup id="56e38620-b3fe-afee-f688-57836ee56aa3" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="f69ea684-c66f-f256-b7aa-d1af7ff1a90b" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="daad0e47-4438-6abe-7826-2de8e124b937" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
                         <entry id="204397a7-23cd-aeab-61c0-0e20e40ec8cf" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
@@ -3115,6 +3103,33 @@
                               <modifiers/>
                             </link>
                           </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="dffcccc1-89d1-efa2-cdcb-9667f210ab04" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                      <entries>
+                        <entry id="3c3dbf8b-99b8-9d11-ed58-e7f031ed74d3" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="b40c81ec-8d72-2d1b-306f-1f923cb89373" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="e9b6d1c7-cba4-56ab-a094-463eb161f6ae" name="+1 MN" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
                         </entry>
                       </entries>
                       <entryGroups/>
@@ -3141,7 +3156,12 @@
                       <modifiers/>
                     </link>
                     <link id="b8311500-b5d9-68fd-e6fb-7cd9f7c8502b" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="2a062323-777d-a32b-b604-0b133e93fd1e" value="1" repeat="true" numRepeats="1" incrementParentId="cfddac34-1bc7-2af4-f942-2d6e790f0ad0" incrementChildId="e9b6d1c7-cba4-56ab-a094-463eb161f6ae" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="d1c39ad4-cba9-3aa5-79d6-a9c3cca99564" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
                       <modifiers/>
@@ -3319,18 +3339,6 @@
                   <entryGroups>
                     <entryGroup id="00cdf146-a9bc-3b7d-ad57-73b1ad163faa" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="0454b6ca-bc1c-926a-9465-feff99777cd9" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="2d376e17-163e-7e53-0ef7-ee2614317682" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
                         <entry id="cc457974-6820-ee0c-3431-9a27b8150b5e" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
@@ -3342,6 +3350,33 @@
                               <modifiers/>
                             </link>
                           </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="156a8790-ddd7-0ec1-dfb6-abe0d05f3f5e" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                      <entries>
+                        <entry id="9af02c32-600e-5b29-f73d-bbff895a452e" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="d8758d8a-5e98-09f9-1f09-885144b5c76d" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="f84f4e1e-859f-abdb-f2aa-38bc08b6427e" name="+1 MN" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
                         </entry>
                       </entries>
                       <entryGroups/>
@@ -3368,7 +3403,12 @@
                       <modifiers/>
                     </link>
                     <link id="18068cba-cf48-d657-ebbd-b905ef4fc9fa" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="2a062323-777d-a32b-b604-0b133e93fd1e" value="1" repeat="true" numRepeats="1" incrementParentId="b4842007-9d60-a67f-00fa-882ccb5f2ebf" incrementChildId="f84f4e1e-859f-abdb-f2aa-38bc08b6427e" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="391af586-7bf5-c2d0-ec73-1ac193458151" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
                       <modifiers/>
@@ -3546,18 +3586,6 @@
                   <entryGroups>
                     <entryGroup id="e51569ad-8809-ea16-45f1-832ecc446960" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                       <entries>
-                        <entry id="77330899-8618-ad41-df60-39e3094d6f00" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="6e4e7d0d-c00f-b0db-5e0c-3f545f87629e" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
                         <entry id="9c594f02-2386-fd8a-4f7c-2c11c863f200" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                           <entries/>
                           <entryGroups/>
@@ -3569,6 +3597,33 @@
                               <modifiers/>
                             </link>
                           </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="f8fedd97-a3a1-6be8-6091-9a48d3f0e405" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                      <entries>
+                        <entry id="20ab8689-131a-706b-e5ee-fec11bdc6cc5" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="1e9d1c13-6a35-6551-1f93-d2dc1e236e94" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="3af7c819-badf-76d0-3534-755b2adf52ff" name="+1 MN" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
                         </entry>
                       </entries>
                       <entryGroups/>
@@ -3595,7 +3650,12 @@
                       <modifiers/>
                     </link>
                     <link id="dd05445f-afec-c047-4ac0-6c4ebfec50ac" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="2a062323-777d-a32b-b604-0b133e93fd1e" value="1" repeat="true" numRepeats="1" incrementParentId="f3e31e29-53c7-7428-c2d8-62d2da801842" incrementChildId="3af7c819-badf-76d0-3534-755b2adf52ff" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="036fc0a9-e3ad-9357-575a-57921104d516" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
                       <modifiers/>
@@ -5104,7 +5164,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="4"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="3"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="4"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="3"/>
         <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
         <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
         <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
@@ -5344,7 +5404,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="6"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="2"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="4"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="5"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="4"/>
         <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
         <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
         <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
@@ -5528,9 +5588,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
     <profile id="f9b12bf7-65e8-2df1-20a5-e3925e53d54f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Vortex Aft" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="11"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
       </characteristics>
       <modifiers/>
@@ -5538,9 +5598,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
     <profile id="fee9782f-1626-bda1-d75a-423d9ccdac95" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Vortex Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="11"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
       </characteristics>
       <modifiers/>
@@ -5548,9 +5608,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
     <profile id="b382f241-9acc-7ac8-4349-4fc3f2c16939" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Vortex Starboard/Port" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="11"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
       </characteristics>
       <modifiers/>
