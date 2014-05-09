@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03f3bddf-d7aa-a9d5-81fe-822fb5a8acc4" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Rense System Navy Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03f3bddf-d7aa-a9d5-81fe-822fb5a8acc4" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Rense System Navy Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false" page="0">
       <entries/>
@@ -402,6 +402,9 @@
                   <modifiers/>
                 </link>
                 <link id="725d44f7-2f5f-904f-aa5d-d657afff44c1" targetId="6cce4f01-cb00-575f-630e-bef9777c0dca" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="841f10ba-6d87-17c5-c600-115db633b3c7" targetId="e4354ab9-2d5a-dfae-b538-6895ce55159e" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -1460,6 +1463,9 @@
                 <link id="1cab2d77-d0b2-128c-3219-a50d4a1858fd" targetId="6cce4f01-cb00-575f-630e-bef9777c0dca" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="ab8889ab-8e56-7901-82b8-aef98dc5423c" targetId="e4354ab9-2d5a-dfae-b538-6895ce55159e" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -1685,6 +1691,9 @@
                     <link id="adc278f8-617c-eea2-ad3f-20568e5c4148" targetId="2a943ab5-7bf5-fca8-2aff-d82b7922d6c1" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="c631c7cd-1d62-deaa-76a3-ad2a6d6c4ee1" targetId="e4354ab9-2d5a-dfae-b538-6895ce55159e" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -1795,6 +1804,9 @@
                       <modifiers/>
                     </link>
                     <link id="20c3ed5d-94bb-06b5-6e68-6679f4ef65df" targetId="2a943ab5-7bf5-fca8-2aff-d82b7922d6c1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="08716961-23fb-d651-1fe3-eb83f14363db" targetId="e4354ab9-2d5a-dfae-b538-6895ce55159e" linkType="rule">
                       <modifiers/>
                     </link>
                   </links>
@@ -1926,11 +1938,11 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
       <modifiers/>
     </rule>
     <rule id="de9f2f94-73a0-e023-4c70-1f327f2e50b7" name="Dirty Secrets" hidden="false" page="0">
-      <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card.</description>
+      <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card. The Card is discarded, and any effects, including any required Battle Log adjustment, are ignored.</description>
       <modifiers/>
     </rule>
     <rule id="b79cfe64-0c8e-80d5-beb0-3ababef29568" name="Elite Crew" hidden="false" page="0">
-      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
       <modifiers/>
     </rule>
     <rule id="9b93fb85-c72d-ac0a-51c0-c59789d77cbe" name="Hidden Killer" hidden="false" page="0">
@@ -1943,6 +1955,10 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
     </rule>
     <rule id="d629349a-57a1-6e82-7f9d-3b36350231be" name="Impervious" hidden="false" page="0">
       <description>To Capture a model with Impervious, a Boarding Assault must roll successes equal to or in excess of TRIPLE the model’s current Crew Point total.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e4354ab9-2d5a-dfae-b538-6895ce55159e" name="Kinetic Weapons" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons involved in the attack are Kinetic weapons and the attack equals or exceeds the target’s Critical Rating, the attacker may add +1 to the result of the roll on the critical hit table. If the Attack causes multiple Critical Hits, you may choose separately for each roll on the Critical Hit Table made.</description>
       <modifiers/>
     </rule>
     <rule id="a179a134-3d9a-ea12-d578-98b3549ea009" name="Maneuverable" hidden="false" page="0">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a8de9f12-14e5-e99b-2535-5b093c0c5854" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -508,7 +508,7 @@
     <entry id="fba10d94-bdf7-a788-01ab-7964da4cac15" name="BattleCruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="55465fa3-1961-0d9e-d2a5-830c819a16f6" name="Ship Class" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+        <entryGroup id="55465fa3-1961-0d9e-d2a5-830c819a16f6" name="Ship Class" defaultEntryId="4c978ad2-2ca7-5366-4a05-06cbcc023a15" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
             <entry id="4c978ad2-2ca7-5366-4a05-06cbcc023a15" name="Marshal Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries>
@@ -4518,7 +4518,7 @@ Command Distance: 6&quot;</description>
       <modifiers/>
     </rule>
     <rule id="ecbe715a-7a19-226e-f730-83244cfd9010" name="Elite Crew" hidden="false" page="0">
-      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
       <modifiers/>
     </rule>
     <rule id="604c12f7-8aac-d067-45a0-81ee3f12b462" name="Hidden Killer" hidden="false" page="0">
