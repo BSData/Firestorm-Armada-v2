@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="5" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="146f10de-efcd-49b9-66f0-934be0732e03" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -5102,7 +5102,7 @@ A Repair Attempt MUST be made to remove each Corroded Marker that a model carrie
       <modifiers/>
     </rule>
     <rule id="21aa7cdb-120f-b0bb-7b67-a72242c1f0dd" name="Elite Crew" hidden="false" page="0">
-      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
       <modifiers/>
     </rule>
     <rule id="c59c4c45-7a4f-fc17-3d5e-5bf326daef1a" name="Impervious" hidden="false" page="0">
@@ -5145,7 +5145,9 @@ Battle Shunt movement ignores the rules of intervening terrain and Mines. A mode
 
 A model can make attacks normally after making a Battle Shunt, and can perform a Boarding Assault.
 
-Important Note: the Dice rolled to determine how far a model using Shunt Matrix moves does NOT use the Exploding Dice mechanic.</description>
+Important Note: the Dice rolled to determine how far a model using Shunt Matrix moves does NOT use the Exploding Dice mechanic.
+
+A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from using its Fold Space Drives.</description>
       <modifiers/>
     </rule>
     <rule id="49c732aa-c5c8-027b-c856-9201ae782e91" name="Stealth Systems" hidden="false" page="0">
@@ -5153,8 +5155,8 @@ Important Note: the Dice rolled to determine how far a model using Shunt Matrix 
       <modifiers/>
     </rule>
     <rule id="c306b570-6a08-a35c-d4ee-03a48d3a6eb1" name="System Network" hidden="false" page="0">
-      <description>If a model with Systems Network is within the Command Distance of a friendly model with an active Cloaking Field that also has System Network, this model automatically gains the Stealth Systems MAR.
-The effects of multiple Cloaking Fields are not cumulative. A model using Systems Network to gain Stealth Systems cannot then pass the Stealth Systems on to other models with Systems Network.</description>
+      <description>If a model with Systems Network is within the Command Distance of one or more friendly models which have active Cloaking Fields
+and also have Systems Network, this model automatically gains the Stealth Systems MAR. The Stealth Systems MAR is immediately lost if the model granting it is destroyed, or is otherwise moved out of range.</description>
       <modifiers/>
     </rule>
   </sharedRules>

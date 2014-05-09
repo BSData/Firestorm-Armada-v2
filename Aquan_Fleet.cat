@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -5703,11 +5703,11 @@ A Repair Attempt MUST be made to remove each Corroded Marker that a model carrie
       <modifiers/>
     </rule>
     <rule id="e553a964-763a-b351-e302-7578db4e4f8e" name="Drone Mines" hidden="false" page="0">
-      <description>A model with Drone Mines can move each Mine it has dropped onto the Game Board, up to 2” in any direction, during the End Phase of each Turn. Any Mine explosion resulting from this movement is resolved immediately. If this model is Lost, any Mines dropped by the model are no longer able to move in this way.</description>
+      <description>A model with Drone Mines can move each Mine it has dropped onto the Game Board, up to 2” in any direction, during the End Phase of each Turn. Any Mine explosion resulting from this movement is resolved immediately. If this model is Lost, any Mines dropped by the model are no longer able to move in this way. When linking Mines, treat this MAR as a Coherence Effect.</description>
       <modifiers/>
     </rule>
     <rule id="71d937ed-f081-8b7c-9c51-3f2717d5ca8c" name="Elite Crew" hidden="false" page="0">
-      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose.</description>
+      <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
       <modifiers/>
     </rule>
     <rule id="048e8c9c-c98b-1e75-7657-049b26327a60" name="Elusive Target" hidden="false" page="0">
