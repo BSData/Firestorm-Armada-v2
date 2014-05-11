@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="5" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
@@ -2471,34 +2471,49 @@
                     </entry>
                     <entry id="953b48e3-32c7-f6c1-1dbd-46ccd9e8de24" name="Cruisers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries>
-                        <entry id="475bb700-eb1f-722e-c4a8-c14a0617c82c" name="Chironex/Isonade/Storm Cruisers" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                        <entry id="0041e1a4-73bf-a4e3-1995-b91424b23020" name="Chironex/Isonade/Storm" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                           <entries/>
                           <entryGroups>
-                            <entryGroup id="ba07ac12-7894-2a66-da8b-416898a60423" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                            <entryGroup id="ee856623-9f86-7d97-fadd-9d60f4a6514b" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="5859b341-2f6f-e8a9-b270-8787aab6b5c9" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="58e67d99-bfc4-3e50-7e6b-1140fac37686" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
                                   <rules/>
                                   <profiles/>
                                   <links>
-                                    <link id="43d0bd75-9858-392b-b948-363049afbd6c" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
+                                    <link id="ac265b67-0fe9-4125-de54-bd35a2fdd754" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
                                       <modifiers/>
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="ada5d3d0-e19e-78c2-a217-f11618448370" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                              </entries>
+                              <entryGroups/>
+                              <modifiers/>
+                              <links/>
+                            </entryGroup>
+                            <entryGroup id="b9fee247-bd70-ee76-8f57-6eac3d66e5bf" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                              <entries>
+                                <entry id="43bd8175-4211-02b8-c4b5-b068a5a8c35e" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
                                   <rules/>
                                   <profiles/>
                                   <links>
-                                    <link id="b29974cd-6622-a221-2a07-7c7701a06bd2" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
+                                    <link id="d9e0eedf-6304-813c-e90d-dfec2f7e035e" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
                                       <modifiers/>
                                     </link>
                                   </links>
+                                </entry>
+                                <entry id="90aa3e47-5533-d3fb-8c34-3fe958303990" name="+1 MN" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                                  <entries/>
+                                  <entryGroups/>
+                                  <modifiers/>
+                                  <rules/>
+                                  <profiles/>
+                                  <links/>
                                 </entry>
                               </entries>
                               <entryGroups/>
@@ -2510,22 +2525,27 @@
                           <rules/>
                           <profiles/>
                           <links>
-                            <link id="87c72a64-954f-e422-4d7a-357e6d9c32ad" targetId="84d70cd7-7931-97bd-5e67-31fe7453dc06" linkType="profile">
+                            <link id="09c3d576-8678-9860-460d-87a0bd0bd671" targetId="84d70cd7-7931-97bd-5e67-31fe7453dc06" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="7879d92e-bc07-8102-6e1b-63a575ebb1b7" targetId="677026c0-2371-130d-3ce2-b2f703e59106" linkType="profile">
+                            <link id="52cdbd5c-8bd8-9910-0e69-6f56d6dcd032" targetId="677026c0-2371-130d-3ce2-b2f703e59106" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="34f54882-2e99-76a5-e9ef-e3179c538ec6" targetId="1a94c5c4-b66f-1ac4-1a6a-f6937937fc30" linkType="profile">
+                            <link id="1900d044-b4b9-74b7-89dd-b9b5fa6b98c6" targetId="1a94c5c4-b66f-1ac4-1a6a-f6937937fc30" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="f256639a-53b1-6fd7-a36c-a81381da5351" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
+                            <link id="b1c644f7-c31f-71cf-cb9a-3a391df2e0e9" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
+                              <modifiers>
+                                <modifier type="increment" field="2a062323-777d-a32b-b604-0b133e93fd1e" value="1" repeat="true" numRepeats="1" incrementParentId="0041e1a4-73bf-a4e3-1995-b91424b23020" incrementChildId="90aa3e47-5533-d3fb-8c34-3fe958303990" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                            <link id="785116e7-48e7-ff6d-0c4d-589fe399a82c" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="db57b3b6-1048-7e91-fa84-9b4d1efc6cf4" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
-                              <modifiers/>
-                            </link>
-                            <link id="5228933b-149c-1f37-b6bc-4f4ffcd796ee" targetId="02bcad16-3a7c-0df8-0d55-da653c87e79a" linkType="rule">
+                            <link id="0038cb5b-29fd-6309-d5f4-914668f119fc" targetId="02bcad16-3a7c-0df8-0d55-da653c87e79a" linkType="rule">
                               <modifiers/>
                             </link>
                           </links>
@@ -2905,34 +2925,49 @@
                     </entry>
                     <entry id="ad487ee1-14e5-3b50-d65d-26a5233c85ef" name="Cruisers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                       <entries>
-                        <entry id="586f4fc5-4b17-8828-498f-c196f94e92be" name="Chironex/Isonade/Storm Cruisers" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                        <entry id="bf254d89-d159-9651-91b1-6244815492db" name="Chironex/Isonade/Storm" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
                           <entries/>
                           <entryGroups>
-                            <entryGroup id="5b279c44-4d5b-a9a6-2d97-24a4091adb67" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                            <entryGroup id="e45ac286-5031-eb05-ebb5-a048f0070c6c" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
                               <entries>
-                                <entry id="21a96576-5a4d-79ac-be51-2c7053895688" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                                <entry id="ecaf22b7-77e8-c656-e363-145ae41a5229" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
                                   <rules/>
                                   <profiles/>
                                   <links>
-                                    <link id="7f7b9799-3032-5598-9120-5891e2b21292" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
+                                    <link id="b655c374-7712-ce3e-f46d-95fd6cbb044f" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
                                       <modifiers/>
                                     </link>
                                   </links>
                                 </entry>
-                                <entry id="22c38ab5-236b-c709-6087-fe7a7c8f74d1" name="Energy Transfer (Beam, 1) " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
+                              </entries>
+                              <entryGroups/>
+                              <modifiers/>
+                              <links/>
+                            </entryGroup>
+                            <entryGroup id="00afeba4-9334-0965-7dc7-573434801962" name="Hardpoints" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                              <entries>
+                                <entry id="b073c666-5481-1268-af02-c26baa6070b6" name="Difficult Target" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
                                   <rules/>
                                   <profiles/>
                                   <links>
-                                    <link id="189b7c40-55ea-b5a0-08b4-955996ab216b" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
+                                    <link id="28bcf2b7-1691-b824-2aa7-95622fb271fb" targetId="b5e5e4f0-fce5-4fdf-d898-91e48a6ae624" linkType="rule">
                                       <modifiers/>
                                     </link>
                                   </links>
+                                </entry>
+                                <entry id="392b3023-7e1e-8b03-dd91-b917cb2139c5" name="+1 MN" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                                  <entries/>
+                                  <entryGroups/>
+                                  <modifiers/>
+                                  <rules/>
+                                  <profiles/>
+                                  <links/>
                                 </entry>
                               </entries>
                               <entryGroups/>
@@ -2944,22 +2979,27 @@
                           <rules/>
                           <profiles/>
                           <links>
-                            <link id="e25d81ba-8f9e-a1c2-3518-9afb0ad60c61" targetId="84d70cd7-7931-97bd-5e67-31fe7453dc06" linkType="profile">
+                            <link id="20fda869-53ba-d740-8b46-56aee0abd318" targetId="84d70cd7-7931-97bd-5e67-31fe7453dc06" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="9bfc7456-37eb-6859-3ef5-91ac0cd73395" targetId="677026c0-2371-130d-3ce2-b2f703e59106" linkType="profile">
+                            <link id="27265626-438e-8c37-8f54-a95e6e96fdf0" targetId="677026c0-2371-130d-3ce2-b2f703e59106" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="b3545596-f016-0f98-bcf3-971ce11f81c6" targetId="1a94c5c4-b66f-1ac4-1a6a-f6937937fc30" linkType="profile">
+                            <link id="476b0884-020e-90ac-53a4-0d5b4f7002cc" targetId="1a94c5c4-b66f-1ac4-1a6a-f6937937fc30" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="b078acf1-4ebd-1cbc-43af-143dd4775a99" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
+                            <link id="747c83dd-55ba-0414-fbdd-cbbc0103133a" targetId="d5fdb2b1-dfb3-a922-63b9-8b9d0cae1264" linkType="profile">
+                              <modifiers>
+                                <modifier type="increment" field="2a062323-777d-a32b-b604-0b133e93fd1e" value="1" repeat="true" numRepeats="1" incrementParentId="bf254d89-d159-9651-91b1-6244815492db" incrementChildId="392b3023-7e1e-8b03-dd91-b917cb2139c5" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
+                            </link>
+                            <link id="ef103f69-85d2-ece3-c5b6-236a7055b75b" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
                               <modifiers/>
                             </link>
-                            <link id="8f085e74-3c47-f2cb-d750-0629f4b84f93" targetId="ff6afc51-389d-f3e6-7ed2-6e9762adf5d5" linkType="profile">
-                              <modifiers/>
-                            </link>
-                            <link id="28847a63-7051-ba5e-8e16-60000a767e25" targetId="02bcad16-3a7c-0df8-0d55-da653c87e79a" linkType="rule">
+                            <link id="31f93fe8-ae13-d3d2-9e57-0f074a9dc874" targetId="02bcad16-3a7c-0df8-0d55-da653c87e79a" linkType="rule">
                               <modifiers/>
                             </link>
                           </links>
