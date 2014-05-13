@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="5" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1a8a338f-dafb-62b1-4c3e-9537c3ea1635" name="Battle Cruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
@@ -3622,6 +3622,7 @@ A Repair Attempt MUST be made to remove each Corroded Marker that a model carrie
       <modifiers/>
     </rule>
     <rule id="91451e8f-64f5-4040-4204-1662016a85f9" name="Protected Systems" hidden="false" page="0">
+      <description>Subtract 1 from any rolls on a Targeted Strike Damage Table resulting from Direct Weapon Attacks against a model with Protected Systems.</description>
       <modifiers/>
     </rule>
     <rule id="b6a52256-64d2-6a56-c85b-780f54ebc6da" name="Quick Launch" hidden="false" page="0">
