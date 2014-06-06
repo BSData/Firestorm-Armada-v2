@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="6" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a8de9f12-14e5-e99b-2535-5b093c0c5854" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -1687,7 +1687,7 @@
                       <entries>
                         <entry id="fdbded09-171b-c738-c8a1-32418bcded10" name="Aegis" points="50.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
                           <entries>
-                            <entry id="ecf90cd7-dde7-2d04-6ecf-721d2a962dc7" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+                            <entry id="ecf90cd7-dde7-2d04-6ecf-721d2a962dc7" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -2142,7 +2142,7 @@
                       <entries>
                         <entry id="e420de5c-5d59-a26d-7f6f-570329bc3fb3" name="Aegis" points="50.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
                           <entries>
-                            <entry id="b77ed2d8-52a4-9cb1-0eff-43fdd7aa16ae" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+                            <entry id="b77ed2d8-52a4-9cb1-0eff-43fdd7aa16ae" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
                               <entries/>
                               <entryGroups/>
                               <modifiers/>
@@ -4397,7 +4397,7 @@
           <entries>
             <entry id="288f1aaa-58eb-0562-c571-e2cbdccab5a5" name="Aegis" points="50.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="9b794973-3b7f-3c80-283e-d8d616f0937b" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+                <entry id="9b794973-3b7f-3c80-283e-d8d616f0937b" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -4572,8 +4572,7 @@ A model may be deployed with Sector Shielding engaged, nominate the direction at
       <modifiers/>
     </rule>
     <rule id="1221804d-6021-e5b3-d3ba-dc3da09f8944" name="Shield Projector" hidden="false" page="0">
-      <description>Any model within range of a Shield Projector, friendly or enemy, may add the Shield Rating of the model carrying the Shield Projector to its own. If a model is within range of more than one Shield Projector, it adds the highest Shield Rating.
-Any Attacks (friendly or enemy) originating from within the Shield Projector’s range ignore its effects.</description>
+      <description>Any model within range of a Shield Projector, friendly or enemy,(including the model with the Shield Projector itself) receives a +1 &apos;to hit&apos; modifier on any Shield Dice it rolls. The effects of being in range of multiple Shield Projectors are not cumulative. Any attacks (friendly or enemy)originating from within the Shield Projector&apos;s range ignore its effects.</description>
       <modifiers/>
     </rule>
     <rule id="163c85a6-eebb-0d40-02bf-9b0009d83c14" name="Split Fire" hidden="false" page="0">
