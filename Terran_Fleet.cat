@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="8" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a8de9f12-14e5-e99b-2535-5b093c0c5854" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" hidden="false" page="0">
       <entries/>
@@ -558,33 +558,13 @@
                       <modifiers/>
                       <links/>
                     </entryGroup>
-                    <entryGroup id="e82c6300-36eb-061d-20f6-c9a5ba1826fc" name="Accompaniment" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
+                    <entryGroup id="e82c6300-36eb-061d-20f6-c9a5ba1826fc" name="Accompaniment" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" hidden="false">
                       <entries>
-                        <entry id="43d0550b-3331-b4b3-bf04-4f48b80e8cd2" name="Armsmen/Pilgrim Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+                        <entry id="43d0550b-3331-b4b3-bf04-4f48b80e8cd2" name="Armsmen/Pilgrim Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" hidden="false" page="0">
                           <entries>
-                            <entry id="9d9614eb-292f-f373-6317-86fa6600f206" name="Armsmen/Pilgrim" points="30.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false" page="0">
+                            <entry id="9d9614eb-292f-f373-6317-86fa6600f206" name="Armsmen/Pilgrim" points="30.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" hidden="false" page="0">
                               <entries/>
-                              <entryGroups>
-                                <entryGroup id="eabe178a-abf4-7301-6b1d-a79650ac2d8c" name="Upgrades" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" hidden="false">
-                                  <entries>
-                                    <entry id="29dbfb55-c1b8-f80d-a366-128c4ea15eed" name="Starboard/Port to Beam " points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="true" hidden="false" page="0">
-                                      <entries/>
-                                      <entryGroups/>
-                                      <modifiers/>
-                                      <rules/>
-                                      <profiles/>
-                                      <links>
-                                        <link id="704e3f2c-e5c1-342e-795a-78309be05be3" targetId="cce49ccc-b518-a930-3bf9-10d99d70e0d8" linkType="rule">
-                                          <modifiers/>
-                                        </link>
-                                      </links>
-                                    </entry>
-                                  </entries>
-                                  <entryGroups/>
-                                  <modifiers/>
-                                  <links/>
-                                </entryGroup>
-                              </entryGroups>
+                              <entryGroups/>
                               <modifiers/>
                               <rules/>
                               <profiles/>
@@ -596,14 +576,12 @@
                                   <modifiers/>
                                 </link>
                                 <link id="926c9341-3f21-a35d-efee-656ff88b9f8d" targetId="ae05cb55-5c7e-8425-188b-3dc7348e3c94" linkType="profile">
-                                  <modifiers>
-                                    <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="9d9614eb-292f-f373-6317-86fa6600f206" incrementChildId="29dbfb55-c1b8-f80d-a366-128c4ea15eed" incrementField="selections" incrementValue="1.0">
-                                      <conditions/>
-                                      <conditionGroups/>
-                                    </modifier>
-                                  </modifiers>
+                                  <modifiers/>
                                 </link>
                                 <link id="4c9dc1b6-1a36-663a-eceb-83640c01ca3a" targetId="e6d9f6bb-d6d2-1eb9-633e-f24e2eaf48e9" linkType="profile">
+                                  <modifiers/>
+                                </link>
+                                <link id="c95a2302-1f5b-94e3-fd0e-c5ccc83cd143" targetId="cce49ccc-b518-a930-3bf9-10d99d70e0d8" linkType="rule">
                                   <modifiers/>
                                 </link>
                               </links>
@@ -619,6 +597,12 @@
                       <entryGroups/>
                       <modifiers>
                         <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="4c978ad2-2ca7-5366-4a05-06cbcc023a15" childId="27582e3b-2e49-6693-e94c-d8ac39796d65" field="selections" type="greater than" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
                             <condition parentId="4c978ad2-2ca7-5366-4a05-06cbcc023a15" childId="27582e3b-2e49-6693-e94c-d8ac39796d65" field="selections" type="greater than" value="1.0"/>
                           </conditions>
