@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="14" battleScribeVersion="1.14b" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="15" battleScribeVersion="1.14b" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="b2bfd1b1-a8a0-b3a6-0cfc-c304cb84dca5" name="Standard Fleet" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="50" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -395,7 +395,7 @@
       <categories>
         <category id="ab987c46-f204-0bf9-a6a9-8498c13509ee" name="Tier 3" minSelections="1" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -431,7 +431,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="maxSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -443,11 +443,15 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5fadc939-c832-600c-2647-b64f3229e42f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
         </category>
-        <category id="25598bba-53b3-5db3-d582-e6b933204c73" name="Tier2" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="25598bba-53b3-5db3-d582-e6b933204c73" name="Tier 2" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -471,7 +475,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -482,12 +486,16 @@
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="eadd1506-0d85-9e5e-2d16-05917da48d38" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
             </modifier>
           </modifiers>
         </category>
         <category id="9491469f-4e1a-978c-e141-b7f12a6a7b91" name="Tier 1" minSelections="1" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -511,7 +519,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="and">
@@ -522,6 +530,106 @@
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="fb33a7a8-0e70-041a-60cd-01ead5c84212" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="fb33a7a8-0e70-041a-60cd-01ead5c84212" name="Captured Tier 1" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="1200.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="800.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="9491469f-4e1a-978c-e141-b7f12a6a7b91" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="2000.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="1200.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="eadd1506-0d85-9e5e-2d16-05917da48d38" name="Captured Tier 2" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="2000.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="1200.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="25598bba-53b3-5db3-d582-e6b933204c73" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="1200.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="800.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="5fadc939-c832-600c-2647-b64f3229e42f" name="Captured Tier 3" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="1200.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="800.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="at most" value="2000.0"/>
+                    <condition parentId="roster" field="points limit" type="greater than" value="1200.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ab987c46-f204-0bf9-a6a9-8498c13509ee" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
             </modifier>
           </modifiers>
         </category>

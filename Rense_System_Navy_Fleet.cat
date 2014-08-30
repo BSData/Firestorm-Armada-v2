@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="03f3bddf-d7aa-a9d5-81fe-822fb5a8acc4" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Rense System Navy Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="03f3bddf-d7aa-a9d5-81fe-822fb5a8acc4" revision="5" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Rense System Navy Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1885,7 +1885,14 @@
       </links>
     </entry>
   </entries>
-  <rules/>
+  <rules>
+    <rule id="9c50831d-4aa6-ad81-445e-3a771fa43f28" name="Rense System Navy Fleet Statistics" hidden="false">
+      <description>
+Fleet Tactics Bonus: 3
+Command Distance: 6&quot;</description>
+      <modifiers/>
+    </rule>
+  </rules>
   <links/>
   <sharedEntries>
     <entry id="7e280f43-2478-84ff-b304-17bee0444e5a" name="Siren Escort" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
