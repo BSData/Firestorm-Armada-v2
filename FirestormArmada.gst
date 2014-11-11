@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="16" battleScribeVersion="1.14b" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="17" battleScribeVersion="1.14b" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="b2bfd1b1-a8a0-b3a6-0cfc-c304cb84dca5" name="Standard Fleet" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="50" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
