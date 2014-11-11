@@ -715,6 +715,7 @@
         <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
         <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+        <characteristic id="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr."/>
       </characteristics>
     </profileType>
     <profileType id="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ship">
@@ -739,6 +740,7 @@
         <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
         <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+        <characteristic id="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr."/>
       </characteristics>
     </profileType>
     <profileType id="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Weapon (Small)">
@@ -748,6 +750,7 @@
         <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
         <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
+        <characteristic id="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr."/>
       </characteristics>
     </profileType>
   </profileTypes>
