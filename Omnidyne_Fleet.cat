@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1068,7 +1069,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Kurak Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Unaligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1076,7 +1077,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Zenian Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1089,7 +1090,7 @@
     <rule id="126762a2-56b6-7506-9e9e-48fb86729437" name="Omnidyne Fleet Statistics" hidden="false">
       <description>
 Fleet Tactics Bonus: 1
-Command Distance: 6"</description>
+Command Distance: 6&quot;</description>
       <modifiers/>
     </rule>
   </rules>
@@ -1102,8 +1103,12 @@ Command Distance: 6"</description>
 However, rather than only having one Hidden Set-Up Marker, you may place a number of Markers equal to the value of this MAR on the Board. Only one of these Markers has the Squadron name recorded on it, the others are left blank. When a blank Marker is revealed, nothing happens – the Marker is simply discarded.</description>
       <modifiers/>
     </rule>
+    <rule id="00850539-a382-75c7-6cd1-b72d91cb956a" name="Assault Robot Torpedoes" hidden="false" page="0">
+      <description>A Weapon System with the Assault Robot Torpedoes MAR is a Cyberwarfare Weapon. However it is declared and resolved alongside the Squadron’s Torpedo Weapons and it is subject to Defensive Fire and Shield Systems as if it were a Torpedo Attack. It is not subject to Cyber Defence. In addition to any effects caused by the Attack, if the target is a Capital Class model and its Damage Rating is equalled or exceeded it loses ONE Crew Point, while if its Critical Rating is equalled or exceeded it loses D3 Crew Points.</description>
+      <modifiers/>
+    </rule>
     <rule id="95891eb6-0a90-47f7-d896-ce77467b1424" name="Beam Weapons" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10" of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
       <modifiers/>
     </rule>
     <rule id="5f5c603b-8e76-8932-a300-2e858565c809" name="Bigger Batteries" hidden="false" page="0">
@@ -1116,6 +1121,13 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
     </rule>
     <rule id="aa607d7e-e8cd-2f76-b5ed-fcd277712618" name="Countermeasures" hidden="false" page="0">
       <description>Any enemy model within 8” of one or more models with Countermeasures requires one additional success to pass any Command Checks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7726e616-1d0e-dcbf-65be-730d6359b289" name="Cyberwarfare Weapons" hidden="false" page="0">
+      <description>Cyberwarfare attacks do not cause Hull Damage or Critical Hits. Instead, if the attack equals or exceeds the target’s Damage Rating, choose a Targeted Strike area and roll a D6 on the relevant table to determine the effect caused. If the attack equals or exceeds the target’s Critical Rating, choose TWO Targeted Strike areas and roll a D6 on each table to determine the effect caused.
+
+If the target of a Cyberwarfare Attack is a non-Capital Class model, the target instead loses 1 Crew Point if its Damage Rating is equaled or exceeded or 2 Crew Points if its Critical Rating is equaled or exceeded.
+</description>
       <modifiers/>
     </rule>
     <rule id="31e51a8a-c994-e854-fd62-1a5547bbab3a" name="Decimator Warheads" hidden="false" page="0">
@@ -1136,6 +1148,10 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
     </rule>
     <rule id="b79cfe64-0c8e-80d5-beb0-3ababef29568" name="Elite Crew" hidden="false" page="0">
       <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c22cf764-6b41-230e-0065-0f4a70b0593d" name="Elusive Target" hidden="false" page="0">
+      <description>An Elusive Target is only hit on a 6 by all Weapons Systems attacks from Capital Class models, and on a 5 or 6 by non-Capital Class models.</description>
       <modifiers/>
     </rule>
     <rule id="9b93fb85-c72d-ac0a-51c0-c59789d77cbe" name="Hidden Killer" hidden="false" page="0">
@@ -1166,8 +1182,16 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
       <description>If a model with the Ops Centre MAR is your Fleet Admiral’s Vessel you may take an additional TAC at no extra cost.</description>
       <modifiers/>
     </rule>
+    <rule id="10b473c9-606c-4d39-d2e4-73b156c42e9d" name="Pack Hunters" hidden="false" page="0">
+      <description>If ALL models contributing to an Attack are Pack Hunters, add +1 Attack Dice (AD) to the Attack for each additional model, after the first, contributing to it. Additional Dice for Pack Hunters are added to the final pool, AFTER Firing Options. The maximum bonus to any attack from the Pack Hunters Model Assigned Rule is +2.</description>
+      <modifiers/>
+    </rule>
     <rule id="c6cf24a2-4dc4-244e-2a34-79155f46fe0e" name="Precision Strike" hidden="false" page="0">
       <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ba4adcae-1249-1fe4-2a28-a0c1cd9e7a96" name="Protected Systems" hidden="false" page="0">
+      <description>Subtract 1 from any rolls on a Targeted Strike Damage Table resulting from Direct Weapon Attacks against a model with Protected Systems.</description>
       <modifiers/>
     </rule>
     <rule id="aea705fe-9c9d-8ad2-a754-9169b0a03f75" name="Quick Launch" hidden="false" page="0">
@@ -1220,58 +1244,35 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="7726e616-1d0e-dcbf-65be-730d6359b289" name="Cyberwarfare Weapons" hidden="false" page="0">
-      <description>Cyberwarfare attacks do not cause Hull Damage or Critical Hits. Instead, if the attack equals or exceeds the target’s Damage Rating, choose a Targeted Strike area and roll a D6 on the relevant table to determine the effect caused. If the attack equals or exceeds the target’s Critical Rating, choose TWO Targeted Strike areas and roll a D6 on each table to determine the effect caused.
-
-If the target of a Cyberwarfare Attack is a non-Capital Class model, the target instead loses 1 Crew Point if its Damage Rating is equaled or exceeded or 2 Crew Points if its Critical Rating is equaled or exceeded.
-</description>
-      <modifiers/>
-    </rule>
-    <rule id="c22cf764-6b41-230e-0065-0f4a70b0593d" name="Elusive Target" hidden="false" page="0">
-      <description>An Elusive Target is only hit on a 6 by all Weapons Systems attacks from Capital Class models, and on a 5 or 6 by non-Capital Class models.</description>
-      <modifiers/>
-    </rule>
-    <rule id="10b473c9-606c-4d39-d2e4-73b156c42e9d" name="Pack Hunters" hidden="false" page="0">
-      <description>If ALL models contributing to an Attack are Pack Hunters, add +1 Attack Dice (AD) to the Attack for each additional model, after the first, contributing to it. Additional Dice for Pack Hunters are added to the final pool, AFTER Firing Options. The maximum bonus to any attack from the Pack Hunters Model Assigned Rule is +2.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ba4adcae-1249-1fe4-2a28-a0c1cd9e7a96" name="Protected Systems" hidden="false" page="0">
-      <description>Subtract 1 from any rolls on a Targeted Strike Damage Table resulting from Direct Weapon Attacks against a model with Protected Systems.</description>
-      <modifiers/>
-    </rule>
-    <rule id="00850539-a382-75c7-6cd1-b72d91cb956a" name="Assault Robot Torpedoes" hidden="false" page="0">
-      <description>A Weapon System with the Assault Robot Torpedoes MAR is a Cyberwarfare Weapon. However it is declared and resolved alongside the Squadron’s Torpedo Weapons and it is subject to Defensive Fire and Shield Systems as if it were a Torpedo Attack. It is not subject to Cyber Defence. In addition to any effects caused by the Attack, if the target is a Capital Class model and its Damage Rating is equalled or exceeded it loses ONE Crew Point, while if its Critical Rating is equalled or exceeded it loses D3 Crew Points.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="38075ed8-773d-b4ce-fb22-f791ca90584b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Foundry" hidden="false">
+    <profile id="e65f5f56-01a3-234b-3620-22b4f41b571d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Auditor" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="7"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="12"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="5"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="10"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="10"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="8"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="8"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="8"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="5"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="5"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="4"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="2"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="4"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Fore" hidden="false">
+    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Cyberwarfare (Fore)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="14"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Starboard/Port" hidden="false">
+    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Fore " hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
@@ -1281,38 +1282,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Cyberwarfare (Fore)" hidden="false">
+    <profile id="5d199056-b36c-fcc9-6677-8b38d3e8e97d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Torpedoes (Fore)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="10"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Synergy" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="4"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="1"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="0"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="0"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Synergy Torpedoes (Fore)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
@@ -1330,6 +1305,16 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="2"/>
         <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
         <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="77572df9-410b-26db-192d-04b05f4b3fa1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive Cyberwarfare (Fore)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1363,39 +1348,49 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e65f5f56-01a3-234b-3620-22b4f41b571d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Auditor" hidden="false">
+    <profile id="38075ed8-773d-b4ce-fb22-f791ca90584b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Foundry" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="8"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="8"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="5"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="5"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="4"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="7"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="12"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="10"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="10"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="8"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="2"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="4"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Fore " hidden="false">
+    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Cyberwarfare (Fore)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Fore" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="14"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Cyberwarfare (Fore)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1409,27 +1404,33 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="77572df9-410b-26db-192d-04b05f4b3fa1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive Cyberwarfare (Fore)" hidden="false">
+    <profile id="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Synergy" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="5d199056-b36c-fcc9-6677-8b38d3e8e97d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor Torpedoes (Fore)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="4"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="1"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="0"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="0"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="99d5e76d-62de-b1aa-e43f-aad57f2a435b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Synergy Cyberwarfare (Fore)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Synergy Torpedoes (Fore)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
