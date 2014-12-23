@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ba04c4bc-6d57-1bb9-9b03-aaff906488af" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Oroshan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ba04c4bc-6d57-1bb9-9b03-aaff906488af" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Oroshan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="03ba9160-90e4-092a-840a-5f151b12dc1b" name="Battle Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -880,12 +881,20 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="e4499a36-ec12-30a8-aa2b-45cea61730a7" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </entries>
   <rules>
     <rule id="6073bb63-972c-51f1-2ec0-97ecc62ea656" name="Oroshan Fleet Statistics" hidden="false" page="0">
       <description>
 Fleet Tactics Bonus: 3
-Command Distance: 6"</description>
+Command Distance: 6&quot;</description>
       <modifiers/>
     </rule>
   </rules>
@@ -964,6 +973,10 @@ Command Distance: 6"</description>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
+    <rule id="87471326-4c02-d702-7a7e-365a878c8609" name="Beam Weapons" hidden="false" page="0">
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
+      <modifiers/>
+    </rule>
     <rule id="dc1be888-ebc0-60ad-c013-030f53ca4e1f" name="Decimator Warheads" hidden="false" page="0">
       <description>Coherence Effect - If all Weapons contributing to an Attack have the Decimator Warheads MAR and the Attack equals or exceeds the target’s CR, the target Squadron must take an immediate Disorder Check.</description>
       <modifiers/>
@@ -976,8 +989,24 @@ Command Distance: 6"</description>
       <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
       <modifiers/>
     </rule>
+    <rule id="ca69bb87-cc94-72bf-86da-4ac839f05b5e" name="High Energy" hidden="false" page="0">
+      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8fe32792-62ad-2080-d2e2-af12c50437e5" name="Impervious" hidden="false" page="0">
+      <description>To Capture a model with Impervious, a Boarding Assault must roll successes equal to or in excess of TRIPLE the model’s current Crew Point total.</description>
+      <modifiers/>
+    </rule>
     <rule id="b54ec921-d304-0a28-0acb-2039ddcfae85" name="Pack Hunters" hidden="false" page="0">
       <description>If ALL models contributing to an Attack are Pack Hunters, add +1 Attack Dice (AD) to the Attack for each additional model, after the first, contributing to it. Additional Dice for Pack Hunters are added to the final pool, AFTER Firing Options. The maximum bonus to any attack from the Pack Hunters Model Assigned Rule is +2.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c619be37-56e9-e3f3-4e9a-fc182498c8d3" name="Quick Launch" hidden="false" page="0">
+      <description>When Launched from a Carrier with Quick Launch, SRS Tokens may be placed anywhere within the Carrier’s Command Distance, they are not restricted to being placed in contact with it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="584b696c-8186-b912-88f2-91e1deb5c6e9" name="Second Assault" hidden="false" page="0">
+      <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
       <modifiers/>
     </rule>
     <rule id="69eb93a3-6cce-c03e-6f4b-4d7b9cb518c1" name="Special Forces" hidden="false" page="0">
@@ -986,26 +1015,6 @@ Command Distance: 6"</description>
     </rule>
     <rule id="2700661c-0256-346e-878a-ba64a99b58dd" name="Weapon Shielding" hidden="false" page="0">
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
-      <modifiers/>
-    </rule>
-    <rule id="8fe32792-62ad-2080-d2e2-af12c50437e5" name="Impervious" hidden="false" page="0">
-      <description>To Capture a model with Impervious, a Boarding Assault must roll successes equal to or in excess of TRIPLE the model’s current Crew Point total.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ca69bb87-cc94-72bf-86da-4ac839f05b5e" name="High Energy" hidden="false" page="0">
-      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c619be37-56e9-e3f3-4e9a-fc182498c8d3" name="Quick Launch" hidden="false" page="0">
-      <description>When Launched from a Carrier with Quick Launch, SRS Tokens may be placed anywhere within the Carrier’s Command Distance, they are not restricted to being placed in contact with it.</description>
-      <modifiers/>
-    </rule>
-    <rule id="87471326-4c02-d702-7a7e-365a878c8609" name="Beam Weapons" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10" of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
-      <modifiers/>
-    </rule>
-    <rule id="584b696c-8186-b912-88f2-91e1deb5c6e9" name="Second Assault" hidden="false" page="0">
-      <description>A model with the Second Assault MAR may launch TWO Boarding Assaults during a game, rather than one.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -1036,16 +1045,6 @@ Command Distance: 6"</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="20a3c0d2-9ae5-7d90-0b1f-b1db3540c610" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Armageddon Turrets (Any)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="369ba6df-cde7-7e14-fa5b-724eea73c53c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Armageddon Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
@@ -1066,49 +1065,13 @@ Command Distance: 6"</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="92f1ed90-e375-27ac-59da-b98cf9d51696" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Harbinger" hidden="false">
+    <profile id="20a3c0d2-9ae5-7d90-0b1f-b1db3540c610" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Armageddon Turrets (Any)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="11"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="9"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="6"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="5"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="5"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="d0b6b778-57d7-09f5-250d-c9e6cf86adec" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Fore" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b585bc24-2148-603c-99b9-ced6410a28a8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Turrets (Any)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="315f1f10-31a7-96b7-72f1-39ed3e49b9a0" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Starboard/Port" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1148,32 +1111,6 @@ Command Distance: 6"</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="fd599ac0-04df-0eb5-c6aa-13614f1d71f6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Slayer" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="6"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="1"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="2"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="0"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c02128f3-699a-632e-96b2-8974747849be" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Slayer Fore (Fixed)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="1"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="9a4f41be-2611-caaa-e1f9-adcc69f01ccb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Grief" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
@@ -1197,6 +1134,78 @@ Command Distance: 6"</description>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="92f1ed90-e375-27ac-59da-b98cf9d51696" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Harbinger" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="11"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="9"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="6"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="6"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="5"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="5"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d0b6b778-57d7-09f5-250d-c9e6cf86adec" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Fore" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="315f1f10-31a7-96b7-72f1-39ed3e49b9a0" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Starboard/Port" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b585bc24-2148-603c-99b9-ced6410a28a8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Harbinger Turrets (Any)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fd599ac0-04df-0eb5-c6aa-13614f1d71f6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Slayer" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="6"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="1"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="2"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="0"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c02128f3-699a-632e-96b2-8974747849be" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Slayer Fore (Fixed)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="1"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
       </characteristics>
       <modifiers/>
     </profile>
