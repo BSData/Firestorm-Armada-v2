@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ba04c4bc-6d57-1bb9-9b03-aaff906488af" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Oroshan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ba04c4bc-6d57-1bb9-9b03-aaff906488af" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.14b" name="Oroshan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="e4499a36-ec12-30a8-aa2b-45cea61730a7" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="03ba9160-90e4-092a-840a-5f151b12dc1b" name="Battle Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -879,15 +887,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
-    </entry>
-    <entry id="e4499a36-ec12-30a8-aa2b-45cea61730a7" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
+      <links>
+        <link id="06b9b45b-031e-c67f-ad6b-d8745cb12e7e" targetId="d5433a82-51ae-f20d-54e5-45685dded8fc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </entries>
   <rules>
