@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -5748,7 +5749,7 @@
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="02bcad16-3a7c-0df8-0d55-da653c87e79a" name="Beam Weapons" hidden="false" page="0">
-      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10" of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
+      <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
       <modifiers/>
     </rule>
     <rule id="80ac616e-a7b1-4e59-3f63-bd1c051f5037" name="Corrosive" hidden="false" page="0">
@@ -5846,8 +5847,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="2"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5858,16 +5860,18 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a280bbe2-1c44-51a7-1028-66fa6831a03d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Barracuda/Chimaera/Piranha Starboard/Port" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value=""/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5894,16 +5898,18 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="790da2ee-b4c5-3b51-e4db-0231a6aa4d5d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Charybdis/Triton Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value=""/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5914,16 +5920,18 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="29a70421-ff8f-98df-a2e7-1d9f6cd16ddd" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Charybdis/Triton Torpedoes (Any)" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value=""/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5950,6 +5958,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5960,6 +5969,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5968,8 +5978,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5980,6 +5991,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6006,6 +6018,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6016,6 +6029,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="3"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6026,6 +6040,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="3"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6036,6 +6051,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6078,6 +6094,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6088,6 +6105,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6098,6 +6116,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6105,9 +6124,10 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value=""/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6134,6 +6154,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6144,6 +6165,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6154,6 +6176,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6161,9 +6184,10 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value=""/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6190,6 +6214,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6200,6 +6225,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6210,6 +6236,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6220,6 +6247,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6246,6 +6274,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6256,6 +6285,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6266,6 +6296,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6276,6 +6307,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6302,6 +6334,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6326,8 +6359,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6336,8 +6370,9 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value=""/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6364,16 +6399,18 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="fee9782f-1626-bda1-d75a-423d9ccdac95" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Vortex Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="1"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6384,6 +6421,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Beam"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6394,6 +6432,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6404,6 +6443,7 @@ The Attack Dice (AD) value of any weapon system on the model will return to thei
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
