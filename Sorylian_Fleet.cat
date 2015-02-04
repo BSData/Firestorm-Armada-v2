@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd1069ca-43df-2dd9-dc23-9c4bd202a93e" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1a8a338f-dafb-62b1-4c3e-9537c3ea1635" name="Battle Cruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -3528,6 +3528,104 @@
         </link>
       </links>
     </entry>
+    <entry id="74ba-5661-74b2-09b6" name="Defence Platform" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2dbe-c4bf-dc8b-153f" name="Platform Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="00a0-c2e0-72b9-7e35" name="Aspis" points="25.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="9c2a-26bf-7ec4-c2d9" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="e249-082a-d109-e840" name="Pack Hunters" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="0b82-2524-3125-9562" targetId="d7ba7998-32aa-1717-385d-5772c4e04522" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="4730-25d8-d411-2c02" name="Kinetic Fore (Fixed)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="8fde-815f-867e-c354" targetId="341bd34e-d2c7-a3b2-8f7e-6605b3938beb" linkType="rule">
+                          <modifiers/>
+                        </link>
+                        <link id="7baf-0c6e-c081-1290" targetId="1bce-4bc8-2857-6c80" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8130-0f79-95ec-e39f" targetId="b21cdaaa-846d-dd0d-f287-027d675ea297" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ab96-7bea-f82f-cf02" targetId="64cdd759-92bd-ba9f-c3da-5d2533b369c0" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="59ac-e2ae-5c9e-0648" targetId="686e26e1-10de-0786-d58d-1e6cd845be09" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="0cc0-7132-6eae-f46a" targetId="9ef899ec-0148-1930-06d9-cea2b87ecf5b" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7f01-d492-997f-01ff" targetId="1a53-a50a-df00-a1b5" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ee7f-9cce-2ee1-84bf" targetId="07c3-bfbd-6191-5f3d" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="d393-443b-ef58-39b9" targetId="4a19-0f36-8c86-6e16" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="00a0-c2e0-72b9-7e35" childId="4730-25d8-d411-2c02" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="8e64-7aba-f445-765b" targetId="cbae-48ef-ba0b-a75a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </entries>
   <rules>
     <rule id="ad90f4ee-8cad-2892-623f-dd60740eaa80" name="Sorylian Fleet Statistics" hidden="false" page="0">
@@ -3705,6 +3803,10 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
     </rule>
     <rule id="9ef899ec-0148-1930-06d9-cea2b87ecf5b" name="Weapon Shielding" hidden="false" page="0">
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1a53-a50a-df00-a1b5" name="Orbit" hidden="false" book="Defence Platform PDF" page="1">
+      <description>May be deployed in orbit (within 4”) of a planet, planetoid or Battle Station within the player’s Deployment Zone facing any direction. When Orbiting not subject to move by effects (Gravitational Weapons, slingshots etc.)</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -4015,6 +4117,55 @@ The effects of multiple Cloaking Fields are not cumulative. A model using System
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="07c3-bfbd-6191-5f3d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Aspis" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="7"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="0"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="3"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="2"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="1"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
+        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4a19-0f36-8c86-6e16" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Aspis Fore" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cbae-48ef-ba0b-a75a" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Aspis Starboard/Port" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1bce-4bc8-2857-6c80" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Aspis Fore (Fixed)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
