@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" revision="13" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Directorate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" revision="14" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Directorate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d0f5fda7-8c5f-15cc-bb90-f426bac616ed" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -3139,115 +3139,124 @@
     <entry id="3e89-8ddd-7255-ff0a" name="Defence Platform" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="e8f0-1b0e-bf7e-5139" name="Platform Class" defaultEntryId="7b4d-2b3c-f37e-644b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e8f0-1b0e-bf7e-5139" name="Platform Class" defaultEntryId="db6b-c846-7400-dbb9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="7b4d-2b3c-f37e-644b" name="Neutralizer" points="15.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="8f08-b2cc-ba95-f32f" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="e7c4-0d7b-af03-8cab" name="Hidden Killer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                      <entries/>
+            <entry id="db6b-c846-7400-dbb9" name="Neutralizer Platforms" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="894c-9963-b93b-a836" name="Neutralizer" points="15.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="f830-57b3-dacc-0d0f" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="8616-3a73-09fd-e4fa" name="Hidden Killer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="cf54-5ed3-0cc7-24da" targetId="6925915a-0748-fba5-aebd-68acd4e3bf70" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="3351-3b47-5376-64a4" name="Cyberwarfare" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers>
+                            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions>
+                                <condition parentId="894c-9963-b93b-a836" childId="c31d-e260-1652-c536" field="selections" type="equal to" value="1.0"/>
+                              </conditions>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="0beb-767a-fc09-de55" targetId="0eab1ffd-e964-e772-7a0b-4efa15e43700" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
                       <entryGroups/>
                       <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="cb15-cde7-5882-14b8" targetId="6925915a-0748-fba5-aebd-68acd4e3bf70" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="0eec-c4ab-49a2-6f5c" name="Cyberwarfare" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="bb4d-3c22-909b-2d02" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="c31d-e260-1652-c536" name="Biohazard Beams" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers>
+                            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions>
+                                <condition parentId="894c-9963-b93b-a836" childId="3351-3b47-5376-64a4" field="selections" type="equal to" value="1.0"/>
+                              </conditions>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="3bcf-8aa9-68d5-7e57" targetId="ff5d0cac-aab9-faf1-1c36-bb6e5e1132aa" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
                       <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="abf7-1972-d68e-a4d7" targetId="46ed-3832-3a0e-27dc" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="b3b5-647f-633c-e515" targetId="5fd9-b815-f953-52c3" linkType="profile">
                       <modifiers>
-                        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Cyberwarfare" repeat="true" numRepeats="1" incrementParentId="894c-9963-b93b-a836" incrementChildId="3351-3b47-5376-64a4" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Biohazard)" repeat="true" numRepeats="1" incrementParentId="894c-9963-b93b-a836" incrementChildId="c31d-e260-1652-c536" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="985d-5097-1bb2-08ec" targetId="4c3f5e0a-3c61-f552-70f6-4fdd8e259efb" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2616-0966-0e9c-7c86" targetId="74a76b5c-f752-d381-2fd8-2595c258be2d" linkType="rule">
+                      <modifiers>
+                        <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="7b4d-2b3c-f37e-644b" childId="cf8c-da74-0433-2223" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="894c-9963-b93b-a836" childId="8616-3a73-09fd-e4fa" field="selections" type="equal to" value="1.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="e357-a190-1306-5a72" targetId="0eab1ffd-e964-e772-7a0b-4efa15e43700" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-                <entryGroup id="c692-2308-a423-6cf1" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="cf8c-da74-0433-2223" name="Biohazard Beams" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="7b4d-2b3c-f37e-644b" childId="0eec-c4ab-49a2-6f5c" field="selections" type="equal to" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="7433-d32e-e17f-cc35" targetId="ff5d0cac-aab9-faf1-1c36-bb6e5e1132aa" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
+                    </link>
+                    <link id="d927-d10e-0d96-fc2b" targetId="be2a4029-2415-13ab-3019-31290febb35b" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="e49d-a50b-8781-b2f9" targetId="afb0-1b4d-d0c1-251b" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="3a28-7836-95ae-d01b" targetId="46ed-3832-3a0e-27dc" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="7827-ea35-eb24-00ed" targetId="5fd9-b815-f953-52c3" linkType="profile">
-                  <modifiers>
-                    <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Cyberwarfare" repeat="true" numRepeats="1" incrementParentId="7b4d-2b3c-f37e-644b" incrementChildId="0eec-c4ab-49a2-6f5c" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Biohazard)" repeat="true" numRepeats="1" incrementParentId="7b4d-2b3c-f37e-644b" incrementChildId="cf8c-da74-0433-2223" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="98ca-b209-a481-ef7e" targetId="4c3f5e0a-3c61-f552-70f6-4fdd8e259efb" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="cc6f-a5f0-188b-4342" targetId="74a76b5c-f752-d381-2fd8-2595c258be2d" linkType="rule">
-                  <modifiers>
-                    <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="7b4d-2b3c-f37e-644b" childId="e7c4-0d7b-af03-8cab" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="f890-9b02-cd58-3e91" targetId="be2a4029-2415-13ab-3019-31290febb35b" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7484-b34a-abe9-c6ef" targetId="afb0-1b4d-d0c1-251b" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
@@ -4559,6 +4568,14 @@ Command Distance: 6&quot;</description>
       <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
       <modifiers/>
     </rule>
+    <rule id="a0f5-b54e-4529-7325" name="Combustible Cargo" hidden="false">
+      <description>If destroyed, attack all ships within 4&quot; of flight peg with AD equal to double the initial HP of the ship. If destroyed by a Reactor Overload, only resolve one of the explosions.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7f74-5c11-ea63-b9a0" name="Compressor Beam" hidden="false" book="Return of the Overseers" page="27">
+      <description>Gravitational weapons with the Compressor Beam MAR cannot use its weapons to Control.</description>
+      <modifiers/>
+    </rule>
     <rule id="27c844ef-d47e-a27e-059d-34e53a17a240" name="Corrosive" hidden="false" page="0">
       <description>Coherence Effect - If ALL weapons contributing to an attack are Corrosive and the Attack exceeds the target’s Damage Rating, the target model gains a Corroded Marker.
 
@@ -4594,6 +4611,10 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
     </rule>
     <rule id="6925915a-0748-fba5-aebd-68acd4e3bf70" name="Hidden Killer" hidden="false" page="0">
       <description>A Hidden Killer CANNOT be targeted by ANY weapons firing from further than 20” if it is at a Full Stop.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0740-2ebd-1491-cc27" name="High Energy" hidden="false" page="0">
+      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
       <modifiers/>
     </rule>
     <rule id="5e5388a1-8167-2d72-b428-95f89f1276c2" name="Impervious" hidden="false" page="0">
@@ -4646,18 +4667,6 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
     </rule>
     <rule id="be2a4029-2415-13ab-3019-31290febb35b" name="Unmanned" hidden="false" page="0">
       <description>An Unmanned model does not suffer Crew Loss penalties for having zero Crew.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7f74-5c11-ea63-b9a0" name="Compressor Beam" hidden="false" book="Return of the Overseers" page="27">
-      <description>Gravitational weapons with the Compressor Beam MAR cannot use its weapons to Control.</description>
-      <modifiers/>
-    </rule>
-    <rule id="0740-2ebd-1491-cc27" name="High Energy" hidden="false" page="0">
-      <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
-      <modifiers/>
-    </rule>
-    <rule id="a0f5-b54e-4529-7325" name="Combustible Cargo" hidden="false">
-      <description>If destroyed, attack all ships within 4&quot; of flight peg with AD equal to double the initial HP of the ship. If destroyed by a Reactor Overload, only resolve one of the explosions.</description>
       <modifiers/>
     </rule>
   </sharedRules>
