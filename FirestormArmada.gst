@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="18" battleScribeVersion="1.15" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="19" battleScribeVersion="1.15" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="b2bfd1b1-a8a0-b3a6-0cfc-c304cb84dca5" name="Standard Fleet" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="50" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -794,6 +795,15 @@
         <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Type"/>
         <characteristic id="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr."/>
+      </characteristics>
+    </profileType>
+    <profileType id="1c02-13af-9604-8605" name="SRS Token">
+      <characteristics>
+        <characteristic id="51cd-7087-6fe8-3c61" name="Mv"/>
+        <characteristic id="15fb-fff8-6d89-0c16" name="AD"/>
+        <characteristic id="5129-5f00-6506-3ce6" name="PD"/>
+        <characteristic id="4474-acef-601d-d3ec" name="AP"/>
+        <characteristic id="ee90-104e-254a-ac33" name="Token Size"/>
       </characteristics>
     </profileType>
   </profileTypes>
