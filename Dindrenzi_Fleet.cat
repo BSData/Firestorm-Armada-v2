@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="15" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="16" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="231d532a-343f-06d3-ae8c-ba0e8fb08274" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -373,7 +373,7 @@
                       </characteristics>
                       <modifiers/>
                     </profile>
-                    <profile id="8046e0e5-f657-e496-f11f-8831996f3ad4" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore (Fixed) 1" hidden="false" page="0">
+                    <profile id="8046e0e5-f657-e496-f11f-8831996f3ad4" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore 1 (Fixed)" hidden="false" page="0">
                       <characteristics>
                         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
                         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
@@ -382,9 +382,14 @@
                         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
                         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                       </characteristics>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" incrementChildId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </profile>
-                    <profile id="f28a0701-f059-646b-a2b2-25944f9ba92d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore (Fixed) 2" hidden="false" page="0">
+                    <profile id="f28a0701-f059-646b-a2b2-25944f9ba92d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore 2 (Fixed)" hidden="false" page="0">
                       <characteristics>
                         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
                         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
@@ -393,7 +398,12 @@
                         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
                         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                       </characteristics>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" incrementChildId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </profile>
                   </profiles>
                   <links>
@@ -847,7 +857,7 @@
                 <profile id="5b548e4a-bd83-2ccf-02f2-a6906bc0a591" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian Torpedoes Fore 1" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value=""/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
@@ -2750,7 +2760,7 @@
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="dca51465-298a-7a75-a182-e5d1c386aff8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore (Fixed) 1" hidden="false" page="0">
+                <profile id="dca51465-298a-7a75-a182-e5d1c386aff8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore 1 (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
@@ -2766,7 +2776,7 @@
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="28ff1111-3981-614c-8ff8-b7a685ede2ce" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore (Fixed) 1" hidden="false" page="0">
+                <profile id="28ff1111-3981-614c-8ff8-b7a685ede2ce" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore 1 (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
@@ -2784,7 +2794,7 @@
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="fcaa4e4a-70ad-7ec2-debb-435f222d77ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore (Fixed) 2" hidden="false" page="0">
+                <profile id="fcaa4e4a-70ad-7ec2-debb-435f222d77ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore 2 (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
@@ -2800,7 +2810,7 @@
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="df07db49-3be5-ddea-d719-269309beabd7" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore (Fixed) 2" hidden="false" page="0">
+                <profile id="df07db49-3be5-ddea-d719-269309beabd7" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore 2 (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
@@ -3964,7 +3974,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6dc67a67-5359-2054-49e3-c4a448eb54e1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Claymore/Falchion Torpedoes (Fore)" hidden="false" page="0">
+    <profile id="6dc67a67-5359-2054-49e3-c4a448eb54e1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Claymore/Falchion Torpedoes Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
@@ -3991,7 +4001,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="77af8f65-5d22-15b5-c9d6-f5bea9d2cf2d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa (Fore Fixed)" hidden="false" page="0">
+    <profile id="77af8f65-5d22-15b5-c9d6-f5bea9d2cf2d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa Fore (Fixed)" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="13"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
@@ -4084,7 +4094,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f1715c3b-b5cb-c9ef-28dd-58053d080331" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Fury/Secutor Torpedoes (Fore)" hidden="false" page="0">
+    <profile id="f1715c3b-b5cb-c9ef-28dd-58053d080331" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Fury/Secutor Torpedoes Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
@@ -4209,7 +4219,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="77f1-a197-5a53-3588" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Pilum (Fore Fixed)" hidden="false">
+    <profile id="77f1-a197-5a53-3588" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Pilum Fore (Fixed)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
@@ -4258,7 +4268,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2a754c3d-9263-ae1e-2b9c-2d33471cc403" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spatha/Gladius Torpedoes (Fore)" hidden="false" page="0">
+    <profile id="2a754c3d-9263-ae1e-2b9c-2d33471cc403" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spatha/Gladius Torpedoes Fore" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
