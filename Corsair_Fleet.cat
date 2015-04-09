@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="788f-cbfa-9baa-70db" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Corsair Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="788f-cbfa-9baa-70db" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Corsair Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -206,7 +206,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="b40a-25fd-41a2-e6f5" name="Exchange Fore #2 for Any Arc Torpedoes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="b40a-25fd-41a2-e6f5" name="Exchange Fore 2 for Any Arc Torpedoes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1224,7 +1224,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b5206fdb-a958-3c4f-2346-952ed19618f9" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Fore (#1)" hidden="false">
+    <profile id="b5206fdb-a958-3c4f-2346-952ed19618f9" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Fore 1" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
@@ -1235,7 +1235,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0aa1-6564-6234-2130" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Fore (#2)" hidden="false">
+    <profile id="0aa1-6564-6234-2130" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Fore 2" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
@@ -1246,7 +1246,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c0b1169f-1349-efc5-e5df-f5be4c2248f3" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Torpedoes (Str/Prt)" hidden="false">
+    <profile id="c0b1169f-1349-efc5-e5df-f5be4c2248f3" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Brigand Torpedoes Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
@@ -1273,7 +1273,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7db5108b-7e75-0598-44f2-3fa08e324619" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Outlaw/Cutthroat Fore " hidden="false">
+    <profile id="7db5108b-7e75-0598-44f2-3fa08e324619" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Outlaw/Cutthroat Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
@@ -1300,7 +1300,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="58617ac7-ce98-a9f4-2499-26e0b3bce20b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Fore (#1)" hidden="false">
+    <profile id="58617ac7-ce98-a9f4-2499-26e0b3bce20b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Fore 1" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
@@ -1311,7 +1311,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="59a6-2f83-49cf-696b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Fore (#2)" hidden="false">
+    <profile id="59a6-2f83-49cf-696b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Fore 2" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
@@ -1333,7 +1333,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6f514d81-5de2-d5fe-ad4a-e80c4c9793be" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Torpedoes (Str/Prt)" hidden="false">
+    <profile id="6f514d81-5de2-d5fe-ad4a-e80c4c9793be" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Racketeer Torpedoes Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
