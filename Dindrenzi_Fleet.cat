@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="16" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="17" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="231d532a-343f-06d3-ae8c-ba0e8fb08274" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -387,6 +387,12 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" childId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </profile>
                     <profile id="f28a0701-f059-646b-a2b2-25944f9ba92d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore 2 (Fixed)" hidden="false" page="0">
@@ -401,6 +407,48 @@
                       <modifiers>
                         <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" incrementChildId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" incrementField="selections" incrementValue="1.0">
                           <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" childId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                    <profile id="e5f8-09dd-453f-ada0" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore 1 (Fixed) (High Energy)" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" childId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" field="selections" type="equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                    <profile id="7bfe-bf32-957a-4ee6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract Fore 2 (Fixed) (High Energy)" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="2705d7c1-62fb-09c8-e996-a6544ce77fb7" childId="5c5f0b18-f66a-9400-59d3-46d9a826a85c" field="selections" type="equal to" value="0.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
@@ -593,8 +641,10 @@
               <links>
                 <link id="f8bb041b-84a9-4fa1-d8b9-fdc2eded5f8c" targetId="77af8f65-5d22-15b5-c9d6-f5bea9d2cf2d" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="true" numRepeats="1" incrementParentId="7a789c34-cb60-451f-300c-7ae440694b00" incrementChildId="a9b7b29e-639a-a584-095c-6ae5ab3fcdf5" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="a9b7b29e-639a-a584-095c-6ae5ab3fcdf5" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -637,13 +687,17 @@
                 </link>
                 <link id="15b8e85e-cc93-e40e-dbb9-64ddb9076855" targetId="0a396336-1faf-1b96-3102-2c9532745fc1" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Scatter)" repeat="true" numRepeats="1" incrementParentId="7a789c34-cb60-451f-300c-7ae440694b00" incrementChildId="23393262-8131-01f7-7900-9c3e0e715980" incrementField="selections" incrementValue="1.0">
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="7a789c34-cb60-451f-300c-7ae440694b00" incrementChildId="ffcd1985-981c-0daa-1807-0878380fab88" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="23393262-8131-01f7-7900-9c3e0e715980" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="ffcd1985-981c-0daa-1807-0878380fab88" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </link>
@@ -659,6 +713,64 @@
                 </link>
                 <link id="4efe-fa4b-c288-42eb" targetId="8cf9801b-3940-22ce-764e-f037c8143fb2" linkType="rule">
                   <modifiers/>
+                </link>
+                <link id="1a0d-cacf-bb2e-154f" targetId="66c3-896c-73fc-9602" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="23393262-8131-01f7-7900-9c3e0e715980" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="ffcd1985-981c-0daa-1807-0878380fab88" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="0007-c2d8-8ae7-a5e3" targetId="1d2b-ac27-ed3c-35c3" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="23393262-8131-01f7-7900-9c3e0e715980" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="ffcd1985-981c-0daa-1807-0878380fab88" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="bbbd-89c9-6647-5235" targetId="d0da-93f2-dac0-5415" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="ffcd1985-981c-0daa-1807-0878380fab88" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="23393262-8131-01f7-7900-9c3e0e715980" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="9ac4-71e6-8a7e-6131" targetId="a21d-cb3b-50a9-ba83" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7a789c34-cb60-451f-300c-7ae440694b00" childId="a9b7b29e-639a-a584-095c-6ae5ab3fcdf5" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -848,8 +960,10 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
                   </characteristics>
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Split Fire)" repeat="true" numRepeats="1" incrementParentId="656f211c-0966-b0eb-dccc-f99f48de678c" incrementChildId="cc028858-5da7-3ec3-388c-fd4644b944b5" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="656f211c-0966-b0eb-dccc-f99f48de678c" childId="cc028858-5da7-3ec3-388c-fd4644b944b5" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -875,8 +989,10 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                   </characteristics>
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="true" numRepeats="1" incrementParentId="656f211c-0966-b0eb-dccc-f99f48de678c" incrementChildId="3473a1f4-e67f-20ad-683f-673001d11756" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="656f211c-0966-b0eb-dccc-f99f48de678c" childId="3473a1f4-e67f-20ad-683f-673001d11756" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -891,6 +1007,42 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                   </characteristics>
                   <modifiers/>
+                </profile>
+                <profile id="858d-8adb-8556-4faf" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian Gun Rack (Split Fire)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+                    <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="656f211c-0966-b0eb-dccc-f99f48de678c" childId="cc028858-5da7-3ec3-388c-fd4644b944b5" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile id="2c1f-0a32-c3e2-ec32" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian Fore (Fixed) (High Energy)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                    <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="656f211c-0966-b0eb-dccc-f99f48de678c" childId="3473a1f4-e67f-20ad-683f-673001d11756" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <links>
@@ -1046,8 +1198,10 @@
               <links>
                 <link id="b33f7831-a420-ca0b-c572-4de323fcbbbd" targetId="77af8f65-5d22-15b5-c9d6-f5bea9d2cf2d" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="true" numRepeats="1" incrementParentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" incrementChildId="5f4f4d77-3677-7a4c-3bfa-0b07d26395c3" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="5f4f4d77-3677-7a4c-3bfa-0b07d26395c3" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -1090,13 +1244,17 @@
                 </link>
                 <link id="e80b5812-ded0-94bf-752f-f58e71db7021" targetId="0a396336-1faf-1b96-3102-2c9532745fc1" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Scatter)" repeat="true" numRepeats="1" incrementParentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" incrementChildId="75d36703-ff9d-d957-3903-7fc7d14222c6" incrementField="selections" incrementValue="1.0">
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" incrementChildId="b71139ae-1140-e116-42e5-a5cb9e48036e" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="75d36703-ff9d-d957-3903-7fc7d14222c6" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="b71139ae-1140-e116-42e5-a5cb9e48036e" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </link>
@@ -1112,6 +1270,64 @@
                 </link>
                 <link id="ca8d-659d-4790-45a5" targetId="8cf9801b-3940-22ce-764e-f037c8143fb2" linkType="rule">
                   <modifiers/>
+                </link>
+                <link id="a117-88c3-c286-cbe2" targetId="a21d-cb3b-50a9-ba83" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="5f4f4d77-3677-7a4c-3bfa-0b07d26395c3" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="e652-4672-25ff-b5cf" targetId="66c3-896c-73fc-9602" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="75d36703-ff9d-d957-3903-7fc7d14222c6" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="b71139ae-1140-e116-42e5-a5cb9e48036e" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="cadf-22b1-8f70-20f3" targetId="d0da-93f2-dac0-5415" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="75d36703-ff9d-d957-3903-7fc7d14222c6" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="b71139ae-1140-e116-42e5-a5cb9e48036e" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="82b9-d349-e7c9-985c" targetId="1d2b-ac27-ed3c-35c3" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="b71139ae-1140-e116-42e5-a5cb9e48036e" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="87172d6c-b184-5526-a8a1-f0450a30fd1d" childId="75d36703-ff9d-d957-3903-7fc7d14222c6" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -2475,8 +2691,28 @@
                         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
                       </characteristics>
                       <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="true" numRepeats="1" incrementParentId="9e0ff654-4808-c473-18fb-755db9b71b8e" incrementChildId="8974de15-15f8-1a2f-2d7e-745980c8696a" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="9e0ff654-4808-c473-18fb-755db9b71b8e" childId="8974de15-15f8-1a2f-2d7e-745980c8696a" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                    <profile id="9c3b-e819-179c-2b28" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Trident Fore (Fixed) (High Energy)" hidden="false" page="0">
+                      <characteristics>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
+                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
+                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
+                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="9e0ff654-4808-c473-18fb-755db9b71b8e" childId="8974de15-15f8-1a2f-2d7e-745980c8696a" field="selections" type="equal to" value="0.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
@@ -2573,7 +2809,30 @@
                       <entryGroups/>
                       <modifiers/>
                       <rules/>
-                      <profiles/>
+                      <profiles>
+                        <profile id="6cca-78be-311c-86ba" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution 1 Fore (Fixed) (High Energy)" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+                            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+                            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+                            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+                            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                            <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                        <profile id="cd4d-fb3f-0d15-7efe" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution 2 Fore (Fixed) (High Energy)" hidden="false" page="0">
+                          <characteristics>
+                            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+                            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+                            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+                            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+                            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+                            <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+                          </characteristics>
+                          <modifiers/>
+                        </profile>
+                      </profiles>
                       <links>
                         <link id="20541c1e-9572-3c75-bbd0-9cfbfe2fcd17" targetId="85339205-ec0a-e75d-b724-aba00c2bdf77" linkType="rule">
                           <modifiers/>
@@ -2637,7 +2896,7 @@
                       <modifiers/>
                       <rules/>
                       <profiles>
-                        <profile id="06b7-e2ed-ed3d-b8c9" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore 1" hidden="false" page="0">
+                        <profile id="06b7-e2ed-ed3d-b8c9" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes 1 Fore" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
                             <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
@@ -2648,7 +2907,7 @@
                           </characteristics>
                           <modifiers/>
                         </profile>
-                        <profile id="7d74-a184-a3c1-cf8d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes Fore 2" hidden="false" page="0">
+                        <profile id="7d74-a184-a3c1-cf8d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Torpedoes 2 Fore" hidden="false" page="0">
                           <characteristics>
                             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
                             <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
@@ -2750,17 +3009,21 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
                   </characteristics>
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (Scatter)" repeat="true" numRepeats="1" incrementParentId="143c4486-55ae-df5f-e5ee-88b3d541b474" incrementChildId="bb7d0f51-6e41-5c8c-0c16-e2271bedfb47" incrementField="selections" incrementValue="1.0">
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="143c4486-55ae-df5f-e5ee-88b3d541b474" incrementChildId="1eb23710-a6d5-5f64-923c-6367dc05bf08" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="1eb23710-a6d5-5f64-923c-6367dc05bf08" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="bb7d0f51-6e41-5c8c-0c16-e2271bedfb47" field="selections" type="not equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="dca51465-298a-7a75-a182-e5d1c386aff8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore 1 (Fixed)" hidden="false" page="0">
+                <profile id="dca51465-298a-7a75-a182-e5d1c386aff8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution 1 Fore (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
@@ -2770,8 +3033,10 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                   </characteristics>
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="143c4486-55ae-df5f-e5ee-88b3d541b474" incrementChildId="5a79de9e-035f-0147-e28e-422a0fe5df53" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="roster" childId="5a79de9e-035f-0147-e28e-422a0fe5df53" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -2794,7 +3059,7 @@
                     </modifier>
                   </modifiers>
                 </profile>
-                <profile id="fcaa4e4a-70ad-7ec2-debb-435f222d77ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Fore 2 (Fixed)" hidden="false" page="0">
+                <profile id="fcaa4e4a-70ad-7ec2-debb-435f222d77ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution 2 Fore (Fixed)" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
@@ -2804,8 +3069,10 @@
                     <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
                   </characteristics>
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="143c4486-55ae-df5f-e5ee-88b3d541b474" incrementChildId="5a79de9e-035f-0147-e28e-422a0fe5df53" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="roster" childId="5a79de9e-035f-0147-e28e-422a0fe5df53" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -2825,6 +3092,78 @@
                         <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="264a7fb3-d43f-3e44-6c65-aff25fd1d576" field="selections" type="equal to" value="1.0"/>
                       </conditions>
                       <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile id="1d95-f64b-c6c2-c05e" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Gun Rack" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+                    <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="1eb23710-a6d5-5f64-923c-6367dc05bf08" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="bb7d0f51-6e41-5c8c-0c16-e2271bedfb47" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile id="c6f2-1b40-c027-6b77" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Gun Rack (Split Fire)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+                    <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="1eb23710-a6d5-5f64-923c-6367dc05bf08" field="selections" type="not equal to" value="1.0"/>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="bb7d0f51-6e41-5c8c-0c16-e2271bedfb47" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </profile>
+                <profile id="407e-e4ab-ff7d-d31b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution Gun Rack (Split Fire)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+                    <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="hide" field="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="bb7d0f51-6e41-5c8c-0c16-e2271bedfb47" field="selections" type="not equal to" value="0.0"/>
+                            <condition parentId="143c4486-55ae-df5f-e5ee-88b3d541b474" childId="1eb23710-a6d5-5f64-923c-6367dc05bf08" field="selections" type="not equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </profile>
@@ -4276,6 +4615,50 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="66c3-896c-73fc-9602" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa Gun Rack" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d0da-93f2-dac0-5415" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa Gun Rack (Split Fire)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Scatter"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1d2b-ac27-ed3c-35c3" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa Gun Rack (Split Fire)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a21d-cb3b-50a9-ba83" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Conqueror/Nausicaa Fore (Fixed) (High Energy)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="13"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
