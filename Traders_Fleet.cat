@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ccd4b9d-cadd-9b21-e0c4-c1419bf22322" revision="5" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Traders Fleet" authorName="XViper" authorContact="xviper@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ccd4b9d-cadd-9b21-e0c4-c1419bf22322" revision="6" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Traders Fleet" authorName="XViper" authorContact="xviper@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -119,7 +119,20 @@
               <profiles/>
               <links>
                 <link id="2919889a-2bc4-73bc-7984-626af8ec9b1d" targetId="fe852144-1fb2-ae23-a598-acd8dac3ce3a" linkType="profile">
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="06321924-21f3-62b8-e232-c5847aebbf0b" incrementChildId="b277def8-5424-121d-9cc9-f6af1ef8858e" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="2" repeat="true" numRepeats="1" incrementParentId="06321924-21f3-62b8-e232-c5847aebbf0b" incrementChildId="38aa1c9f-0781-6763-2c87-8ff948afb05d" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="06321924-21f3-62b8-e232-c5847aebbf0b" incrementChildId="8fcd3f05-bce0-f138-12b9-c25e7281ad5d" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
                 <link id="ddc8e4ef-86e9-61c0-e80d-5abb7c0216f2" targetId="548739a4-9871-8812-4058-bfc48acfdc68" linkType="profile">
                   <modifiers/>
@@ -280,7 +293,12 @@
                   <profiles/>
                   <links>
                     <link id="ec2a25c5-345a-8b27-e711-d06d07f5ee72" targetId="8711e54a-fd77-e31d-02f8-07d67efb5afe" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="ba9fad7f-315a-32f3-228e-22468ce0219f" incrementChildId="2a09091a-fa12-5cb3-cc7b-7a34a9189a61" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="1ed11731-5240-c60f-1d1f-3c12b5a55633" targetId="58617ac7-ce98-a9f4-2499-26e0b3bce20b" linkType="profile">
                       <modifiers/>
@@ -1112,7 +1130,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a7f381b5-3f24-dbb1-229f-9a2f8fffd1d8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets (Any) 1" hidden="false">
+    <profile id="a7f381b5-3f24-dbb1-229f-9a2f8fffd1d8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets 1 (Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
@@ -1123,7 +1141,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="548739a4-9871-8812-4058-bfc48acfdc68" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets (Any) 2" hidden="false">
+    <profile id="548739a4-9871-8812-4058-bfc48acfdc68" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets 2 (Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
@@ -1134,7 +1152,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7b8fd109-3eeb-b9f7-a0f9-212a89ed1eda" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets (Any) 3" hidden="false">
+    <profile id="7b8fd109-3eeb-b9f7-a0f9-212a89ed1eda" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer Turrets 3 (Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
