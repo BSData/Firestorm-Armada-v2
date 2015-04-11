@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8e0b405-898c-9256-2b55-50a4e22b45b1" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Pathogen Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8e0b405-898c-9256-2b55-50a4e22b45b1" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Pathogen Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -121,14 +121,26 @@
                 </link>
                 <link id="f5557dcc-6e41-7c55-c025-791b05f7dbb4" targetId="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="5e05db3b-00ad-6c76-bc05-ee1b65de3670" incrementChildId="a4a0646b-3e3f-f7de-9e5a-abd0934e4c78" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="5e05db3b-00ad-6c76-bc05-ee1b65de3670" childId="a4a0646b-3e3f-f7de-9e5a-abd0934e4c78" field="selections" type="not equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
                 </link>
                 <link id="bf36d64d-73e4-f233-6582-d9f7cdbd9aff" targetId="38075ed8-773d-b4ce-fb22-f791ca90584b" linkType="profile">
                   <modifiers/>
+                </link>
+                <link id="eec7-1631-a046-0d68" targetId="ae68-a06e-eede-b696" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="5e05db3b-00ad-6c76-bc05-ee1b65de3670" childId="a4a0646b-3e3f-f7de-9e5a-abd0934e4c78" field="selections" type="not equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -538,14 +550,26 @@
                 </link>
                 <link id="fc32aba7-1cdc-e094-20cd-9eed47a95349" targetId="b9887c79-87cc-8892-89d4-06c6a4f717c1" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="649ef932-5259-99c1-98ae-cadbf03c9d46" incrementChildId="6c72f067-a308-fb7a-2f2c-c955007d9d7c" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="649ef932-5259-99c1-98ae-cadbf03c9d46" childId="6c72f067-a308-fb7a-2f2c-c955007d9d7c" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
                 </link>
                 <link id="c09bc673-fb21-3963-8905-a77890fd354e" targetId="f0cee280-4e88-d908-5b02-0a81514558e1" linkType="rule">
                   <modifiers/>
+                </link>
+                <link id="8d33-aafe-6024-9b84" targetId="a2cc-132c-f360-19b9" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="649ef932-5259-99c1-98ae-cadbf03c9d46" childId="6c72f067-a308-fb7a-2f2c-c955007d9d7c" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -630,8 +654,10 @@
                     </link>
                     <link id="a43f2488-a645-b25b-7611-1c8575e41712" targetId="16aa0df5-c752-b1b2-26bd-88a7f68ea267" linkType="profile">
                       <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="ff2eb7a7-6a56-c8da-107b-35ef34cff4cc" incrementChildId="66fe1047-30df-09cb-f859-0f26fdf5d262" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
+                        <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="ff2eb7a7-6a56-c8da-107b-35ef34cff4cc" childId="66fe1047-30df-09cb-f859-0f26fdf5d262" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
@@ -647,6 +673,16 @@
                     </link>
                     <link id="a95bafdc-673f-6b2b-f529-1802398d6563" targetId="6b16fbed-b0d1-9470-4f3b-f3f1998fc4bb" linkType="rule">
                       <modifiers/>
+                    </link>
+                    <link id="e0a3-fa57-d546-8bb7" targetId="89fc-22b8-c1d4-3386" linkType="profile">
+                      <modifiers>
+                        <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="ff2eb7a7-6a56-c8da-107b-35ef34cff4cc" childId="66fe1047-30df-09cb-f859-0f26fdf5d262" field="selections" type="equal to" value="0.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                   </links>
                 </entry>
@@ -877,14 +913,26 @@
                 </link>
                 <link id="9319513c-ff63-66ab-3370-e55eee2797c7" targetId="6f477e71-4c2a-ef32-d8b2-8e0b140a6f47" linkType="profile">
                   <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="079d83fc-f2ad-9fca-4fcc-a192bff2402a" incrementChildId="5560c86f-c48e-e788-75c9-8a3562058fb5" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="079d83fc-f2ad-9fca-4fcc-a192bff2402a" childId="5560c86f-c48e-e788-75c9-8a3562058fb5" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
                 </link>
                 <link id="7e7180af-9221-98dc-a6d5-ff66c9c1c44d" targetId="092838ad-17a4-0fe5-f2e2-8bdfb20e44d4" linkType="profile">
                   <modifiers/>
+                </link>
+                <link id="6b16-1ba8-c7b6-0c24" targetId="e567-7aba-1a4e-8a1f" linkType="profile">
+                  <modifiers>
+                    <modifier type="hide" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="079d83fc-f2ad-9fca-4fcc-a192bff2402a" childId="5560c86f-c48e-e788-75c9-8a3562058fb5" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -1082,7 +1130,7 @@ Command Distance: 5&quot;</description>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="ee7c-e709-79e8-819d" name="Pathogen SRS Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="ee7c-e709-79e8-819d" name="Pathogen&amp;nbsp;SRS&amp;nbsp;Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
         <entryGroup id="4d0f-c217-8ca6-0c4d" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1108,7 +1156,7 @@ Command Distance: 5&quot;</description>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="36df-18cc-7b08-6b6d" profileTypeId="1c02-13af-9604-8605" name="(SRS) Pathogen" hidden="false">
+        <profile id="36df-18cc-7b08-6b6d" profileTypeId="1c02-13af-9604-8605" name="(SRS)&amp;nbsp;Pathogen" hidden="false">
           <characteristics>
             <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="12&quot;"/>
             <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="2"/>
@@ -1287,7 +1335,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Aureus Fore" hidden="false">
+    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Aureus&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
@@ -1314,7 +1362,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus Fore" hidden="false">
+    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
@@ -1325,7 +1373,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus Starboard/Port" hidden="false">
+    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
@@ -1336,13 +1384,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus Torpedoes (Any)" hidden="false">
+    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1363,7 +1411,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga Fore " hidden="false">
+    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga&amp;nbsp;Fore " hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
@@ -1374,7 +1422,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a7dd163d-5250-ffeb-786b-b697ed793662" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga Starboard/Port" hidden="false">
+    <profile id="a7dd163d-5250-ffeb-786b-b697ed793662" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
@@ -1385,13 +1433,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga Torpedoes" hidden="false">
+    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1412,7 +1460,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion Fore" hidden="false">
+    <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
@@ -1423,7 +1471,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion Starboard/Port" hidden="false">
+    <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
@@ -1434,13 +1482,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion Torpedoes (Any)" hidden="false">
+    <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Contagion&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1461,7 +1509,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2ecec835-5f63-086e-5594-9f847abe623b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta Fore" hidden="false">
+    <profile id="2ecec835-5f63-086e-5594-9f847abe623b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
@@ -1472,7 +1520,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="092838ad-17a4-0fe5-f2e2-8bdfb20e44d4" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta Starboard/Port" hidden="false">
+    <profile id="092838ad-17a4-0fe5-f2e2-8bdfb20e44d4" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="17"/>
@@ -1483,13 +1531,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6f477e71-4c2a-ef32-d8b2-8e0b140a6f47" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta Torpedoes (Any)" hidden="false">
+    <profile id="6f477e71-4c2a-ef32-d8b2-8e0b140a6f47" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1510,7 +1558,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e0e13423-fe13-1161-7a5d-fc6ff5f57a9c" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis Fore " hidden="false">
+    <profile id="e0e13423-fe13-1161-7a5d-fc6ff5f57a9c" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis&amp;nbsp;Fore " hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
@@ -1521,7 +1569,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="74ec7e32-0849-cd12-8903-9b8c60142ead" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis Starboard/Port" hidden="false">
+    <profile id="74ec7e32-0849-cd12-8903-9b8c60142ead" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="2"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
@@ -1532,13 +1580,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="62daaae9-33db-356e-c637-37db54c32ca1" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis Torpedoes (Any)" hidden="false">
+    <profile id="62daaae9-33db-356e-c637-37db54c32ca1" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Mitosis&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1559,7 +1607,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b358d582-132f-48cb-c083-17a92a497d5d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria Fore" hidden="false">
+    <profile id="b358d582-132f-48cb-c083-17a92a497d5d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
@@ -1570,7 +1618,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="309ccf5c-3505-d874-379f-aa1fd0a35741" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria Starboard/Port" hidden="false">
+    <profile id="309ccf5c-3505-d874-379f-aa1fd0a35741" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria&amp;nbsp;Starboard/Port" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
@@ -1581,13 +1629,13 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b9887c79-87cc-8892-89d4-06c6a4f717c1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria Torpedoes (Any)" hidden="false">
+    <profile id="b9887c79-87cc-8892-89d4-06c6a4f717c1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria&amp;nbsp;(Any)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
@@ -1608,7 +1656,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="85819e60-f72d-9187-bc69-a0f8368149e6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Stem Fore" hidden="false">
+    <profile id="85819e60-f72d-9187-bc69-a0f8368149e6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Stem&amp;nbsp;Fore" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="1"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="2"/>
@@ -1616,6 +1664,50 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
         <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ae68-a06e-eede-b696" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Botulinus&amp;nbsp;(Any)&amp;nbsp;(Biohazard)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e567-7aba-1a4e-8a1f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Hanta&amp;nbsp;(Any)&amp;nbsp;(Biohazard)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="89fc-22b8-c1d4-3386" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Chaga&amp;nbsp;(Any)&amp;nbsp;(Biohazard)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
+        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a2cc-132c-f360-19b9" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Naeglaria&amp;nbsp;(Any)&amp;nbsp;(Biohazard)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Torpedo"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
       </characteristics>
       <modifiers/>
     </profile>
