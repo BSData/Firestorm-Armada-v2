@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="17" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="18" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -758,9 +758,9 @@
                     </entryGroup>
                     <entryGroup id="16e139f0-aa56-e7fc-35c5-6b28057129e6" name="Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries>
-                        <entry id="bf196418-8771-b275-3d6f-c5d52b3d9ef9" name="Barracuda/Chimaera/Piranha Accompaniment" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                        <entry id="bf196418-8771-b275-3d6f-c5d52b3d9ef9" name="Barracuda/Chimaera/Piranha Accompaniment" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                           <entries>
-                            <entry id="b3091fd5-3b4a-1412-f551-0d629bc1094c" name="Barracuda/Chimaera/Piranha " points="20.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                            <entry id="b3091fd5-3b4a-1412-f551-0d629bc1094c" name="Barracuda/Chimaera/Piranha " points="20.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                               <entries/>
                               <entryGroups>
                                 <entryGroup id="d00bde96-ec3e-a638-2a3f-fde93703d696" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -820,23 +820,14 @@
                           </conditions>
                           <conditionGroups/>
                         </modifier>
-                      </modifiers>
-                      <links/>
-                    </entryGroup>
-                    <entryGroup id="c0815927-e128-cba7-0167-2c9a98c799a9" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="increment" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="806112a4-befc-995d-018e-84490b694f42" incrementChildId="4e7e4055-7674-e444-379b-58a1f0e72e93" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
+                        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="49ee0d25-3d05-b74f-146e-ddcbb4738feb" childId="806112a4-befc-995d-018e-84490b694f42" field="selections" type="greater than" value="1.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
-                      <links>
-                        <link id="3032-015f-0a44-6853" targetId="c66f-e4ed-3f83-9b6b" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                      </links>
+                      <links/>
                     </entryGroup>
                   </entryGroups>
                   <modifiers>
@@ -889,7 +880,23 @@
                   </links>
                 </entry>
               </entries>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="f783-0107-83b7-e2cc" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="49ee0d25-3d05-b74f-146e-ddcbb4738feb" incrementChildId="4e7e4055-7674-e444-379b-58a1f0e72e93" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <links>
+                    <link id="5ead-ca26-9f69-6f1f" targetId="c66f-e4ed-3f83-9b6b" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
               <modifiers>
                 <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
