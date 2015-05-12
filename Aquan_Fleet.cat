@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="18" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad67a6d1-a887-382a-1b74-dfa36f10c09a" revision="19" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bd39219f-ec0d-85ed-3adb-25f2e9404bd4" name="Aquan Escorts" points="0.0" categoryId="ee40567b-ddc7-be95-1cbc-def74dd8ce71" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -4454,9 +4454,9 @@
                 <entry id="a6f4-d376-8ddf-d17c" name="Shiva" points="80.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
-                    <entryGroup id="ec4b-4709-caec-dfba" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entryGroup id="ca01-c0c1-a4b9-3efc" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries>
-                        <entry id="bc7f-01ac-d9fc-d637" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                        <entry id="5f9b-8552-c047-d170" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -4464,14 +4464,14 @@
                           <profiles/>
                           <links/>
                         </entry>
-                        <entry id="b70f-f1b1-2f61-50d2" name="Energy Transfer (1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                        <entry id="9aea-5fed-42ff-f3fa" name="Energy Transfer (1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
                           <rules/>
                           <profiles/>
                           <links>
-                            <link id="f87f-b99a-78e0-0445" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
+                            <link id="bf32-65b2-41cf-3e5f" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
                               <modifiers>
                                 <modifier type="append" field="name" value=" (1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                                   <conditions/>
@@ -4492,7 +4492,12 @@
                   <profiles/>
                   <links>
                     <link id="c6ee-2a3d-33ab-987f" targetId="7d5a-e058-7cbd-ebfc" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="a6f4-d376-8ddf-d17c" incrementChildId="5f9b-8552-c047-d170" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="18be-c5dd-0c6a-cc3c" targetId="2847-36df-a675-cd5e" linkType="profile">
                       <modifiers/>
@@ -4723,9 +4728,9 @@
                         <entry id="ca56-141d-c7d2-e777" name="Shiva" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                           <entries/>
                           <entryGroups>
-                            <entryGroup id="dbd6-89d5-7990-a15d" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                            <entryGroup id="744d-929b-1f43-1b9e" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                               <entries>
-                                <entry id="80b9-3805-f66e-a675" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                                <entry id="7096-55ff-a1f4-3199" name="+1 Sh" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
@@ -4733,14 +4738,14 @@
                                   <profiles/>
                                   <links/>
                                 </entry>
-                                <entry id="8981-4476-a181-f9b9" name="Energy Transfer (1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                                <entry id="1e90-fe1b-3c78-dfe6" name="Energy Transfer (1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                                   <entries/>
                                   <entryGroups/>
                                   <modifiers/>
                                   <rules/>
                                   <profiles/>
                                   <links>
-                                    <link id="83e4-0dc0-bc86-8422" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
+                                    <link id="6470-9768-40f8-247d" targetId="acef585e-4cbe-db27-a1d1-7a933d1ceb7d" linkType="rule">
                                       <modifiers>
                                         <modifier type="append" field="name" value=" (1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                                           <conditions/>
@@ -4761,7 +4766,12 @@
                           <profiles/>
                           <links>
                             <link id="1f5b-fa9d-be40-4703" targetId="7d5a-e058-7cbd-ebfc" linkType="profile">
-                              <modifiers/>
+                              <modifiers>
+                                <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="ca56-141d-c7d2-e777" incrementChildId="7096-55ff-a1f4-3199" incrementField="selections" incrementValue="1.0">
+                                  <conditions/>
+                                  <conditionGroups/>
+                                </modifier>
+                              </modifiers>
                             </link>
                             <link id="0e36-0d81-f432-0fd1" targetId="2847-36df-a675-cd5e" linkType="profile">
                               <modifiers/>
