@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="13" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="14" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="a8de9f12-14e5-e99b-2535-5b093c0c5854" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -3011,7 +3011,23 @@
                   </links>
                 </entry>
               </entries>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="2177-9030-f342-0f7c" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="maxPoints" value="10.0" repeat="true" numRepeats="1" incrementParentId="64ec-e968-30fa-f497" incrementChildId="7bc3-e2b7-c8bf-107e" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <links>
+                    <link id="80fd-5db2-4ca8-da1b" targetId="52df-6178-20f4-a4f4" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
               <modifiers/>
               <rules/>
               <profiles/>
