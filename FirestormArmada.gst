@@ -135,9 +135,6 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="0ae7-1b6e-b19b-6ec2" name="Planetfall Invasion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
       </categories>
       <forceTypes>
         <forceType id="f0a3dc88-06cf-cdc0-1a5b-0c6fe8574762" name="Natural Allies Accompaniment" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="50" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
@@ -253,6 +250,41 @@
             </category>
             <category id="ee40567b-ddc7-be95-1cbc-def74dd8ce71" name="Mercenary Escorts" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
               <modifiers/>
+            </category>
+          </categories>
+          <forceTypes/>
+        </forceType>
+        <forceType id="8858-a93d-4dd4-affd" name="Planetfall Invasion Fleet" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="true" countTowardsParentMaxPercentage="false">
+          <categories>
+            <category id="ab987c46-f204-0bf9-a6a9-8498c13509ee" name="Invasion Tier 3" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="true" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="true" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="true">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="greater than" value="1200.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </category>
+            <category id="25598bba-53b3-5db3-d582-e6b933204c73" name="Invasion Tier 2" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="true" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="true" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="true">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="greater than" value="800.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </category>
+            <category id="9491469f-4e1a-978c-e141-b7f12a6a7b91" name="Invasion Tier 1" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="true" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="true" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="true">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" field="points limit" type="greater than" value="800.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </category>
           </categories>
           <forceTypes/>
