@@ -4046,58 +4046,6 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="9932-1eb7-d8c9-c850" name="Nadir Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries>
-                <entry id="b033-e2c6-cc42-72fe" name="Nadir" points="15.0" categoryId="(No Category)" type="unit" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="3bc6-aa84-4665-df68" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="e78e-19ab-e710-02ae" name="+1 Sh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules>
-                    <rule id="05fe-4e3e-0b78-5ee3" name="Escort" hidden="false">
-                      <modifiers/>
-                    </rule>
-                  </rules>
-                  <profiles/>
-                  <links>
-                    <link id="301d-3ab6-7314-ca7e" targetId="7bffd492-b993-dab5-b007-a7a7b1f4216e" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="69fe-9e40-0aa9-8e14" targetId="b90b-3450-9354-0d8d" linkType="profile">
-                      <modifiers>
-                        <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="b033-e2c6-cc42-72fe" incrementChildId="e78e-19ab-e710-02ae" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                    <link id="f954-9d49-cee7-d4e7" targetId="d96d-0bc2-e2d3-792e" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
@@ -4739,6 +4687,54 @@ Command Distance: 6&quot;</description>
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="e805-9ea1-f090-35c6" name="Nadir Escorts" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="5a34-7219-339f-d65d" name="Nadir" points="15.0" categoryId="(No Category)" type="unit" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="5359-07d0-dcd0-6b91" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="db0e-2fd6-6a9b-9e30" name="+1 Sh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7c5e-7014-6937-cdad" targetId="7bffd492-b993-dab5-b007-a7a7b1f4216e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7e88-e2bf-c63f-48b4" targetId="b90b-3450-9354-0d8d" linkType="profile">
+              <modifiers>
+                <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="5a34-7219-339f-d65d" incrementChildId="db0e-2fd6-6a9b-9e30" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="6585-3551-1820-8ad7" targetId="d96d-0bc2-e2d3-792e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
