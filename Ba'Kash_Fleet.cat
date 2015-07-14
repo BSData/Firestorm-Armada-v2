@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="62c0a53b-290b-e572-1757-e4d340c69173" revision="6" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="62c0a53b-290b-e572-1757-e4d340c69173" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="63701837-72be-f068-ef4a-1de50083c703" name="Battle Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -100,7 +100,12 @@
               <profiles/>
               <links>
                 <link id="88b1c913-1f88-75c1-1d1a-1b64bc16aada" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
                 <link id="a1c67546-8091-b1a5-543b-41e466dbd0ad" targetId="95fc91ef-0967-5524-3009-d4d197fcad38" linkType="profile">
                   <modifiers>
@@ -194,7 +199,12 @@
                   <profiles/>
                   <links>
                     <link id="4c51f4c2-3a11-7285-4532-c3d1ee31c3e2" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="e242adcb-7424-8b91-6996-1def42147c21" targetId="b54ec921-d304-0a28-0acb-2039ddcfae85" linkType="rule">
                       <modifiers/>
@@ -248,7 +258,12 @@
                       <profiles/>
                       <links>
                         <link id="cb7de5c1-c95f-7644-6bea-08c85e51f0ec" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </link>
                         <link id="3428fcc7-538d-268d-6348-721ec2c28fb9" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                           <modifiers/>
@@ -295,7 +310,12 @@
                       <profiles/>
                       <links>
                         <link id="a253-7fa2-5a4c-a3da" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </link>
                         <link id="731c-8ddd-a064-acea" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                           <modifiers/>
@@ -360,7 +380,12 @@
                   <profiles/>
                   <links>
                     <link id="0fb5-e6e4-54f1-63ef" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="bb8c-6ccc-1646-73a4" targetId="b54ec921-d304-0a28-0acb-2039ddcfae85" linkType="rule">
                       <modifiers/>
@@ -414,7 +439,12 @@
                       <profiles/>
                       <links>
                         <link id="1b5c-2900-f13a-beda" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </link>
                         <link id="92a2-50af-f750-885e" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                           <modifiers/>
@@ -461,7 +491,12 @@
                       <profiles/>
                       <links>
                         <link id="3b4f-4cac-c895-629d" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </link>
                         <link id="34b2-ef8f-1735-0fc7" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                           <modifiers/>
@@ -628,7 +663,12 @@
                       <modifiers/>
                     </link>
                     <link id="a901cba0-a4ae-fbd7-dd86-567b10b6a851" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Primary)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                   </links>
                 </entry>
@@ -704,7 +744,12 @@
                   <profiles/>
                   <links>
                     <link id="5876560b-fc4d-d5ed-b42d-052f327e3c73" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="ebe79d99-6174-65b0-c2cb-93bf8cee4e27" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                       <modifiers/>
@@ -760,7 +805,12 @@
                   <profiles/>
                   <links>
                     <link id="aeb9-5f75-a151-5c3e" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="da97-eaaf-5aae-9834" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                       <modifiers/>
@@ -845,7 +895,12 @@
                   <profiles/>
                   <links>
                     <link id="9b9d02e0-9cbe-9579-d0a0-28f25f8220ec" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="533bd97c-2d56-db1f-53fc-35dc65b3ca68" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                       <modifiers/>
@@ -901,7 +956,12 @@
                   <profiles/>
                   <links>
                     <link id="8054-4dbf-1b17-c3c5" targetId="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" linkType="rule">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (Fore Scatter)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="cc28-2474-856b-42a6" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
                       <modifiers/>
@@ -1176,7 +1236,7 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
       <description>If ALL models contributing to an Attack are Pack Hunters, add +1 Attack Dice (AD) to the Attack for each additional model, after the first, contributing to it. Additional Dice for Pack Hunters are added to the final pool, AFTER Firing Options. The maximum bonus to any attack from the Pack Hunters Model Assigned Rule is +2.</description>
       <modifiers/>
     </rule>
-    <rule id="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" name="Retractable Plating (Fore)" hidden="false" page="0">
+    <rule id="aa592969-0c21-ee8c-021b-1f4d6efa9a8b" name="Retractable Plating" hidden="false" page="0">
       <description>During the Command Segment of its Activation, a model with Retractable Plating must declare whether its Plating is Extended or Retracted. If Retracted, there is no additional effect, if Extended the model’s DR and CR are increased by ONE, but it CANNOT use the listed Weapon System. A model can deploy with its Plating Extended.</description>
       <modifiers/>
     </rule>
