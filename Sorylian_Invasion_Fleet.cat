@@ -4,7 +4,7 @@
     <entry id="27bc-faec-659d-df1e" name="Assault Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="fc12-3787-7c27-b08a" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="fc12-3787-7c27-b08a" name="Ship Class" defaultEntryId="2c87-e03a-25ce-aacb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="2c87-e03a-25ce-aacb" name="Katar Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
@@ -64,7 +64,7 @@
                   <links>
                     <link id="6755-58b4-cb2a-3b41" targetId="1c13-9d82-6942-a304" linkType="profile">
                       <modifiers>
-                        <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="e0c8-0e2b-89d5-d68f" incrementChildId="20b5-08b6-c1eb-3045" incrementField="selections" incrementValue="1.0">
+                        <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="eb8d-3be6-383e-c775" incrementChildId="20b5-08b6-c1eb-3045" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
@@ -107,11 +107,11 @@
     <entry id="1a8a338f-dafb-62b1-4c3e-9537c3ea1635" name="Battle Cruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="5938f121-6652-639e-03b5-0aea66f4ac69" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5938f121-6652-639e-03b5-0aea66f4ac69" name="Ship Class" defaultEntryId="9fdd-fb3a-9268-549b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="9fdd-fb3a-9268-549b" name="Amentum Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="91b7-b7c4-6d45-aaa0" name="Amentum" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="91b7-b7c4-6d45-aaa0" name="Amentum" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups>
                     <entryGroup id="998e-18d0-be32-f443" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -330,7 +330,7 @@
                                       <profiles/>
                                       <links/>
                                     </entry>
-                                    <entry id="1a82-574d-11f0-7e6b" name="Second Assault, remove Planetfall" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                                    <entry id="1a82-574d-11f0-7e6b" name="Second Assault, remove Planetfall" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
                                       <entries/>
                                       <entryGroups/>
                                       <modifiers/>
@@ -393,11 +393,15 @@
                       <entryGroups/>
                       <modifiers>
                         <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
+                          <conditions>
+                            <condition parentId="9fdd-fb3a-9268-549b" childId="91b7-b7c4-6d45-aaa0" field="selections" type="greater than" value="1.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                         <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
+                          <conditions>
+                            <condition parentId="9fdd-fb3a-9268-549b" childId="91b7-b7c4-6d45-aaa0" field="selections" type="greater than" value="1.0"/>
+                          </conditions>
                           <conditionGroups/>
                         </modifier>
                       </modifiers>
@@ -417,23 +421,23 @@
                   <links>
                     <link id="f5f6-1091-dda5-1b79" targetId="7e4b-af88-d744-b5da" linkType="profile">
                       <modifiers>
-                        <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="9425-d58b-e4ec-1de0" incrementField="selections" incrementValue="1.0">
+                        <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="9425-d58b-e4ec-1de0" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="decrement" field="450d4be0-47db-8bc4-b15b-118250ac9615" value="1" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="0b99-f4be-7a94-3710" incrementField="selections" incrementValue="1.0">
+                        <modifier type="decrement" field="450d4be0-47db-8bc4-b15b-118250ac9615" value="1" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="0b99-f4be-7a94-3710" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="increment" field="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="3" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="05f9-ff89-72e3-e53c" incrementField="selections" incrementValue="1.0">
+                        <modifier type="increment" field="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="3" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="05f9-ff89-72e3-e53c" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="increment" field="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="1" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="c72b-b549-7922-a7fb" incrementField="selections" incrementValue="1.0">
+                        <modifier type="increment" field="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="1" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="c72b-b549-7922-a7fb" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="decrement" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="2" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="6bab-aff1-805a-79ae" incrementField="selections" incrementValue="1.0">
+                        <modifier type="decrement" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="2" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="6bab-aff1-805a-79ae" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
@@ -441,11 +445,11 @@
                     </link>
                     <link id="6b05-8965-71b3-d716" targetId="70db-1374-2b51-3478" linkType="profile">
                       <modifiers>
-                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value=" Kinetic" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="1c18-069f-06ec-467e" incrementField="selections" incrementValue="1.0">
+                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value=" Kinetic" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="1c18-069f-06ec-467e" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="set" field="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="12&quot;" repeat="true" numRepeats="1" incrementParentId="664e-876c-39ce-9970" incrementChildId="1c18-069f-06ec-467e" incrementField="selections" incrementValue="1.0">
+                        <modifier type="set" field="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="12&quot;" repeat="true" numRepeats="1" incrementParentId="91b7-b7c4-6d45-aaa0" incrementChildId="1c18-069f-06ec-467e" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
@@ -455,7 +459,7 @@
                       <modifiers>
                         <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="664e-876c-39ce-9970" childId="9425-d58b-e4ec-1de0" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="91b7-b7c4-6d45-aaa0" childId="9425-d58b-e4ec-1de0" field="selections" type="at least" value="1.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -468,7 +472,7 @@
                       <modifiers>
                         <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="664e-876c-39ce-9970" childId="1c18-069f-06ec-467e" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="91b7-b7c4-6d45-aaa0" childId="1c18-069f-06ec-467e" field="selections" type="at least" value="1.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -481,7 +485,7 @@
                       <modifiers>
                         <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="664e-876c-39ce-9970" childId="1c18-069f-06ec-467e" field="selections" type="equal to" value="0.0"/>
+                            <condition parentId="91b7-b7c4-6d45-aaa0" childId="1c18-069f-06ec-467e" field="selections" type="equal to" value="0.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -495,7 +499,7 @@
                         </modifier>
                         <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="664e-876c-39ce-9970" childId="6bab-aff1-805a-79ae" field="selections" type="equal to" value="0.0"/>
+                            <condition parentId="91b7-b7c4-6d45-aaa0" childId="6bab-aff1-805a-79ae" field="selections" type="equal to" value="0.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -509,7 +513,7 @@
                         </modifier>
                         <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                           <conditions>
-                            <condition parentId="664e-876c-39ce-9970" childId="6bab-aff1-805a-79ae" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="91b7-b7c4-6d45-aaa0" childId="6bab-aff1-805a-79ae" field="selections" type="at least" value="1.0"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -545,7 +549,7 @@
     <entry id="4e5f826f-01f8-c3dc-96f6-92d891dadc98" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="ad1fc659-593f-dd04-ef04-114e667135b0" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ad1fc659-593f-dd04-ef04-114e667135b0" name="Ship Class" defaultEntryId="80ef-36c5-202d-a03d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="80ef-36c5-202d-a03d" name="Corvus Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
@@ -574,7 +578,7 @@
                   <links>
                     <link id="b2fe-24ae-b710-848a" targetId="a936-ec36-e739-43f3" linkType="profile">
                       <modifiers>
-                        <modifier type="increment" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="1" repeat="true" numRepeats="1" incrementParentId="3f3c-1fb1-ab5f-23bd" incrementChildId="708c-8f40-f286-a719" incrementField="selections" incrementValue="1.0">
+                        <modifier type="increment" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="1" repeat="true" numRepeats="1" incrementParentId="00d3-4773-bcf7-da18" incrementChildId="708c-8f40-f286-a719" incrementField="selections" incrementValue="1.0">
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
@@ -624,6 +628,10 @@
       <description>The Point Defense systems on a model with Bigger Batteries have a Range of 8” instead of 4”. This also increases the range of Attacks using the Point Defense Barrage MAR.</description>
       <modifiers/>
     </rule>
+    <rule id="9a95-a4cc-eecd-1ebd" name="Difficult Target" hidden="false" page="0">
+      <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
+      <modifiers/>
+    </rule>
     <rule id="0bef-f81e-76f7-1c82" name="Durable" hidden="false" page="0">
       <description>Reduce the AD pool for an SRS attack run against the model with this MAR by half of the number of wings in the flight (rounding up).</description>
       <modifiers/>
@@ -659,10 +667,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </rule>
     <rule id="a9f9-5409-eec9-2760" name="Weapon Shielding" hidden="false" page="0">
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
-      <modifiers/>
-    </rule>
-    <rule id="9a95-a4cc-eecd-1ebd" name="Difficult Target" hidden="false" page="0">
-      <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
       <modifiers/>
     </rule>
   </sharedRules>
