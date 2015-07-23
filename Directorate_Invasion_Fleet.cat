@@ -261,7 +261,7 @@
                     </entryGroup>
                     <entryGroup id="39fd-5238-b1c1-d058" name="Hardpoints" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries>
-                        <entry id="0812-ee14-09fa-e6d6" name="+1 Sh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                        <entry id="0812-ee14-09fa-e6d6" name="+1 Sh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -269,7 +269,7 @@
                           <profiles/>
                           <links/>
                         </entry>
-                        <entry id="6fbf-da5a-e097-6440" name="+1 HP, remove Durable" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                        <entry id="6fbf-da5a-e097-6440" name="+1 HP, remove Durable" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
@@ -426,7 +426,7 @@
                     <link id="77ac-748a-266b-30c1" targetId="5f71-96cb-83df-e78f" linkType="rule">
                       <modifiers/>
                     </link>
-                    <link id="2414-920e-3038-af08" targetId="93cf-80dc-1696-3f52" linkType="rule">
+                    <link id="51e4-4fdf-2e2a-f283" targetId="308f-f29c-0d2a-5419" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -645,8 +645,16 @@ Command Distance: 6&quot;</description>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="93cf-80dc-1696-3f52" name="Bigger Batteries" hidden="false" page="0">
+      <description>The Point Defense systems on a model with Bigger Batteries have a Range of 8” instead of 4”. This also increases the range of Attacks using the Point Defense Barrage MAR.</description>
+      <modifiers/>
+    </rule>
     <rule id="18e2-19ea-e9ec-11c4" name="Biohazard" hidden="false" page="0">
       <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c75a-ca3f-e03c-0af5" name="Difficult Target" hidden="false" page="0">
+      <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
       <modifiers/>
     </rule>
     <rule id="4739-e39d-b2cf-6591" name="Durable" hidden="false" page="0">
@@ -671,14 +679,6 @@ Command Distance: 6&quot;</description>
     </rule>
     <rule id="5f71-96cb-83df-e78f" name="Unmanned" hidden="false" page="0">
       <description>An Unmanned model does not suffer Crew Loss penalties for having zero Crew.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c75a-ca3f-e03c-0af5" name="Difficult Target" hidden="false" page="0">
-      <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
-      <modifiers/>
-    </rule>
-    <rule id="93cf-80dc-1696-3f52" name="Bigger Batteries" hidden="false" page="0">
-      <description>The Point Defense systems on a model with Bigger Batteries have a Range of 8” instead of 4”. This also increases the range of Attacks using the Point Defense Barrage MAR.</description>
       <modifiers/>
     </rule>
   </sharedRules>
