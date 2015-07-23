@@ -4,7 +4,7 @@
     <entry id="75e4-0539-d3a5-c07d" name="Assault Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="4898-8532-4ff2-c837" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4898-8532-4ff2-c837" name="Ship Class" defaultEntryId="26b2-9e93-70c2-54b4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="26b2-9e93-70c2-54b4" name="Ootheca" points="125.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -47,7 +47,7 @@
                   <modifiers/>
                   <links/>
                 </entryGroup>
-                <entryGroup id="87cf-768c-c709-2e19" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="87cf-768c-c709-2e19" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="412e-997e-64df-39cb" name="+1 Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -230,85 +230,94 @@
     <entry id="b58a-a917-8502-ebf0" name="Assault Cruiser" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="0e40-91d1-ecd0-c60b" name="Assault Cruiser Class" defaultEntryId="0e69-841f-cb9b-e901" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="0e40-91d1-ecd0-c60b" name="Ship Class" defaultEntryId="2da6-474d-72db-ee10" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="0e69-841f-cb9b-e901" name="Cotesia" points="65.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="03cf-2dda-df27-013e" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="84e6-fa4d-05d6-9755" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="0349-6471-2a29-19e9" targetId="6286-6a8b-99eb-5336" linkType="rule">
+            <entry id="2da6-474d-72db-ee10" name="Cotesia Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="255f-21de-6190-5e99" name="Cotesia" points="65.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="961c-b40b-e01a-7a38" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="2d19-ed82-1590-df00" name="Self Repair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                          <entries/>
+                          <entryGroups/>
                           <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="c1e9-7cc3-947b-2f9d" name="+1 HP" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                      <entries/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="976a-e088-1d0f-1d1d" targetId="6286-6a8b-99eb-5336" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="8dac-e551-4108-8656" name="+1 HP" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                      </entries>
                       <entryGroups/>
                       <modifiers/>
-                      <rules/>
-                      <profiles/>
                       <links/>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-                <entryGroup id="7a73-dbee-8025-f7e2" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="3c98-a5ca-9caa-5f72" name="Stealth Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
+                    </entryGroup>
+                    <entryGroup id="5ae6-e2f7-fe9c-c5ee" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="0a1c-9414-2a03-8607" name="Stealth Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="db6f-4374-5f0d-0c59" targetId="03b4-f012-c010-eaf8" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
                       <entryGroups/>
                       <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="3b02-e85e-5b69-7de1" targetId="03b4-f012-c010-eaf8" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
                   <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="66b0-64e9-cd52-3b9b" targetId="f049-09b0-d8ed-b378" linkType="profile">
+                      <modifiers>
+                        <modifier type="increment" field="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="1" repeat="true" numRepeats="1" incrementParentId="255f-21de-6190-5e99" incrementChildId="8dac-e551-4108-8656" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="bc28-4fbe-c692-44db" targetId="f28a-4caf-af60-cbb4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="df67-493b-6369-7b1b" targetId="9f90-b67c-4a8a-3d1b" linkType="rule">
+                      <modifiers>
+                        <modifier type="append" field="name" value=" (4)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="8162-9efe-3f43-cfb0" targetId="f114-71e0-6092-331d" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="80a1-b4d6-9253-c49a" targetId="f049-09b0-d8ed-b378" linkType="profile">
-                  <modifiers>
-                    <modifier type="increment" field="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="1" repeat="true" numRepeats="1" incrementParentId="0e69-841f-cb9b-e901" incrementChildId="c1e9-7cc3-947b-2f9d" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="8607-2df4-0e85-428d" targetId="f28a-4caf-af60-cbb4" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="100b-4d20-bf04-0842" targetId="9f90-b67c-4a8a-3d1b" linkType="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value=" (4)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="710e-d0b0-d9cb-b8f6" targetId="f114-71e0-6092-331d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
@@ -324,7 +333,7 @@
     <entry id="34d6b206-c14a-8265-fd01-c21859265bfe" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="176939da-e63c-9999-3d2e-4fe413e44fac" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="176939da-e63c-9999-3d2e-4fe413e44fac" name="Ship Class" defaultEntryId="81c3-e4ba-47ae-8000" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="81c3-e4ba-47ae-8000" name="Ichneumon Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
