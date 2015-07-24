@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5a45-825b-dc45-0d02" revision="1" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="21" battleScribeVersion="1.15" name="Directorate Invasion Fleet" authorName="steve_990" authorContact="https://thedicehateme.wordpress.com/" authorUrl="https://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5a45-825b-dc45-0d02" revision="2" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="21" battleScribeVersion="1.15" name="Directorate Invasion Fleet" authorName="steve_990" authorContact="https://thedicehateme.wordpress.com/" authorUrl="https://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="4a70-3fbf-fc28-b5b3" name="Assault Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -173,14 +173,12 @@
                 <link id="cdb6-8b5f-274f-e793" targetId="796f-7abf-0bd3-f6c4" linkType="rule">
                   <modifiers>
                     <modifier type="append" field="name" value=" (5)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="roster" childId="2d6b-c812-e3c8-2242" field="selections" type="equal to" value="0.0"/>
-                      </conditions>
+                      <conditions/>
                       <conditionGroups/>
                     </modifier>
-                    <modifier type="append" field="name" value=" (6)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions>
-                        <condition parentId="roster" childId="2d6b-c812-e3c8-2242" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="b867-24a0-bd9b-f950" childId="2d6b-c812-e3c8-2242" field="selections" type="equal to" value="1.0"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -188,7 +186,7 @@
                 </link>
                 <link id="8ccd-b665-dc74-cc2a" targetId="cd86-69ed-bd94-b438" linkType="profile">
                   <modifiers>
-                    <modifier type="decrement" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="b867-24a0-bd9b-f950" incrementChildId="e007-bcf4-da7e-c713" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="b867-24a0-bd9b-f950" incrementChildId="2d6b-c812-e3c8-2242" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -204,6 +202,20 @@
                 </link>
                 <link id="cdac-b975-59d6-ecb4" targetId="28f3-10f0-db9d-da26" linkType="profile">
                   <modifiers/>
+                </link>
+                <link id="4850-9a2b-1b77-fbfd" targetId="796f-7abf-0bd3-f6c4" linkType="rule">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (6)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="b867-24a0-bd9b-f950" childId="2d6b-c812-e3c8-2242" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </link>
               </links>
             </entry>
@@ -451,7 +463,7 @@
     </entry>
   </entries>
   <rules>
-    <rule id="3258-6b7a-40ff-af5e" name="Directorate Fleet Statistics" hidden="false">
+    <rule id="1f7c9c28-21e9-1ac8-72bb-e1a38a5e1ec3" name="Directorate Fleet Statistics" hidden="false">
       <description>
 Fleet Tactics Bonus: 1
 Command Distance: 6&quot;</description>
