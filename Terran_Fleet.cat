@@ -42,79 +42,6 @@
                       <modifiers/>
                       <links/>
                     </entryGroup>
-                    <entryGroup id="5ba8-f031-0eb7-ffa6" name="Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="4c16-f27d-28c5-3fac" name="Shield Cruisers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                          <entries>
-                            <entry id="4899-8efe-cb81-b410" name="Aegis" points="50.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                              <entries>
-                                <entry id="c46e-1032-83b0-1e19" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                                  <entries/>
-                                  <entryGroups/>
-                                  <modifiers/>
-                                  <rules/>
-                                  <profiles/>
-                                  <links>
-                                    <link id="9457-c10f-315f-6272" targetId="1221804d-6021-e5b3-d3ba-dc3da09f8944" linkType="rule">
-                                      <modifiers/>
-                                    </link>
-                                  </links>
-                                </entry>
-                              </entries>
-                              <entryGroups>
-                                <entryGroup id="7adf-7696-da5c-bca0" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                                  <entries>
-                                    <entry id="ea21-1f24-6804-8249" name="+3&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                                      <entries/>
-                                      <entryGroups/>
-                                      <modifiers/>
-                                      <rules/>
-                                      <profiles/>
-                                      <links/>
-                                    </entry>
-                                    <entry id="c9c9-0e8b-f5fc-ed3a" name="+2&quot; Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                                      <entries/>
-                                      <entryGroups/>
-                                      <modifiers/>
-                                      <rules/>
-                                      <profiles/>
-                                      <links/>
-                                    </entry>
-                                  </entries>
-                                  <entryGroups/>
-                                  <modifiers/>
-                                  <links/>
-                                </entryGroup>
-                              </entryGroups>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="683d-22ae-2919-eb10" targetId="3cec628b-f382-6ccd-9efc-4e75d0df82e0" linkType="profile">
-                                  <modifiers>
-                                    <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="4899-8efe-cb81-b410" incrementChildId="c9c9-0e8b-f5fc-ed3a" incrementField="selections" incrementValue="1.0">
-                                      <conditions/>
-                                      <conditionGroups/>
-                                    </modifier>
-                                  </modifiers>
-                                </link>
-                                <link id="13e4-02c0-7000-9b3b" targetId="c4d698d2-b365-8714-ed9a-d54c750132ad" linkType="profile">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                          </entries>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links/>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
                   </entryGroups>
                   <modifiers/>
                   <rules/>
@@ -156,7 +83,72 @@
                   </links>
                 </entry>
               </entries>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="9678-a168-6fb3-3ee0" name="Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="3684-ccb0-8f82-d1f0" name="Aegis" points="50.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                      <entries>
+                        <entry id="9799-bebc-ca5b-0ebb" name="Shield Projector (6&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="da7b-c0fd-dba8-1119" targetId="1221804d-6021-e5b3-d3ba-dc3da09f8944" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups>
+                        <entryGroup id="e04d-d2fc-b4ee-d2ea" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries>
+                            <entry id="cba2-f33b-cd9c-f7ef" name="+3&quot; Command Distance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links/>
+                            </entry>
+                            <entry id="5e80-af9d-e890-cff1" name="+2&quot; Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links/>
+                            </entry>
+                          </entries>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links/>
+                        </entryGroup>
+                      </entryGroups>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="c3da-7c41-cb2e-7cea" targetId="3cec628b-f382-6ccd-9efc-4e75d0df82e0" linkType="profile">
+                          <modifiers>
+                            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="3684-ccb0-8f82-d1f0" incrementChildId="5e80-af9d-e890-cff1" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </link>
+                        <link id="922a-4353-7e60-38eb" targetId="c4d698d2-b365-8714-ed9a-d54c750132ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
               <modifiers/>
               <rules/>
               <profiles/>
