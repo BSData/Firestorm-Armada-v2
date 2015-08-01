@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9c4bdd84-9116-6dc7-aea7-34ffebe3261b" revision="3" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9c4bdd84-9116-6dc7-aea7-34ffebe3261b" revision="4" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f222624d-bbd6-416e-994b-739f580171e0" name="Assault Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -67,7 +67,12 @@
                   <profiles/>
                   <links>
                     <link id="45dca30e-06ba-f089-7910-b236227e9b60" targetId="d1b730d7-bdce-e15e-b104-016e6b170cbb" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="2f10e1d2-3a9f-209f-11c6-dbf44c2fa393" targetId="15b13a7f-846b-56f0-6af3-b63774429cc3" linkType="profile">
                       <modifiers/>
@@ -76,12 +81,7 @@
                       <modifiers/>
                     </link>
                     <link id="2c675c35-9fbd-c543-4935-57faff848dae" targetId="8b57daee-3fd5-e14a-d064-7238b40eff34" linkType="profile">
-                      <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
+                      <modifiers/>
                     </link>
                     <link id="eb71d395-c7fd-9e5d-da7c-8b68a4d0c7ba" targetId="11a77b59-3baa-65e2-43e1-aee734f513fb" linkType="rule">
                       <modifiers/>
@@ -165,7 +165,12 @@
                   <profiles/>
                   <links>
                     <link id="f3e9819b-e1f6-1bc5-7eab-342b6cf3d447" targetId="d1b730d7-bdce-e15e-b104-016e6b170cbb" linkType="profile">
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </link>
                     <link id="6f5eefaf-0cac-19ac-ad12-d3a03c5cca85" targetId="15b13a7f-846b-56f0-6af3-b63774429cc3" linkType="profile">
                       <modifiers/>
@@ -174,12 +179,7 @@
                       <modifiers/>
                     </link>
                     <link id="628f3172-37e9-541f-6afa-bb953d043dde" targetId="8b57daee-3fd5-e14a-d064-7238b40eff34" linkType="profile">
-                      <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" (High Energy)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
+                      <modifiers/>
                     </link>
                     <link id="c5f2b54f-0418-1492-b640-f33850821125" targetId="11a77b59-3baa-65e2-43e1-aee734f513fb" linkType="rule">
                       <modifiers/>
