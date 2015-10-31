@@ -1,6 +1,8 @@
 Firestorm Armada
 ================
 
+[![Join the chat at https://gitter.im/BSData/Firestorm-Armada-v2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BSData/Firestorm-Armada-v2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ####Contents####
 
 * [Overview][]
