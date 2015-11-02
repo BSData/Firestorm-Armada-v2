@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d18af90-2ba2-ae9d-6c5d-feee802d7904" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthoza Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="146f10de-efcd-49b9-66f0-934be0732e03" name="Battle Station" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -9,7 +9,7 @@
             <entry id="6bcb283f-d359-d1ec-92b6-23c585705fe5" name="Weaver" points="190.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
               <entryGroups>
-                <entryGroup id="4c1c7bb0-b122-be5d-581b-df258767d335" name="Hardpoints" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="4c1c7bb0-b122-be5d-581b-df258767d335" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="9b209b88-aedb-9fcb-8264-a61426f2387d" name="Launch Tubes MAR" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -3274,6 +3274,97 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="3946-3086-f471-3936" name="Defence Platform" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="43ad-f700-6851-e2e4" name="Platform Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6e5b-c471-6937-8989" name="Ummidia" points="20.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="4372-b131-f25d-ee97" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="c43d-d0c8-5624-c01e" name="Second Assault" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="80c8-ff8a-7acf-1b91" targetId="c85e7230-52c5-d2b1-d211-f8f63762955f" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="410f-ee42-5d02-321c" name="Remove No FSD" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d1fd-14c1-36a2-5dd6" targetId="4f07d3a7-f5e1-2c29-16a2-477061772c74" linkType="rule">
+                  <modifiers>
+                    <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="6e5b-c471-6937-8989" childId="410f-ee42-5d02-321c" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="1cbb-4e24-305b-fae5" targetId="fecf6b93-234b-025d-df27-7cf6b1f6a2f9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6987-0634-3d0b-2ba3" targetId="c306b570-6a08-a35c-d4ee-03a48d3a6eb1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7fad-1c0d-f334-f1a2" targetId="9f6dcb5c-0599-19a7-af0b-fb8592edb3c3" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="257c-fd3c-20a0-690a" targetId="45a94748-07da-826d-54cd-a9b3fa6f82ba" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2cee-a442-335e-c5f1" targetId="d604-fd4a-63b5-15d5" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="0d57-0cfd-46bd-59b7" targetId="d282-85bc-b4dd-0d61" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="cbc0-13b7-058e-ec81" targetId="9c58-14b7-63cb-1177" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="843113d5-6419-f847-eed6-9a66d76f20eb" name="Destroyer Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -5061,97 +5152,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="3946-3086-f471-3936" name="Defence Platform" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="43ad-f700-6851-e2e4" name="Platform Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="6e5b-c471-6937-8989" name="Ummidia" points="20.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="4372-b131-f25d-ee97" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="c43d-d0c8-5624-c01e" name="Second Assault" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="80c8-ff8a-7acf-1b91" targetId="c85e7230-52c5-d2b1-d211-f8f63762955f" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="410f-ee42-5d02-321c" name="Remove No FSD" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links/>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d1fd-14c1-36a2-5dd6" targetId="4f07d3a7-f5e1-2c29-16a2-477061772c74" linkType="rule">
-                  <modifiers>
-                    <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="6e5b-c471-6937-8989" childId="410f-ee42-5d02-321c" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="1cbb-4e24-305b-fae5" targetId="fecf6b93-234b-025d-df27-7cf6b1f6a2f9" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6987-0634-3d0b-2ba3" targetId="c306b570-6a08-a35c-d4ee-03a48d3a6eb1" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7fad-1c0d-f334-f1a2" targetId="9f6dcb5c-0599-19a7-af0b-fb8592edb3c3" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="257c-fd3c-20a0-690a" targetId="45a94748-07da-826d-54cd-a9b3fa6f82ba" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="2cee-a442-335e-c5f1" targetId="d604-fd4a-63b5-15d5" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="0d57-0cfd-46bd-59b7" targetId="d282-85bc-b4dd-0d61" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="cbc0-13b7-058e-ec81" targetId="9c58-14b7-63cb-1177" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
   </entries>
   <rules>
     <rule id="cc942ced-0b3e-8988-8346-231c835d1817" name="Relthoza Fleet Statistics" hidden="false" page="0">
@@ -5245,6 +5245,10 @@ A Repair Attempt MUST be made to remove each Corroded Marker that a model carrie
       <description>A model with No FSD CANNOT perform a Fold Space Escape, or deploy using Shunt Deployment.</description>
       <modifiers/>
     </rule>
+    <rule id="d604-fd4a-63b5-15d5" name="Orbit" hidden="false" book="Defence Platform PDF" page="1">
+      <description>May be deployed in orbit (within 4”) of a planet, planetoid or Battle Station within the player’s Deployment Zone facing any direction. When Orbiting not subject to move by effects (Gravitational Weapons, slingshots etc.)</description>
+      <modifiers/>
+    </rule>
     <rule id="64a357de-dc8f-02b6-4393-8c60b0ed35f9" name="Point Defense Barrage" hidden="false" page="0">
       <description>A model with Point Defense Barrage can use its Point Defense systems to Attack non-Capital Class models during its Squadron Activation, as if it were a Scatter Weapon System. This Attack follows the normal Attack procedure, requiring Line of Sight and so on.</description>
       <modifiers/>
@@ -5281,10 +5285,6 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
     <rule id="c306b570-6a08-a35c-d4ee-03a48d3a6eb1" name="System Network" hidden="false" page="0">
       <description>If a model with Systems Network is within the Command Distance of one or more friendly models which have active Cloaking Fields
 and also have Systems Network, this model automatically gains the Stealth Systems MAR. The Stealth Systems MAR is immediately lost if the model granting it is destroyed, or is otherwise moved out of range.</description>
-      <modifiers/>
-    </rule>
-    <rule id="d604-fd4a-63b5-15d5" name="Orbit" hidden="false" book="Defence Platform PDF" page="1">
-      <description>May be deployed in orbit (within 4”) of a planet, planetoid or Battle Station within the player’s Deployment Zone facing any direction. When Orbiting not subject to move by effects (Gravitational Weapons, slingshots etc.)</description>
       <modifiers/>
     </rule>
   </sharedRules>
