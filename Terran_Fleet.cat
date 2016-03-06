@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="21" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="22" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b1bd-11b9-46d8-c294" name="Assault Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="91d1-f727-8c3a-b3ca" name="Ship Class" defaultEntryId="6762-9947-05d6-29cc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="91d1-f727-8c3a-b3ca" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6762-9947-05d6-29cc" name="Horizon Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
@@ -149,6 +149,157 @@
                   <links/>
                 </entryGroup>
               </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="8ee7-3f12-6d6b-6227" name="Harpoon Torpedo Cruiser Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="5bfb-0b24-d33f-6461" name="Harpoon" points="55.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="acc5-a2d9-027d-3fbd" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups>
+                        <entryGroup id="f6d2-7680-87f4-6dd9" name="Torpedo Spook / Stealth" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries>
+                            <entry id="c7f4-d804-92e0-1403" name="Torpedo Spook" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links>
+                                <link id="ecf4-796e-7feb-c50b" targetId="892172c2-54ac-838c-27e9-7bb182b18b36" linkType="rule">
+                                  <modifiers/>
+                                </link>
+                              </links>
+                            </entry>
+                            <entry id="58e8-eee1-38df-9aca" name="Stealth" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links>
+                                <link id="e642-416a-3535-f060" targetId="a38d-cf95-8b23-558a" linkType="rule">
+                                  <modifiers/>
+                                </link>
+                              </links>
+                            </entry>
+                          </entries>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links/>
+                        </entryGroup>
+                        <entryGroup id="710e-caf3-d5bc-e1dc" name="Nuclear / Decimator Warheads" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries>
+                            <entry id="12e6-2f6c-79d9-1411" name="Nuclear Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links>
+                                <link id="8a1e-e065-3fb5-2e94" targetId="5980bc93-7ae9-e20b-3401-9084fb2cdf89" linkType="rule">
+                                  <modifiers/>
+                                </link>
+                              </links>
+                            </entry>
+                            <entry id="3792-3eea-4c35-0bf2" name="Decimator Warheads" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                              <entries/>
+                              <entryGroups/>
+                              <modifiers/>
+                              <rules/>
+                              <profiles/>
+                              <links>
+                                <link id="1ecc-f7e4-9bdd-7ff5" targetId="07445d5f-9562-e207-abf3-d600426008dd" linkType="rule">
+                                  <modifiers/>
+                                </link>
+                              </links>
+                            </entry>
+                          </entries>
+                          <entryGroups/>
+                          <modifiers/>
+                          <links/>
+                        </entryGroup>
+                      </entryGroups>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                    <entryGroup id="0425-7995-4da6-e2f1" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="0932-7992-9b95-6a40" name="Turret Weapons" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="fa94-119e-05f7-f374" targetId="d09e-b91d-5dc2-722c" linkType="profile">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                        <entry id="3066-63ff-c4b2-e74a" name="+1 Sh, Shield Projector (Self)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="4d33-6492-412a-7dec" targetId="1221804d-6021-e5b3-d3ba-dc3da09f8944" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="03e6-0064-028e-1d16" targetId="8e547dcf-0e33-a858-fc0f-530c78d93149" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="24b1-9929-2097-0d40" targetId="a4e8-e1bd-fc53-0129" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a0ee-9984-7d9f-0a72" targetId="550d-6442-ee40-8ef9" linkType="profile">
+                      <modifiers>
+                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Nuclear" repeat="true" numRepeats="1" incrementParentId="5bfb-0b24-d33f-6461" incrementChildId="12e6-2f6c-79d9-1411" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Decimator" repeat="true" numRepeats="1" incrementParentId="5bfb-0b24-d33f-6461" incrementChildId="3792-3eea-4c35-0bf2" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="af67-c291-eb88-9300" targetId="91c3c8fa-9851-785b-8a2a-5c3f44d7d75b" linkType="profile">
+                      <modifiers>
+                        <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="5bfb-0b24-d33f-6461" incrementChildId="3066-63ff-c4b2-e74a" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="42d8-f6f5-1e49-7f98" targetId="027b-b63d-1a42-0e44" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="34d5-7409-46b1-bf6b" targetId="cce49ccc-b518-a930-3bf9-10d99d70e0d8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
@@ -3395,157 +3546,6 @@
                   <links/>
                 </entryGroup>
               </entryGroups>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="f40f-0803-e6cf-b9f7" name="Harpoon Torpedo Cruiser Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries>
-                <entry id="a6a3-9d0f-6e3f-1274" name="Harpoon" points="55.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="f4ea-a3bb-1e94-aa23" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups>
-                        <entryGroup id="b1bb-bc18-76e9-8cb8" name="Torpedo Spook / Stealth" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries>
-                            <entry id="ba63-0cb4-b5f0-a245" name="Torpedo Spook" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="ee05-dc34-eb9a-18e3" targetId="892172c2-54ac-838c-27e9-7bb182b18b36" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                            <entry id="2423-92b6-d56d-5301" name="Stealth" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="58f8-c418-66ce-06f9" targetId="a38d-cf95-8b23-558a" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                          </entries>
-                          <entryGroups/>
-                          <modifiers/>
-                          <links/>
-                        </entryGroup>
-                        <entryGroup id="bb3c-22f1-35ee-4f9e" name="Nuclear / Decimator Warheads" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries>
-                            <entry id="87a8-53c2-c0f7-8359" name="Nuclear Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="0e79-7532-7429-0a2a" targetId="5980bc93-7ae9-e20b-3401-9084fb2cdf89" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                            <entry id="373f-0ba0-1288-c9c8" name="Decimator Warheads" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                              <entries/>
-                              <entryGroups/>
-                              <modifiers/>
-                              <rules/>
-                              <profiles/>
-                              <links>
-                                <link id="d7f7-4559-ce11-7e69" targetId="07445d5f-9562-e207-abf3-d600426008dd" linkType="rule">
-                                  <modifiers/>
-                                </link>
-                              </links>
-                            </entry>
-                          </entries>
-                          <entryGroups/>
-                          <modifiers/>
-                          <links/>
-                        </entryGroup>
-                      </entryGroups>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                    <entryGroup id="5e4c-bec3-2612-65cb" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="3c91-b6e1-64a7-1444" name="Turret Weapons" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="c4e6-d323-4b2d-eb92" targetId="d09e-b91d-5dc2-722c" linkType="profile">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                        <entry id="68ab-1d70-0887-9b39" name="+1 Sh, Shield Projector (Self)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="181c-2782-57ba-1d6d" targetId="1221804d-6021-e5b3-d3ba-dc3da09f8944" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="f42c-a371-9b94-70c2" targetId="8e547dcf-0e33-a858-fc0f-530c78d93149" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="112b-7141-71cf-e837" targetId="a4e8-e1bd-fc53-0129" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="bca7-1ed8-10b5-7e26" targetId="550d-6442-ee40-8ef9" linkType="profile">
-                      <modifiers>
-                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Nuclear" repeat="true" numRepeats="1" incrementParentId="a6a3-9d0f-6e3f-1274" incrementChildId="87a8-53c2-c0f7-8359" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                        <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Decimator" repeat="true" numRepeats="1" incrementParentId="a6a3-9d0f-6e3f-1274" incrementChildId="373f-0ba0-1288-c9c8" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                    <link id="20c9-3474-9d37-c706" targetId="91c3c8fa-9851-785b-8a2a-5c3f44d7d75b" linkType="profile">
-                      <modifiers>
-                        <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="a6a3-9d0f-6e3f-1274" incrementChildId="68ab-1d70-0887-9b39" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                    <link id="d1a4-b82c-be7f-9912" targetId="027b-b63d-1a42-0e44" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="cb89-dbf5-b3f4-36c3" targetId="cce49ccc-b518-a930-3bf9-10d99d70e0d8" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
