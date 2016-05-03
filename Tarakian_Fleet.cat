@@ -1,126 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fe0d6a6e-0657-42d2-ca70-fa5037cc8382" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Tarakian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fe0d6a6e-0657-42d2-ca70-fa5037cc8382" revision="8" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Tarakian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="03d0ffcb-179e-3dd1-90bd-d124782fc7f8" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="6ae17b19-6f02-91e0-5b42-0640e4ed795c" name="Ship Class" defaultEntryId="6bcb283f-d359-d1ec-92b6-23c585705fe5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6ae17b19-6f02-91e0-5b42-0640e4ed795c" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="6bcb283f-d359-d1ec-92b6-23c585705fe5" name="Ganak" points="190.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="4c1c7bb0-b122-be5d-581b-df258767d335" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="9b209b88-aedb-9fcb-8264-a61426f2387d" name="+1 CR" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links/>
-                    </entry>
-                    <entry id="a5441500-51be-0983-fe62-0fb056f40678" name="+2 WC" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links/>
-                    </entry>
-                    <entry id="cd437d71-308e-c0dd-00a1-26d3800307b3" name="Self Repair" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="7aff730e-fc20-cbf6-2d16-ba64e6292024" targetId="46aa855e-e070-f3af-da7c-bbde6cf685f5" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-                <entryGroup id="a672d84a-bb3a-a2a8-b0c8-dea6cda50b40" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="4fa6fe50-9b71-5462-8f03-b2dc8f5abf5d" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="3838adc5-d39b-0a9a-c8e1-6598089a1d31" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-                <entryGroup id="bf86b543-a3c0-1182-57ad-69e73f3fcd51" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="20.0" collective="false" hidden="false">
+            <entry id="6bcb283f-d359-d1ec-92b6-23c585705fe5" name="Ganak Battleship (Uses Sanarl Profile Below)" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="0670-8778-d5f7-d485" name="Ganak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
-                  <modifiers>
-                    <modifier type="increment" field="maxPoints" value="10.0" repeat="true" numRepeats="1" incrementParentId="6bcb283f-d359-d1ec-92b6-23c585705fe5" incrementChildId="a5441500-51be-0983-fe62-0fb056f40678" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
                   <links>
-                    <link id="4594-99ba-83ef-3647" targetId="e1c4-5a93-e173-99cb" linkType="entry group">
+                    <link id="72d5-887c-06bb-cd3d" targetId="1e6f-9461-56f8-abee" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
-                </entryGroup>
-              </entryGroups>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="a1c67546-8091-b1a5-543b-41e466dbd0ad" targetId="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" linkType="profile">
-                  <modifiers>
-                    <modifier type="increment" field="45a72717-f553-eda0-574a-ed9c863706e4" value="1" repeat="true" numRepeats="1" incrementParentId="6bcb283f-d359-d1ec-92b6-23c585705fe5" incrementChildId="9b209b88-aedb-9fcb-8264-a61426f2387d" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="2" repeat="true" numRepeats="1" incrementParentId="6bcb283f-d359-d1ec-92b6-23c585705fe5" incrementChildId="a5441500-51be-0983-fe62-0fb056f40678" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="5d6f05d1-53a3-6c92-d0cb-b05cf5ec2491" targetId="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" linkType="profile">
+              <links/>
+            </entry>
+            <entry id="3c2e-a5f8-c8dd-0454" name="Sanarl Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="d6d8-af05-e08b-8894" name="Sanarl" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
                   <modifiers/>
-                </link>
-                <link id="09de47a5-fcec-c146-a2f3-a319cd0f43dd" targetId="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" linkType="profile">
-                  <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="6bcb283f-d359-d1ec-92b6-23c585705fe5" incrementChildId="4fa6fe50-9b71-5462-8f03-b2dc8f5abf5d" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="2832853f-5d78-20b2-7d7d-d39ea5602881" targetId="9cf13844-fbae-a981-ad3e-671e39b36c86" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="8fddfda3-3cd2-ed8b-40c0-ce98ab06a2ca" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7dcb23b5-a55b-3562-8647-79e6e05c2326" targetId="83671ee7-f697-5555-250e-226691410984" linkType="profile">
-                  <modifiers>
-                    <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="6bcb283f-d359-d1ec-92b6-23c585705fe5" incrementChildId="4fa6fe50-9b71-5462-8f03-b2dc8f5abf5d" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="26a3-542c-e753-41d5" targetId="1e6f-9461-56f8-abee" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
@@ -155,70 +81,40 @@
     <entry id="de0dd40a-0073-4993-0e80-c8d3e73d8e22" name="Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="082d9be2-4b7e-ba3e-7736-df41944a469a" name="Ship Class" defaultEntryId="790500b0-9d62-9a7b-069d-c9a27d5c2a77" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="082d9be2-4b7e-ba3e-7736-df41944a469a" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="790500b0-9d62-9a7b-069d-c9a27d5c2a77" name="Sulan Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="790500b0-9d62-9a7b-069d-c9a27d5c2a77" name="Sulan Cruiser (Uses Rulak Profile Below)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="7c2252a0-8b33-b808-ce2d-1d733924b2c5" name="Sulan" points="60.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="7c2252a0-8b33-b808-ce2d-1d733924b2c5" name="Sulan" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
-                  <entryGroups>
-                    <entryGroup id="5ffeee16-cb39-c2df-dd2e-f2af0e365a99" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="0981259c-d5d7-f83b-b294-b756795fada5" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="a2b160d6-03df-0aa7-4186-ffced6aefea1" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                        <entry id="cfe8a54a-5e73-7084-72c2-ea42d29b528c" name="Protected Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="beb91894-cc16-8c0e-ee46-f5fef45e72c7" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
+                  <entryGroups/>
                   <modifiers/>
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="ebe79d99-6174-65b0-c2cb-93bf8cee4e27" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
+                    <link id="0a2b459c-5140-6db3-7c43-2086bc6c3a33" targetId="c8d0-267f-c37d-3c6f" linkType="entry">
                       <modifiers/>
                     </link>
-                    <link id="505889c4-0277-90ee-92d9-8e62e28afa6e" targetId="1435e987-cae0-7de0-97a1-26a710fc5c9f" linkType="profile">
-                      <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="0981259c-d5d7-f83b-b294-b756795fada5" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                    <link id="0a2b459c-5140-6db3-7c43-2086bc6c3a33" targetId="a7211d81-c254-0053-e56f-672d563af35d" linkType="profile">
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6b56-b3c7-c556-e627" name="Rulak Cruiser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="8c2e-c628-4303-e43e" name="Rulak" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="d395-96ea-d99d-2521" targetId="c8d0-267f-c37d-3c6f" linkType="entry">
                       <modifiers/>
-                    </link>
-                    <link id="9e0352b9-d541-056f-601d-5526d5b7325a" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
-                      <modifiers>
-                        <modifier type="append" field="88222587-060a-9230-b947-2bffa3b052dd" value=" " repeat="true" numRepeats="1" incrementParentId="7c2252a0-8b33-b808-ce2d-1d733924b2c5" incrementChildId="0981259c-d5d7-f83b-b294-b756795fada5" incrementField="selections" incrementValue="1.0">
-                          <conditions/>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
                     </link>
                   </links>
                 </entry>
@@ -262,27 +158,39 @@
     <entry id="1d214934-1bf6-441e-55d3-84508502ef97" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="176939da-e63c-9999-3d2e-4fe413e44fac" name="Ship Class" defaultEntryId="7db4ecb5-bc06-3a85-cdcb-1ffca665fd23" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="176939da-e63c-9999-3d2e-4fe413e44fac" name="Ship Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="7db4ecb5-bc06-3a85-cdcb-1ffca665fd23" name="Tarl Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="7db4ecb5-bc06-3a85-cdcb-1ffca665fd23" name="Kurar Frigate" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="d0f45550-f6cd-d5ac-c9d8-8e04b80bd385" name="Tarl" points="30.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="d0f45550-f6cd-d5ac-c9d8-8e04b80bd385" name="Kurar" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="b77866d7-3af0-3045-6771-bb89671409c0" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
+                    <link id="a901cba0-a4ae-fbd7-dd86-567b10b6a851" targetId="283a-3905-b32d-edd2" linkType="entry">
                       <modifiers/>
                     </link>
-                    <link id="7b79603d-cda8-fad2-ee0f-04b5db616836" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="a901cba0-a4ae-fbd7-dd86-567b10b6a851" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="fa3a7046-db7d-a333-3f5e-0c0254116fa2" targetId="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" linkType="profile">
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1e24-fb2d-f0df-0f23" name="Tarl Frigate (Uses Kurar Profile Below)" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="3d06-4156-6d95-cf07" name="Tarl" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b5ad-96f9-bb2b-db73" targetId="283a-3905-b32d-edd2" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
@@ -334,7 +242,208 @@ Command Distance: 7&quot;</description>
     </rule>
   </rules>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="1e6f-9461-56f8-abee" name="Sanarl" points="190.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="d848-aa12-25f0-f485" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="943d-cc57-d146-3517" name="+1 CR" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6f2e-826a-e559-1ea5" name="+2 WC" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="9a13-be4b-8c6c-7a78" name="Self Repair" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="2bc2-a131-3265-4d8f" targetId="46aa855e-e070-f3af-da7c-bbde6cf685f5" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="36f8-2fca-d1c6-9fbb" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c215-1a04-75fa-3515" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d926-a7c7-0cb3-e898" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="7179-0c7e-b2eb-c07f" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="20.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxPoints" value="10.0" repeat="true" numRepeats="1" incrementParentId="1e6f-9461-56f8-abee" incrementChildId="6f2e-826a-e559-1ea5" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="9937-beb4-a5fa-0c27" targetId="e1c4-5a93-e173-99cb" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="aa71-23f6-3cb6-84b1" targetId="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" linkType="profile">
+          <modifiers>
+            <modifier type="increment" field="45a72717-f553-eda0-574a-ed9c863706e4" value="1" repeat="true" numRepeats="1" incrementParentId="1e6f-9461-56f8-abee" incrementChildId="943d-cc57-d146-3517" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="2" repeat="true" numRepeats="1" incrementParentId="1e6f-9461-56f8-abee" incrementChildId="6f2e-826a-e559-1ea5" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="3931-9b1e-5392-50a7" targetId="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d499-2588-67d0-1cf6" targetId="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="1e6f-9461-56f8-abee" incrementChildId="c215-1a04-75fa-3515" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="a4f9-196e-ed12-0dac" targetId="9cf13844-fbae-a981-ad3e-671e39b36c86" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="79c6-2223-dc65-cc6f" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="131a-9da0-f01c-4cc6" targetId="83671ee7-f697-5555-250e-226691410984" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="1e6f-9461-56f8-abee" incrementChildId="c215-1a04-75fa-3515" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="c8d0-267f-c37d-3c6f" name="Rulak" points="60.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="25ec-d5f1-2375-630d" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="77d3-cf47-3de8-363e" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="967d-c5eb-32ba-882e" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8ac7-fbc7-7363-c50b" name="Protected Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="03d4-4957-afd6-a1df" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="68bc-f5f2-0fd0-4309" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7a63-dee6-a29e-b4da" targetId="1435e987-cae0-7de0-97a1-26a710fc5c9f" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="f731-ca97-338f-7301" targetId="a7211d81-c254-0053-e56f-672d563af35d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="28cb-f2a4-b24d-aec4" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="283a-3905-b32d-edd2" name="Kurar" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8046-108d-ffb3-869a" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8572-9594-0205-d9aa" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b051-5fca-fa5a-0391" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6f4-36b2-4a9d-16f4" targetId="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="e1c4-5a93-e173-99cb" name="SRS Tokens" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -538,8 +647,9 @@ Command Distance: 7&quot;</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ganak/Sanarl" hidden="false" page="0">
+    <profile id="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sanarl" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Battleship"/>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="10"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
@@ -554,52 +664,61 @@ Command Distance: 7&quot;</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Ganak/Sanarl Fore (Fixed)" hidden="false" page="0">
+    <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_I" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Gravitational"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Ganak/Sanarl Starboard/Port" hidden="false" page="0">
+    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_II" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Ganak/Sanarl Torpedoes (Fore)" hidden="false" page="0">
+    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_IV" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="83671ee7-f697-5555-250e-226691410984" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Ganak/Sanarl Torpedoes Starboard/Port" hidden="false" page="0">
+    <profile id="83671ee7-f697-5555-250e-226691410984" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_III" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f2611628-c96f-eabe-34cf-e7c5ff08815a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sulan/Rulak" hidden="false" page="0">
+    <profile id="f2611628-c96f-eabe-34cf-e7c5ff08815a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Rulak" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Cruiser"/>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="6"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="8"/>
@@ -614,41 +733,48 @@ Command Distance: 7&quot;</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Sulan/Rulak Fore (Fixed)" hidden="false" page="0">
+    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_I" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Gravitational"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
+        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Sulan/Rulak Torpedoes Fore" hidden="false" page="0">
+    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_III" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
+        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Sulan/Rulak Torpedoes Starboard/Port" hidden="false" page="0">
+    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_II" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
+        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="717d0333-75cd-8e1a-180b-628f0b7cc85d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Tarl/Kurar" hidden="false" page="0">
+    <profile id="717d0333-75cd-8e1a-180b-628f0b7cc85d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kurar" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Frigate"/>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="5"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
@@ -663,25 +789,29 @@ Command Distance: 7&quot;</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Tarl/Kurar Fore (Fixed)" hidden="false" page="0">
+    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kurar_Weapon_I" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Gravitational"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
         <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
+        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Tarl/Kurar Torpedoes Starboard/Port" hidden="false" page="0">
+    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kurar_Weapon_II" hidden="false" page="0">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="1"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Indirect"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
+        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
