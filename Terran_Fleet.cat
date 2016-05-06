@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="24" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0477273-8d69-4834-10a8-423bb8fb0a1b" revision="25" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Terran Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b1bd-11b9-46d8-c294" name="Assault/Torpedo Cruiser Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -465,13 +465,13 @@
                 </link>
               </links>
             </entry>
-            <entry id="03f0-b44b-a362-02dc" name="Hermes Cruiser (Uses Teuton Profile Below)" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="04fc-8509-d4ee-ab61" name="Hermes Cruiser (Uses Teuton Profile Below)" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="2104-940f-d88b-3537" name="Hermes" points="0.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="d86f-d86e-c56b-08b4" name="Hermes" points="0.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="03f0-b44b-a362-02dc" incrementChildId="d177-d09c-9764-d94d" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="04fc-8509-d4ee-ab61" incrementChildId="dee8-e5dd-c17e-9f33" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -479,10 +479,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="4bf9-acf3-e30d-cc7d" targetId="bc70-9c84-afe3-bc94" linkType="entry">
-                      <modifiers/>
-                    </link>
-                    <link id="39e2-0bd8-d7d6-e617" targetId="6291-c4d8-f9a8-0b19" linkType="entry group">
+                    <link id="49c2-6ee6-772a-f424" targetId="bc70-9c84-afe3-bc94" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
@@ -493,18 +490,21 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="d177-d09c-9764-d94d" targetId="d1b2-4cd4-138d-7c04" linkType="entry group">
+                <link id="dee8-e5dd-c17e-9f33" targetId="d1b2-4cd4-138d-7c04" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="d5d3-6481-830e-1241" targetId="6291-c4d8-f9a8-0b19" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="d097-1b74-4d74-05e8" name="Sentinel Cruiser (Uses Teuton Profile Below)" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="ab32-58ba-2add-a514" name="Sentinel Cruiser (Uses Teuton Profile Below)" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="5fd9-517f-a296-47bb" name="Sentinel" points="0.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="cd42-7ef0-bb75-3db3" name="Sentinel" points="0.0" categoryId="(No Category)" type="unit" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
-                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="d097-1b74-4d74-05e8" incrementChildId="ef30-fad4-855e-9d7e" incrementField="selections" incrementValue="1.0">
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ab32-58ba-2add-a514" incrementChildId="8802-6001-fdcd-63d3" incrementField="selections" incrementValue="1.0">
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
@@ -512,10 +512,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="7c9e-e633-0a20-c4dc" targetId="bc70-9c84-afe3-bc94" linkType="entry">
-                      <modifiers/>
-                    </link>
-                    <link id="d8a5-8b25-e62a-cf8a" targetId="6291-c4d8-f9a8-0b19" linkType="entry group">
+                    <link id="5907-4e9c-1e60-565e" targetId="bc70-9c84-afe3-bc94" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
@@ -526,7 +523,10 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="ef30-fad4-855e-9d7e" targetId="d1b2-4cd4-138d-7c04" linkType="entry group">
+                <link id="8802-6001-fdcd-63d3" targetId="d1b2-4cd4-138d-7c04" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="9ab2-ad76-6573-37be" targetId="6291-c4d8-f9a8-0b19" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
