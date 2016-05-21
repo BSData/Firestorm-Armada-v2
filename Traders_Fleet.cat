@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ccd4b9d-cadd-9b21-e0c4-c1419bf22322" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Traders Fleet" authorName="XViper" authorContact="xviper@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1ccd4b9d-cadd-9b21-e0c4-c1419bf22322" revision="8" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Traders Fleet" authorName="XViper" authorContact="xviper@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -940,6 +940,10 @@ However, rather than only having one Hidden Set-Up Marker, you may place a numbe
       <description>Coherence Effect - If ALL weapons involved in the attack are Kinetic weapons and the attack equals or exceeds the target’s Critical Rating, the attacker may add +1 to the result of the roll on the critical hit table. If the Attack causes multiple Critical Hits, you may choose separately for each roll on the Critical Hit Table made.</description>
       <modifiers/>
     </rule>
+    <rule id="96f8-8e22-bf0a-d01f" name="Launch Tubes" hidden="false" page="0">
+      <description>A model with Launch Tubes can initiate a Boarding Assault against a target within 12”.</description>
+      <modifiers/>
+    </rule>
     <rule id="a179a134-3d9a-ea12-d578-98b3549ea009" name="Maneuverable" hidden="false" page="0">
       <description>If a Maneuverable model is at a Full Stop, it can rotate up to 90 degrees around its Flight Peg during the Secondary Movement segment of its activation.</description>
       <modifiers/>
@@ -976,6 +980,10 @@ The bonus is applied if the Flight Pegs of all firing models contributing to the
 
 The model’s Shield Rating is reduced by 1 against any Attack NOT from the nominated direction. The Shield Rating on the model will return to its original value at the beginning of the Command Segment of is next activation.
 A model may be deployed with Sector Shielding engaged, nominate the direction at the time of deployment.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ba4a-c7e2-d10d-52d0" name="Secured Bulkheads" hidden="false" page="0">
+      <description>Subtract 1 from any rolls on a Targeted Strike Damage Table resulting from Boarding Assaults against a model with Secured Bulkheads.</description>
       <modifiers/>
     </rule>
     <rule id="e08bb9c9-c0f0-9f23-31fe-39fb65f92f75" name="Self Repair" hidden="false" page="0">
@@ -1021,14 +1029,6 @@ However, the model can declare a Boarding Assault against a model which it, and 
       <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="96f8-8e22-bf0a-d01f" name="Launch Tubes" hidden="false" page="0">
-      <description>A model with Launch Tubes can initiate a Boarding Assault against a target within 12”.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ba4a-c7e2-d10d-52d0" name="Secured Bulkheads" hidden="false" page="0">
-      <description>Subtract 1 from any rolls on a Targeted Strike Damage Table resulting from Boarding Assaults against a model with Secured Bulkheads.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="968b61e4-d065-3063-2e4f-106bc713399a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Militia" hidden="false">
@@ -1048,16 +1048,16 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7db5108b-7e75-0598-44f2-3fa08e324619" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Militia_Weapon_I" hidden="false">
+    <profile id="7db5108b-7e75-0598-44f2-3fa08e324619" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Militia_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Any"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1078,29 +1078,29 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b5206fdb-a958-3c4f-2346-952ed19618f9" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Opportunity_Weapon_I" hidden="false">
+    <profile id="b5206fdb-a958-3c4f-2346-952ed19618f9" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Opportunity_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c0b1169f-1349-efc5-e5df-f5be4c2248f3" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Opportunity_Weapon_II" hidden="false">
+    <profile id="c0b1169f-1349-efc5-e5df-f5be4c2248f3" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Opportunity_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Any"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1121,16 +1121,16 @@ However, the model can declare a Boarding Assault against a model which it, and 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="809acb1a-b673-92d4-273f-215b7237a2d6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Penitentiary_Weapon_I" hidden="false">
+    <profile id="809acb1a-b673-92d4-273f-215b7237a2d6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Penitentiary_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="1"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1153,6 +1153,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
     </profile>
     <profile id="58617ac7-ce98-a9f4-2499-26e0b3bce20b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Prospector_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -1160,12 +1161,12 @@ However, the model can declare a Boarding Assault against a model which it, and 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="6f514d81-5de2-d5fe-ad4a-e80c4c9793be" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Prospector_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1173,7 +1174,6 @@ However, the model can declare a Boarding Assault against a model which it, and 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1196,6 +1196,7 @@ However, the model can declare a Boarding Assault against a model which it, and 
     </profile>
     <profile id="a7f381b5-3f24-dbb1-229f-9a2f8fffd1d8" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -1203,25 +1204,25 @@ However, the model can declare a Boarding Assault against a model which it, and 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="548739a4-9871-8812-4058-bfc48acfdc68" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer_Weapon_II" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="1"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="7b8fd109-3eeb-b9f7-a0f9-212a89ed1eda" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer_Weapon_III" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1229,12 +1230,12 @@ However, the model can declare a Boarding Assault against a model which it, and 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="8c48916a-5c76-e4a4-b9f4-9ccbd30e05a3" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Reformer_Weapon_IV" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -1242,7 +1243,6 @@ However, the model can declare a Boarding Assault against a model which it, and 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
       </characteristics>
       <modifiers/>
     </profile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da9173c5-9cf5-47a2-ddfd-bd858ee5de67" revision="6" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Syndicate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da9173c5-9cf5-47a2-ddfd-bd858ee5de67" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Syndicate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -587,7 +587,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="a0c8-9e70-c0ac-04f7" targetId="b93abd57-35f8-9835-2027-8bd09d163484" linkType="profile">
           <modifiers>
-            <modifier type="set" field="f052-dc08-146a-d6af" value="Decimator_Warheads" repeat="true" numRepeats="1" incrementParentId="b6f8-f9ca-96fc-d92b" incrementChildId="cbdc-23ac-6789-1da2" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="f67f-5825-72ff-a4f4" value="Decimator_Warheads" repeat="true" numRepeats="1" incrementParentId="b6f8-f9ca-96fc-d92b" incrementChildId="cbdc-23ac-6789-1da2" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -991,6 +991,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
     </profile>
     <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -998,25 +999,25 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Gun_Rack"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_III" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -1024,7 +1025,6 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1045,16 +1045,16 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Shadow_Weapon_I" hidden="false">
+    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Shadow_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1077,6 +1077,7 @@ Only one Target Resolution attempt may be made for any one attack.</description>
     </profile>
     <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -1084,25 +1085,25 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Gun_Rack"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_III" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1110,7 +1111,6 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1131,29 +1131,29 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Wraith_Weapon_I" hidden="false">
+    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Wraith_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Wraith_Weapon_II" hidden="false">
+    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Wraith_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>

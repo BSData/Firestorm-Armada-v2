@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d628b559-6c37-d3a8-d216-c68865618958" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d628b559-6c37-d3a8-d216-c68865618958" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="03d0ffcb-179e-3dd1-90bd-d124782fc7f8" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -380,7 +380,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="898d-22b1-434a-41ab" targetId="83671ee7-f697-5555-250e-226691410984" linkType="profile">
           <modifiers>
-            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Nuclear" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Nuclear" repeat="true" numRepeats="1" incrementParentId="5dcb-6141-2807-4d1f" incrementChildId="247e-2355-a44d-fffb" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -918,42 +918,42 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6d986653-27cc-de3c-8a8e-58a90f36923e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Endeavour_Weapon_I" hidden="false" page="0">
+    <profile id="6d986653-27cc-de3c-8a8e-58a90f36923e" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Endeavour_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Endeavour_Weapon_II" hidden="false" page="0">
+    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Endeavour_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="1"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="2"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Endeavour_Weapon_III" hidden="false" page="0">
+    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Endeavour_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -976,6 +976,7 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
     </profile>
     <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Excelsior_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -983,12 +984,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Excelsior_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -996,12 +997,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="83671ee7-f697-5555-250e-226691410984" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Excelsior_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1009,25 +1010,25 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a14d1c06-a0f5-d7e2-d8f9-a002fee36b8e" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Excelsior_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Excelsior_Weapon_V" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -1035,7 +1036,6 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1058,6 +1058,7 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
     </profile>
     <profile id="6869123c-b620-1045-81c6-246075cdc973" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Regent_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1065,12 +1066,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="4105dbcc-7b49-4174-98b0-bf3bdc6d55ca" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Regent_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -1078,12 +1079,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="ff2bf2fd-65d0-916a-f087-45036a052e08" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Regent_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1091,12 +1092,12 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="dcdeb9f2-a1b3-1529-5c7c-4c4e6f5aa8ab" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Regent_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1104,7 +1105,6 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1125,42 +1125,42 @@ If the target of a Cyberwarfare Attack is a non-Capital Class model, the target 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Resolute_Weapon_I" hidden="false" page="0">
+    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Resolute_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Resolute_Weapon_II" hidden="false" page="0">
+    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Resolute_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Turrets"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Resolute_Weapon_III" hidden="false" page="0">
+    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Resolute_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>

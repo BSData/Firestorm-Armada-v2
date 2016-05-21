@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="8" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -274,6 +274,95 @@ Command Distance: 6&quot;</description>
   </rules>
   <links/>
   <sharedEntries>
+    <entry id="2541-9b5f-65b4-12fb" name="Auditor" points="75.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5d85-6b1b-e6c0-9dbb" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f622-668a-bbed-f156" name="Biohazard Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="eda5-8345-00bb-75d6" targetId="c3847bd0-4cfe-409f-fbe7-8af46f4ad5dc" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="2541-9b5f-65b4-12fb" childId="4c26-2caa-a714-6e8d" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+        <entryGroup id="3020-059d-ab26-9261" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2742-a4a8-923c-eabc" name="Cyberwarfare Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0ec4-e96a-ce17-f90a" targetId="16aa0df5-c752-b1b2-26bd-88a7f68ea267" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="8345-6284-3395-98b5" targetId="00850539-a382-75c7-6cd1-b72d91cb956a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4c26-2caa-a714-6e8d" name="Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d9fd-8d35-6865-156b" targetId="5d199056-b36c-fcc9-6677-8b38d3e8e97d" linkType="profile">
+                  <modifiers>
+                    <modifier type="set" field="f67f-5825-72ff-a4f4" value="Biohazard_Ammo" repeat="true" numRepeats="1" incrementParentId="2541-9b5f-65b4-12fb" incrementChildId="f622-668a-bbed-f156" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="c787dd43-2136-6456-fda2-426e0e8573f1" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a728-542d-7ec1-3462" targetId="e65f5f56-01a3-234b-3620-22b4f41b571d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="78ce-d60f-f0b8-65d4" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="211b-37d8-512f-43f0" targetId="b93abd57-35f8-9835-2027-8bd09d163484" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="4ab8-16f9-34d2-dc76" name="Executive" points="165.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -439,78 +528,6 @@ Command Distance: 6&quot;</description>
         </link>
       </links>
     </entry>
-    <entry id="a12d-7ddb-d709-ef6d" name="Synergy" points="15.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="9930-e82f-9a5f-a252" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b4bf-6048-0b98-d00a" name="Torpedoes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="a30f-1305-f7ba-503e" targetId="a9fa8097-71fe-97ca-d339-ad011ec3f736" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="01cd-eae2-fc3d-8b02" name="Cyberwarfare Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3435-6ab9-ecbf-4c6f" targetId="99d5e76d-62de-b1aa-e43f-aad57f2a435b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="784a-5e17-b56f-f4af" name="Bigger Batteries and +1 PD" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b202-4524-1b66-5881" targetId="5f5c603b-8e76-8932-a300-2e858565c809" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="c787dd43-2136-6456-fda2-426e0e8573f1" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1aac-cf48-2d05-7b39" targetId="c22cf764-6b41-230e-0065-0f4a70b0593d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b9b8-5be4-a9c5-d8b0" targetId="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" linkType="profile">
-          <modifiers>
-            <modifier type="increment" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="1" repeat="true" numRepeats="1" incrementParentId="a12d-7ddb-d709-ef6d" incrementChildId="784a-5e17-b56f-f4af" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="38d8-4000-3a61-a23a" targetId="10b473c9-606c-4d39-d2e4-73b156c42e9d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="513e-ead3-4acf-a731" name="Foundry" points="270.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -661,66 +678,44 @@ Command Distance: 6&quot;</description>
         </link>
       </links>
     </entry>
-    <entry id="2541-9b5f-65b4-12fb" name="Auditor" points="75.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+    <entry id="a12d-7ddb-d709-ef6d" name="Synergy" points="15.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="5d85-6b1b-e6c0-9dbb" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="9930-e82f-9a5f-a252" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="f622-668a-bbed-f156" name="Biohazard Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+            <entry id="b4bf-6048-0b98-d00a" name="Torpedoes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="eda5-8345-00bb-75d6" targetId="c3847bd0-4cfe-409f-fbe7-8af46f4ad5dc" linkType="rule">
+                <link id="a30f-1305-f7ba-503e" targetId="a9fa8097-71fe-97ca-d339-ad011ec3f736" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="2541-9b5f-65b4-12fb" childId="4c26-2caa-a714-6e8d" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links/>
-        </entryGroup>
-        <entryGroup id="3020-059d-ab26-9261" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="2742-a4a8-923c-eabc" name="Cyberwarfare Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="01cd-eae2-fc3d-8b02" name="Cyberwarfare Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="0ec4-e96a-ce17-f90a" targetId="16aa0df5-c752-b1b2-26bd-88a7f68ea267" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="8345-6284-3395-98b5" targetId="00850539-a382-75c7-6cd1-b72d91cb956a" linkType="rule">
+                <link id="3435-6ab9-ecbf-4c6f" targetId="99d5e76d-62de-b1aa-e43f-aad57f2a435b" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="4c26-2caa-a714-6e8d" name="Torpedoes" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="784a-5e17-b56f-f4af" name="Bigger Batteries and +1 PD" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="d9fd-8d35-6865-156b" targetId="5d199056-b36c-fcc9-6677-8b38d3e8e97d" linkType="profile">
-                  <modifiers>
-                    <modifier type="set" field="f052-dc08-146a-d6af" value="Biohazard_Ammo" repeat="true" numRepeats="1" incrementParentId="2541-9b5f-65b4-12fb" incrementChildId="f622-668a-bbed-f156" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                <link id="b202-4524-1b66-5881" targetId="5f5c603b-8e76-8932-a300-2e858565c809" linkType="rule">
+                  <modifiers/>
                 </link>
               </links>
             </entry>
@@ -739,19 +734,72 @@ Command Distance: 6&quot;</description>
       <rules/>
       <profiles/>
       <links>
-        <link id="a728-542d-7ec1-3462" targetId="e65f5f56-01a3-234b-3620-22b4f41b571d" linkType="profile">
+        <link id="1aac-cf48-2d05-7b39" targetId="c22cf764-6b41-230e-0065-0f4a70b0593d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="78ce-d60f-f0b8-65d4" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" linkType="rule">
-          <modifiers/>
+        <link id="b9b8-5be4-a9c5-d8b0" targetId="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" linkType="profile">
+          <modifiers>
+            <modifier type="increment" field="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="1" repeat="true" numRepeats="1" incrementParentId="a12d-7ddb-d709-ef6d" incrementChildId="784a-5e17-b56f-f4af" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
-        <link id="211b-37d8-512f-43f0" targetId="b93abd57-35f8-9835-2027-8bd09d163484" linkType="profile">
+        <link id="38d8-4000-3a61-a23a" targetId="10b473c9-606c-4d39-d2e4-73b156c42e9d" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
+    <entryGroup id="bc23-0520-5fa1-319d" name="Executive Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="805f-f67e-4ab8-faa3" name="Synergy Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="442d-6b4b-09b2-521e" targetId="a12d-7ddb-d709-ef6d" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="a122-b1a8-6aee-5185" name="Foundry Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7eb6-49bd-f6fc-7bcb" name="Synergy Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5811-d119-f378-749c" targetId="a12d-7ddb-d709-ef6d" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="13fe-ecaa-8eff-0157" name="SRS Tokens" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f076-520a-9656-1251" name="Support Shuttle Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -934,54 +982,6 @@ Command Distance: 6&quot;</description>
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="bc23-0520-5fa1-319d" name="Executive Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="805f-f67e-4ab8-faa3" name="Synergy Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="442d-6b4b-09b2-521e" targetId="a12d-7ddb-d709-ef6d" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="a122-b1a8-6aee-5185" name="Foundry Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="7eb6-49bd-f6fc-7bcb" name="Synergy Accompaniment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5811-d119-f378-749c" targetId="a12d-7ddb-d709-ef6d" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="bae37eef-fb25-0a12-54b7-9327d7335920" name="Ambush" hidden="false" page="0">
@@ -1149,42 +1149,42 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor_Weapon_II" hidden="false">
+    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Auditor_Weapon_I " hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Assault_Robot_Torpedoes"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor_Weapon_I " hidden="false">
-      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5d199056-b36c-fcc9-6677-8b38d3e8e97d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Auditor_Weapon_III" hidden="false">
+    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Auditor_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5d199056-b36c-fcc9-6677-8b38d3e8e97d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Auditor_Weapon_III" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1205,21 +1205,9 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="77572df9-410b-26db-192d-04b05f4b3fa1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive_Weapon_III" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -1227,12 +1215,12 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -1240,12 +1228,25 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="77572df9-410b-26db-192d-04b05f4b3fa1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive_Weapon_III" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="9"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Executive_Weapon_IV" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
@@ -1253,7 +1254,6 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1274,21 +1274,9 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry_Weapon_III" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="10"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="14"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -1296,12 +1284,12 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry_Weapon_II" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1309,12 +1297,25 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry_Weapon_III" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="3555d240-fbd1-991c-f9c9-82f672b64369" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Foundry_Weapon_IV" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
@@ -1322,7 +1323,6 @@ Only one Target Resolution attempt may be made for any one attack.</description>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1343,29 +1343,29 @@ Only one Target Resolution attempt may be made for any one attack.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="99d5e76d-62de-b1aa-e43f-aad57f2a435b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Synergy_Weapon_II" hidden="false">
+    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Synergy_Weapon_I" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value="Assault_Robot_Torpedoes"/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Synergy_Weapon_I" hidden="false">
-      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="99d5e76d-62de-b1aa-e43f-aad57f2a435b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Synergy_Weapon_II" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Cyberwarfare"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Assault_Robot_Torpedoes"/>
       </characteristics>
       <modifiers/>
     </profile>

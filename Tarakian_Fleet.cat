@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fe0d6a6e-0657-42d2-ca70-fa5037cc8382" revision="8" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Tarakian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fe0d6a6e-0657-42d2-ca70-fa5037cc8382" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Tarakian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="03d0ffcb-179e-3dd1-90bd-d124782fc7f8" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -243,6 +243,90 @@ Command Distance: 7&quot;</description>
   </rules>
   <links/>
   <sharedEntries>
+    <entry id="283a-3905-b32d-edd2" name="Kurar" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8046-108d-ffb3-869a" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8572-9594-0205-d9aa" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b051-5fca-fa5a-0391" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6f4-36b2-4a9d-16f4" targetId="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c8d0-267f-c37d-3c6f" name="Rulak" points="60.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="25ec-d5f1-2375-630d" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="77d3-cf47-3de8-363e" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="967d-c5eb-32ba-882e" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8ac7-fbc7-7363-c50b" name="Protected Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="03d4-4957-afd6-a1df" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="68bc-f5f2-0fd0-4309" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7a63-dee6-a29e-b4da" targetId="1435e987-cae0-7de0-97a1-26a710fc5c9f" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="f731-ca97-338f-7301" targetId="a7211d81-c254-0053-e56f-672d563af35d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="28cb-f2a4-b24d-aec4" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
     <entry id="1e6f-9461-56f8-abee" name="Sanarl" points="190.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -356,90 +440,6 @@ Command Distance: 7&quot;</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="c8d0-267f-c37d-3c6f" name="Rulak" points="60.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="25ec-d5f1-2375-630d" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="77d3-cf47-3de8-363e" name="High Energy Torpedoes" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="967d-c5eb-32ba-882e" targetId="02b7e22e-6303-2ae7-6629-2dea903f6c46" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="8ac7-fbc7-7363-c50b" name="Protected Systems" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="03d4-4957-afd6-a1df" targetId="6a883230-49bc-4bf6-f6bc-686986d6b80d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="68bc-f5f2-0fd0-4309" targetId="f2611628-c96f-eabe-34cf-e7c5ff08815a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="7a63-dee6-a29e-b4da" targetId="1435e987-cae0-7de0-97a1-26a710fc5c9f" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="f731-ca97-338f-7301" targetId="a7211d81-c254-0053-e56f-672d563af35d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="28cb-f2a4-b24d-aec4" targetId="ee1b7ea8-2aaa-c481-8518-87532ff18f45" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c8d0-267f-c37d-3c6f" incrementChildId="77d3-cf47-3de8-363e" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="283a-3905-b32d-edd2" name="Kurar" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="8046-108d-ffb3-869a" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="8572-9594-0205-d9aa" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b051-5fca-fa5a-0391" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c6f4-36b2-4a9d-16f4" targetId="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" linkType="profile">
-          <modifiers/>
         </link>
       </links>
     </entry>
@@ -647,72 +647,46 @@ Command Distance: 7&quot;</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sanarl" hidden="false" page="0">
+    <profile id="717d0333-75cd-8e1a-180b-628f0b7cc85d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kurar" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Battleship"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="10"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="10"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="8"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="4"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="6"/>
+        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Frigate"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="5"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="2"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="1"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="3"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="4"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_I" hidden="false" page="0">
+    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Kurar_Weapon_I" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_II" hidden="false" page="0">
+    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Kurar_Weapon_II" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
         <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_IV" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="1"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="83671ee7-f697-5555-250e-226691410984" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_III" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -733,85 +707,111 @@ Command Distance: 7&quot;</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_I" hidden="false" page="0">
+    <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Rulak_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_III" hidden="false" page="0">
+    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Rulak_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Rulak_Weapon_II" hidden="false" page="0">
+    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Rulak_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="717d0333-75cd-8e1a-180b-628f0b7cc85d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kurar" hidden="false" page="0">
+    <profile id="d3ede3ca-32f1-2c4f-88d7-e567e48d41e3" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sanarl" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Frigate"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="3"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="5"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="10"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="2"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="1"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="1"/>
+        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Battleship"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="10"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="10"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="8"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="4"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="6"/>
         <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
+        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="3"/>
+        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="4"/>
+        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="2"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kurar_Weapon_I" hidden="false" page="0">
+    <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_I" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="2"/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Gravitational"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ba4cf242-bec2-e8e0-979d-ca8b02ed8dcd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kurar_Weapon_II" hidden="false" page="0">
+    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_II" hidden="false" page="0">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="1"/>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="83671ee7-f697-5555-250e-226691410984" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_III" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sanarl_Weapon_IV" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="8"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>

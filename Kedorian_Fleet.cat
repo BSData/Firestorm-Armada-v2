@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a78a17d-7609-7db9-f15e-f87149d5b62f" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Kedorian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a78a17d-7609-7db9-f15e-f87149d5b62f" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="1" battleScribeVersion="1.15" name="Kedorian Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="4edd-1517-a85b-a774" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -375,6 +375,156 @@ Command Distance: 7&quot;</description>
         </link>
       </links>
     </entry>
+    <entry id="7590-46be-4bdd-a458" name="Gai-Shar" points="75.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="cd41-7abd-78b6-cbe5" targetId="1a7c250e-a1ac-3790-08d1-68c8f2a210a2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6f88-7634-590a-4d48" targetId="bf5f6e08-cb00-aa69-4663-2ed06e36da0a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f0ba-166d-ce00-701b" targetId="39e03a36-f30a-df4e-0b93-b695db2423fb" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="beb8-c261-6a70-e5ef" targetId="b1912e59-de1a-93c3-f337-b8617e491862" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b5ad-848e-dde3-db4b" name="Zai-Dan" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries>
+        <entry id="4d8f-857e-2c03-6aee" name="Energy Transfer (All, 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="74ae-7f39-d224-21be" name="Shunt Matrix (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5f67-1844-6403-b52b" targetId="391a3d4e-93ea-ef51-7469-28db9a47fe20" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="7caa-2c5d-003a-5d76" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4ff2-43e1-445d-c447" name="Beam Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c76c-75e2-b309-2490" targetId="dec2d596-64de-4799-fa7c-8b69ea7772fe" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="69b6-ba5c-eb92-89df" targetId="c94285c7-a301-13da-e92f-c7ff46df01f3" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="0a40-202b-d4b0-d499" targetId="75336d8d-71f3-6244-28d5-714f21ace889" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4487-834e-f6db-a654" targetId="1830d7f5-5317-3d82-7ad0-36b41b97f432" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="0374-6f43-7a85-4d1e" targetId="1027d294-d030-ddd5-26c6-4d07ae51bdc7" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="c33f-4fbf-b700-1dae" targetId="c0ad780a-2cd5-e785-7532-45fedda6e855" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="38b3-e976-a903-c81a" name="Zer-Nak" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries>
+        <entry id="6670-5bdb-2324-f1b5" name="Energy Transfer (All, 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="89df-4953-affb-c3de" targetId="c0ad780a-2cd5-e785-7532-45fedda6e855" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7ecd-fdcc-46ab-3448" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b29e-b2d6-c2eb-e459" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="72e4-09ad-4119-cc22" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3a3c-4745-a782-863b" targetId="174d5f9a-7fc4-35d3-8889-f1bb40c16186" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="68a6-0b4b-47c0-6a9d" targetId="7afb84db-6a9e-a81a-3567-51e3f74ac729" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="5732-076c-ad4e-efbb" name="Zhou-Nor" points="155.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries/>
       <entryGroups>
@@ -509,156 +659,6 @@ Command Distance: 7&quot;</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="b5ad-848e-dde3-db4b" name="Zai-Dan" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries>
-        <entry id="4d8f-857e-2c03-6aee" name="Energy Transfer (All, 2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="74ae-7f39-d224-21be" name="Shunt Matrix (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5f67-1844-6403-b52b" targetId="391a3d4e-93ea-ef51-7469-28db9a47fe20" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="7caa-2c5d-003a-5d76" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="4ff2-43e1-445d-c447" name="Beam Primaries" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c76c-75e2-b309-2490" targetId="dec2d596-64de-4799-fa7c-8b69ea7772fe" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="69b6-ba5c-eb92-89df" targetId="c94285c7-a301-13da-e92f-c7ff46df01f3" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="0a40-202b-d4b0-d499" targetId="75336d8d-71f3-6244-28d5-714f21ace889" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4487-834e-f6db-a654" targetId="1830d7f5-5317-3d82-7ad0-36b41b97f432" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="0374-6f43-7a85-4d1e" targetId="1027d294-d030-ddd5-26c6-4d07ae51bdc7" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="88222587-060a-9230-b947-2bffa3b052dd" value="Beam" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" value="10&quot;" repeat="true" numRepeats="1" incrementParentId="b5ad-848e-dde3-db4b" incrementChildId="4ff2-43e1-445d-c447" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="c33f-4fbf-b700-1dae" targetId="c0ad780a-2cd5-e785-7532-45fedda6e855" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7590-46be-4bdd-a458" name="Gai-Shar" points="75.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="cd41-7abd-78b6-cbe5" targetId="1a7c250e-a1ac-3790-08d1-68c8f2a210a2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6f88-7634-590a-4d48" targetId="bf5f6e08-cb00-aa69-4663-2ed06e36da0a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f0ba-166d-ce00-701b" targetId="39e03a36-f30a-df4e-0b93-b695db2423fb" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="beb8-c261-6a70-e5ef" targetId="b1912e59-de1a-93c3-f337-b8617e491862" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="38b3-e976-a903-c81a" name="Zer-Nak" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries>
-        <entry id="6670-5bdb-2324-f1b5" name="Energy Transfer (All, 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="89df-4953-affb-c3de" targetId="c0ad780a-2cd5-e785-7532-45fedda6e855" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7ecd-fdcc-46ab-3448" targetId="717d0333-75cd-8e1a-180b-628f0b7cc85d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b29e-b2d6-c2eb-e459" targetId="307dd6a2-d541-54a1-624c-b98811dc33ee" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="72e4-09ad-4119-cc22" targetId="ffdced69-bd44-a3be-0ca3-6d30c958654b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3a3c-4745-a782-863b" targetId="174d5f9a-7fc4-35d3-8889-f1bb40c16186" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="68a6-0b4b-47c0-6a9d" targetId="7afb84db-6a9e-a81a-3567-51e3f74ac729" linkType="profile">
-          <modifiers/>
         </link>
       </links>
     </entry>
@@ -927,8 +927,9 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dei-Nak_Weapon_III" hidden="false" page="0">
+    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dei-Nak_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -936,12 +937,12 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="9cf13844-fbae-a981-ad3e-671e39b36c86" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dei-Nak_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -949,12 +950,12 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3857c7d2-3e54-3ab8-1847-e4c1aae87e76" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dei-Nak_Weapon_I" hidden="false" page="0">
+    <profile id="d1cde05f-cd72-a3dc-4c86-8b9223ec1e37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Dei-Nak_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -962,7 +963,6 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -983,29 +983,29 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1a7c250e-a1ac-3790-08d1-68c8f2a210a2" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Gai-Shar_Weapon_I" hidden="false" page="0">
+    <profile id="1a7c250e-a1ac-3790-08d1-68c8f2a210a2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Gai-Shar_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="-"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Any"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="39e03a36-f30a-df4e-0b93-b695db2423fb" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Gai-Shar_Weapon_II" hidden="false" page="0">
+    <profile id="39e03a36-f30a-df4e-0b93-b695db2423fb" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Gai-Shar_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Any"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="-"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Any"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1026,42 +1026,42 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1027d294-d030-ddd5-26c6-4d07ae51bdc7" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Zai-Dan_Weapon_III" hidden="false" page="0">
+    <profile id="1830d7f5-5317-3d82-7ad0-36b41b97f432" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zai-Dan_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Energy_Transfer(2)"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Aft"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Energy_Transfer(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c94285c7-a301-13da-e92f-c7ff46df01f3" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Zai-Dan_Weapon_II" hidden="false" page="0">
+    <profile id="c94285c7-a301-13da-e92f-c7ff46df01f3" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zai-Dan_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Energy_Transfer(2)"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Energy_Transfer(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1830d7f5-5317-3d82-7ad0-36b41b97f432" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Zai-Dan_Weapon_I" hidden="false" page="0">
+    <profile id="1027d294-d030-ddd5-26c6-4d07ae51bdc7" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zai-Dan_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Energy_Transfer(2)"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Energy_Transfer(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1082,42 +1082,42 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7afb84db-6a9e-a81a-3567-51e3f74ac729" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Zer-Nak_Weapon_III" hidden="false" page="0">
+    <profile id="174d5f9a-7fc4-35d3-8889-f1bb40c16186" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zer-Nak_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Aft"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Zer-Nak_Weapon_II" hidden="false" page="0">
+    <profile id="307dd6a2-d541-54a1-624c-b98811dc33ee" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zer-Nak_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="174d5f9a-7fc4-35d3-8889-f1bb40c16186" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Zer-Nak_Weapon_I" hidden="false" page="0">
+    <profile id="7afb84db-6a9e-a81a-3567-51e3f74ac729" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zer-Nak_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -1138,8 +1138,9 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zhou-Nor_Weapon_III" hidden="false" page="0">
+    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zhou-Nor_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1147,12 +1148,12 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a7211d81-c254-0053-e56f-672d563af35d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zhou-Nor_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1160,12 +1161,12 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ee1b7ea8-2aaa-c481-8518-87532ff18f45" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zhou-Nor_Weapon_I" hidden="false" page="0">
+    <profile id="1435e987-cae0-7de0-97a1-26a710fc5c9f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Zhou-Nor_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -1173,7 +1174,6 @@ A model cannot perform a Battle Shunt whilst at Full Stop, or if prevented from 
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>

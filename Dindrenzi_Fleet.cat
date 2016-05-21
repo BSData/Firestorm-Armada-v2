@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="26" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4c40d6fc-f449-0a56-575e-567144921993" revision="27" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Dindrenzi Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0fee-cc8b-a245-0a8a" name="Assault Carrier" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -1396,7 +1396,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="d0d1-8f4b-6944-bfe8" targetId="985c-2e83-f59f-e418" linkType="profile">
           <modifiers>
-            <modifier type="set" field="6c80-9973-c7ef-8e29" value="Fore" repeat="true" numRepeats="1" incrementParentId="2b5f-3af5-eb9f-f854" incrementChildId="28d1-271a-fac9-4688" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="7ec8-b63f-42a4-9d40" value="Fore" repeat="true" numRepeats="1" incrementParentId="2b5f-3af5-eb9f-f854" incrementChildId="28d1-271a-fac9-4688" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1755,7 +1755,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="d92c-d86e-3b1f-f21f" targetId="2bca8692-792d-5b97-11e0-87424ffeddb1" linkType="profile">
           <modifiers>
-            <modifier type="append" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="dde0-77f3-0f9a-5b1c" incrementChildId="b9c2-05d5-68af-fb67" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="dde0-77f3-0f9a-5b1c" incrementChildId="b9c2-05d5-68af-fb67" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1763,7 +1763,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="ee16-d371-bea0-3910" targetId="15cf4648-8aa6-a3d1-0c61-53ef9c783e7f" linkType="profile">
           <modifiers>
-            <modifier type="set" field="6c80-9973-c7ef-8e29" value="Fore" repeat="true" numRepeats="1" incrementParentId="dde0-77f3-0f9a-5b1c" incrementChildId="919f-e61f-473d-28a0" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="7ec8-b63f-42a4-9d40" value="Fore" repeat="true" numRepeats="1" incrementParentId="dde0-77f3-0f9a-5b1c" incrementChildId="919f-e61f-473d-28a0" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1999,7 +1999,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="66db-d7bc-0a01-6888" targetId="77f1-a197-5a53-3588" linkType="profile">
           <modifiers>
-            <modifier type="append" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="64df-dacf-5a56-25a3" incrementChildId="4b69-ab03-895b-b968" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="64df-dacf-5a56-25a3" incrementChildId="4b69-ab03-895b-b968" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -2744,7 +2744,7 @@ Command Distance: 6&quot;</description>
         </link>
         <link id="35dc-8587-d704-e8ba" targetId="b503-fdf4-3986-6233" linkType="profile">
           <modifiers>
-            <modifier type="append" field="f052-dc08-146a-d6af" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c0c9-d502-e7ce-14a4" incrementChildId="b9fa-638e-6774-ea18" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="f67f-5825-72ff-a4f4" value="High_Energy" repeat="true" numRepeats="1" incrementParentId="c0c9-d502-e7ce-14a4" incrementChildId="b9fa-638e-6774-ea18" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -3743,6 +3743,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="0e78-e9a3-0f42-8abf" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Bastion_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -3750,12 +3751,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Scatter"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="-"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="c57e-09f7-1f73-1324" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Bastion_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -3763,12 +3764,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="ccda-9b69-29d2-7939" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Bastion_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -3776,12 +3777,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="23b9-b5aa-7c02-5eb6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Bastion_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
@@ -3789,12 +3790,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="8ace-736f-f0cb-08cf" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Bastion_Weapon_V" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="9"/>
@@ -3802,7 +3803,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3823,16 +3823,16 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9f70-9f92-66a7-a0d2" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Castra_Weapon_I" hidden="false" page="0">
+    <profile id="9f70-9f92-66a7-a0d2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Castra_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3855,6 +3855,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="412e-6a9a-e421-dd1d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
@@ -3862,12 +3863,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="9a4c-bcb1-ffa6-79a2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -3875,12 +3876,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="425c-61f5-b602-30ec" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Cataphract_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -3888,7 +3889,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3909,29 +3909,29 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9212-1f36-cbba-ba6a" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Decurion_Weapon_I" hidden="false" page="0">
+    <profile id="9212-1f36-cbba-ba6a" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Decurion_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="1"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Scatter"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="985c-2e83-f59f-e418" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Decurion_Weapon_II" hidden="false" page="0">
+    <profile id="985c-2e83-f59f-e418" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Decurion_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3954,6 +3954,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="90974200-c77d-4782-c038-97895ea21ab2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Falchion_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
@@ -3961,12 +3962,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="c1c5296e-a219-2881-96b3-8f2b4a6d0b43" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Falchion_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
@@ -3974,12 +3975,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="6dc67a67-5359-2054-49e3-c4a448eb54e1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Falchion_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
@@ -3987,12 +3988,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a86846d7-bde2-1d27-8b5a-042b3d4bd2d1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Falchion_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -4000,7 +4001,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4023,40 +4023,40 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="650a-c0e7-abb4-f55b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Legion_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="13"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Primary"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="fb87-0023-616e-0c37" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Legion_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="c068-98d6-08d5-25a2" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Legion_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Type" value="Kinetic"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4077,42 +4077,42 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7c4776bd-2b8b-2b29-6a61-84d3c384672b" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Murmillo_Weapon_I" hidden="false" page="0">
+    <profile id="7c4776bd-2b8b-2b29-6a61-84d3c384672b" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Murmillo_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2bca8692-792d-5b97-11e0-87424ffeddb1" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Murmillo_Weapon_II" hidden="false" page="0">
+    <profile id="2bca8692-792d-5b97-11e0-87424ffeddb1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Murmillo_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="15cf4648-8aa6-a3d1-0c61-53ef9c783e7f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Murmillo_Weapon_III" hidden="false" page="0">
+    <profile id="15cf4648-8aa6-a3d1-0c61-53ef9c783e7f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Murmillo_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4135,6 +4135,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="0a396336-1faf-1b96-3102-2c9532745fc1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Nausicaa_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -4142,12 +4143,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="77af8f65-5d22-15b5-c9d6-f5bea9d2cf2d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Nausicaa_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="13"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -4155,12 +4156,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="82cf4286-12b9-4291-7eba-07c22aa5a626" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Nausicaa_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -4168,7 +4169,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4189,16 +4189,16 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="77f1-a197-5a53-3588" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Pilum_Weapon_I" hidden="false">
+    <profile id="77f1-a197-5a53-3588" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Pilum_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4221,6 +4221,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="f219-e5dc-95de-942e" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="11"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
@@ -4228,12 +4229,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="a126-9861-4efd-4729" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -4241,12 +4242,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="8532-4c30-d746-6d18" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -4254,12 +4255,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="b11f-a0d3-2f68-ee16" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Praetorian_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -4267,7 +4268,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4288,16 +4288,16 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="37ea-4fec-d3ca-74a6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Pugio_Weapon_I" hidden="false" book="" page="0">
+    <profile id="37ea-4fec-d3ca-74a6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Pugio_Weapon_I" hidden="false" book="" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Scatter"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4318,16 +4318,16 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7e5ca5f6-d67a-bf33-fb79-221bf65c6bc0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Retarius_Weapon_I" hidden="false">
+    <profile id="7e5ca5f6-d67a-bf33-fb79-221bf65c6bc0" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retarius_Weapon_I" hidden="false">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="3"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4350,6 +4350,7 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
     </profile>
     <profile id="3cf2-6ee2-99b9-0945" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
@@ -4357,12 +4358,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="067e-2517-d943-112a" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -4370,12 +4371,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="1145-6678-68ad-fd1a" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="10"/>
@@ -4383,12 +4384,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="5ec9-bbd1-1886-8c2d" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -4396,12 +4397,12 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="7d4b-4ec5-16d3-4002" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Retribution_Weapon_V" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
@@ -4409,7 +4410,6 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
         <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
         <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4447,55 +4447,55 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="da5a9e15-b0ac-2b79-946b-d610cbad3b0f" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Secutor_Weapon_I" hidden="false" page="0">
+    <profile id="da5a9e15-b0ac-2b79-946b-d610cbad3b0f" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Secutor_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9c22129b-1303-6415-8e19-568784249a3a" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Secutor_Weapon_II" hidden="false" page="0">
+    <profile id="9c22129b-1303-6415-8e19-568784249a3a" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Secutor_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Aft"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="2"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="-"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Aft"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="54be964e-03c5-d22a-cfec-2b82e1a03dfd" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Secutor_Weapon_III" hidden="false" page="0">
+    <profile id="54be964e-03c5-d22a-cfec-2b82e1a03dfd" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Secutor_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f1715c3b-b5cb-c9ef-28dd-58053d080331" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Secutor_Weapon_IV" hidden="false" page="0">
+    <profile id="f1715c3b-b5cb-c9ef-28dd-58053d080331" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Secutor_Weapon_IV" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4516,16 +4516,16 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9b78-71ea-7b45-ed21" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sgian_Weapon_I" hidden="false" page="0">
+    <profile id="9b78-71ea-7b45-ed21" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Sgian_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4546,42 +4546,42 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="509f4a52-0953-c024-c459-9272f96876de" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spatha_Weapon_I" hidden="false" page="0">
+    <profile id="509f4a52-0953-c024-c459-9272f96876de" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spatha_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Starboard/Port"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="3"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Starboard/Port"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="887db2a2-30db-5757-ec45-a4426969e4ab" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spatha_Weapon_II" hidden="false" page="0">
+    <profile id="887db2a2-30db-5757-ec45-a4426969e4ab" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spatha_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2a754c3d-9263-ae1e-2b9c-2d33471cc403" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Spatha_Weapon_III" hidden="false" page="0">
+    <profile id="2a754c3d-9263-ae1e-2b9c-2d33471cc403" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spatha_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4602,29 +4602,29 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4a32a417-e7be-6b72-34b7-a10356e4f1b6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Thraex_Weapon_I" hidden="false" book="" page="0">
+    <profile id="4a32a417-e7be-6b72-34b7-a10356e4f1b6" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Thraex_Weapon_I" hidden="false" book="" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="3"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7ca6bee0-5b5e-cd2c-68fa-feb520b9384c" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Thraex_Weapon_II" hidden="false" page="0">
+    <profile id="7ca6bee0-5b5e-cd2c-68fa-feb520b9384c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Thraex_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Torpedo"/>
-        <characteristic characteristicId="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="ed05-5246-9ad9-51fe" name="MARs" value=""/>
-        <characteristic characteristicId="c9c3-fb34-d4e9-2bf8" name="Arc" value="Fore"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4645,29 +4645,29 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0d70-b71b-95d5-f767" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Trident_Weapon_I" hidden="false" page="0">
+    <profile id="0d70-b71b-95d5-f767" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Trident_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="1"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b503-fdf4-3986-6233" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Trident_Weapon_II" hidden="false" page="0">
+    <profile id="b503-fdf4-3986-6233" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Trident_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="7"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4688,42 +4688,42 @@ This effect does NOT apply if the Weapon is being used to make a Targeted Strike
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="90b3-4baf-52cb-c704" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Velites_Weapon_I" hidden="false" page="0">
+    <profile id="90b3-4baf-52cb-c704" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Velites_Weapon_I" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value="Gun_Rack"/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Port_OR_Starboard"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b655-807e-c9b1-7324" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Velites_Weapon_II" hidden="false" page="0">
+    <profile id="b655-807e-c9b1-7324" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Velites_Weapon_II" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="4"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="2"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3c36-341c-9816-caff" profileTypeId="00e99a01-2771-320a-5a41-a7348d2d7006" name="Velites_Weapon_III" hidden="false" page="0">
+    <profile id="3c36-341c-9816-caff" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Velites_Weapon_III" hidden="false" page="0">
       <characteristics>
+        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore_Fixed"/>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="6"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Kinetic"/>
-        <characteristic characteristicId="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr." value="12&quot;"/>
-        <characteristic characteristicId="f052-dc08-146a-d6af" name="MARs" value=""/>
-        <characteristic characteristicId="6c80-9973-c7ef-8e29" name="Arc" value="Fore_Fixed"/>
+        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="12&quot;"/>
+        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
       </characteristics>
       <modifiers/>
     </profile>

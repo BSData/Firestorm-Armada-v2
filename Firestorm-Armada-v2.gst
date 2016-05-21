@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="25" battleScribeVersion="1.15" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" revision="26" battleScribeVersion="1.15" name="Firestorm-Armada-v2" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="b2bfd1b1-a8a0-b3a6-0cfc-c304cb84dca5" name="Standard Fleet" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="50" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -787,8 +787,9 @@
     </forceType>
   </forceTypes>
   <profileTypes>
-    <profileType id="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Weapon (Large)">
+    <profileType id="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Weapon">
       <characteristics>
+        <characteristic id="7ec8-b63f-42a4-9d40" name="Arc"/>
         <characteristic id="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
         <characteristic id="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
         <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
@@ -796,7 +797,6 @@
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Category"/>
         <characteristic id="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr."/>
         <characteristic id="f67f-5825-72ff-a4f4" name="MARs"/>
-        <characteristic id="7ec8-b63f-42a4-9d40" name="Arc"/>
       </characteristics>
     </profileType>
     <profileType id="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ship">
@@ -813,30 +813,6 @@
         <characteristic id="0068d495-66ca-6446-f906-63ed81c88477" name="Sh"/>
         <characteristic id="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC"/>
         <characteristic id="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL"/>
-      </characteristics>
-    </profileType>
-    <profileType id="00e99a01-2771-320a-5a41-a7348d2d7006" name="Weapon (Med)">
-      <characteristics>
-        <characteristic id="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
-        <characteristic id="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
-        <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
-        <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
-        <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Category"/>
-        <characteristic id="08bfdba9-dcdc-4056-1d0e-f290ef6471c5" name="Incr."/>
-        <characteristic id="f052-dc08-146a-d6af" name="MARs"/>
-        <characteristic id="6c80-9973-c7ef-8e29" name="Arc"/>
-      </characteristics>
-    </profileType>
-    <profileType id="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Weapon (Small)">
-      <characteristics>
-        <characteristic id="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1"/>
-        <characteristic id="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2"/>
-        <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3"/>
-        <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="4"/>
-        <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Category"/>
-        <characteristic id="07d8769b-7c72-34ef-4d39-0228103a5c1d" name="Incr."/>
-        <characteristic id="ed05-5246-9ad9-51fe" name="MARs"/>
-        <characteristic id="c9c3-fb34-d4e9-2bf8" name="Arc"/>
       </characteristics>
     </profileType>
     <profileType id="1c02-13af-9604-8605" name="SRS Token">
