@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="9" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="983885ef-6ebd-3d03-40b4-b3312188fcec" revision="10" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Omnidyne Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -138,7 +138,12 @@
                 <entry id="2351-2ea5-b9fd-4a40" name="Leverage" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="8e81-c23d-b999-c997" incrementChildId="3f44-3ecb-f922-dfe9" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <rules/>
                   <profiles/>
                   <links>
@@ -152,7 +157,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="3f44-3ecb-f922-dfe9" targetId="aee7-7ed8-cfd8-cc75" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -274,7 +283,23 @@
               <links/>
             </entry>
           </entries>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="132b-8a82-40ef-b048" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="0.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="maxPoints" value="10.0" repeat="true" numRepeats="1" incrementParentId="f553-ab98-f583-9cd6" incrementChildId="94cf-bec4-6eec-8b55" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <links>
+                <link id="c834-9c0c-c4cf-02cd" targetId="13fe-ecaa-8eff-0157" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <links/>
         </entryGroup>
@@ -377,7 +402,12 @@
                 <entry id="a670-b26d-7d9c-5f3c" name="Representative" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="901c-801a-403c-5307" incrementChildId="998c-dd18-ca3b-baac" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <rules/>
                   <profiles/>
                   <links>
@@ -391,7 +421,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="998c-dd18-ca3b-baac" targetId="25aa-e933-1d73-b801" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -421,7 +455,12 @@
                 <entry id="564a-0e63-a0bf-88f9" name="Representative" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7085-be86-823f-a27d" incrementChildId="5ca0-eb04-ad5a-1527" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <rules/>
                   <profiles/>
                   <links>
@@ -435,7 +474,11 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="5ca0-eb04-ad5a-1527" targetId="25aa-e933-1d73-b801" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -1428,6 +1471,90 @@ Command Distance: 6&quot;</description>
             </profile>
           </profiles>
           <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="25aa-e933-1d73-b801" name="Representative Replacement" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9d90-8c01-ae9f-bd58" name="Leverage Cruiser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8d7e-3105-18cc-8daa" targetId="160b-0fcf-5f40-61ca" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d448-8b04-7379-c8ca" name="Auditor Gunship" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a469-b899-9fea-33dd" targetId="2541-9b5f-65b4-12fb" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d343-86fe-b966-dedf" name="Paraidgm Escort Carrier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="ed5f-dfed-7918-7c41" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="10.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="81d3-a08b-8424-6408" targetId="13fe-ecaa-8eff-0157" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ae4d-0db1-7a43-961c" targetId="30f1-35a8-a5b9-aec7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="aee7-7ed8-cfd8-cc75" name="Leverage Replacement" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e5ea-128e-7258-3977" name="Paraidgm Escort Carrier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="b7c0-11d1-7c03-cf13" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="10.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="c5d2-1385-be60-423f" targetId="13fe-ecaa-8eff-0157" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9ca3-0594-b9fe-714f" targetId="30f1-35a8-a5b9-aec7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
