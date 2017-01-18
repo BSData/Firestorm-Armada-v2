@@ -1,1161 +1,1933 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da9173c5-9cf5-47a2-ddfd-bd858ee5de67" revision="7" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" battleScribeVersion="1.15" name="Syndicate Fleet" authorName="Danimrath" authorContact="unbeknownst_to_the_world@hotmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <entries>
-    <entry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
+<catalogue id="da9173c5-9cf5-47a2-ddfd-bd858ee5de67" name="Syndicate Fleet" revision="8" battleScribeVersion="2.00" authorName="Steve_990" authorContact="steve_990@hotmail.com" gameSystemId="417a1fa3-3f8e-7789-d5ec-a4ebd35323cd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="126762a2-56b6-7506-9e9e-48fb86729437" name="Syndicate Fleet Statistics" hidden="false">
       <profiles/>
-      <links/>
-    </entry>
-    <entry id="06601fa9-68de-ecb5-6006-29548a12b062" name="BattleCruiser" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="87d5ab2a-5c1d-02dd-6c33-c39e106eab76" name="Ship Class" defaultEntryId="2899ba89-fb97-3689-6e18-8bbdf6fd7894" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="2899ba89-fb97-3689-6e18-8bbdf6fd7894" name="Spur Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="5a6575e4-c6ad-2055-49d8-c2be936e386f" name="Spur" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Fleet Tactics Bonus: 2
+Command Distance: 6&quot;</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="c787dd43-2136-6456-fda2-426e0e8573f1" name="Aligned Mercenaries" hidden="false" collective="false" categoryEntryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06601fa9-68de-ecb5-6006-29548a12b062" name="BattleCruiser" page="0" hidden="false" collective="false" categoryEntryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87d5ab2a-5c1d-02dd-6c33-c39e106eab76" name="Ship Class" hidden="false" collective="false" defaultSelectionEntryId="2899ba89-fb97-3689-6e18-8bbdf6fd7894">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2899ba89-fb97-3689-6e18-8bbdf6fd7894" name="Spur Squadron" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5a6575e4-c6ad-2055-49d8-c2be936e386f" name="Spur" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
                   <profiles/>
-                  <links>
-                    <link id="bd700f37-b355-46b7-46b4-2e6744ffc7ae" targetId="7aad-9510-c91d-7003" linkType="entry">
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="bd700f37-b355-46b7-46b4-2e6744ffc7ae" hidden="false" targetId="7aad-9510-c91d-7003" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
                       <modifiers/>
-                    </link>
-                    <link id="7145-54df-c501-f0d0" targetId="64ae-d52f-8c0c-d416" linkType="entry group">
+                      <constraints/>
+                    </entryLink>
+                    <entryLink id="7145-54df-c501-f0d0" hidden="false" targetId="64ae-d52f-8c0c-d416" type="selectionEntryGroup">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
                       <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
+                      <constraints/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" page="0" hidden="false" collective="false" categoryEntryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit">
       <profiles/>
-      <links/>
-    </entry>
-    <entry id="19b5d3ac-8cd3-07c5-7c3c-cdab60945b6f" name="Battleship" points="0.0" categoryId="9491469f-4e1a-978c-e141-b7f12a6a7b91" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="314c9ce3-7af4-5777-2ff9-acfb06833e1e" name="Ship Class" defaultEntryId="5e05db3b-00ad-6c76-bc05-ee1b65de3670" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5e05db3b-00ad-6c76-bc05-ee1b65de3670" name="Phantom" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c8a7bce8-b623-c0d5-d895-53385bd9e0fc" targetId="dc2e-4826-5c8d-4b76" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="3bc2-ca3b-ff5e-5dd8" targetId="acc1-5438-5e26-eba6" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <rules/>
+      <infoLinks/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="2.0">
+          <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
-                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+                <condition field="limit::points" scope="roster" value="1200.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atMost"/>
+                <condition field="limit::points" scope="roster" value="800.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="3.0">
+          <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
-                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+                <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atMost"/>
+                <condition field="limit::points" scope="roster" value="1200.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2b3c7012-1058-f94b-ded1-6bc639ec11c1" name="Frigate Squadron" points="0.0" categoryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="e38d6f85-90a1-b3c3-2707-4083ba0cc5b6" name="Ship Class" defaultEntryId="95577c7b-fd1c-276f-fd35-485186d0f319" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="95577c7b-fd1c-276f-fd35-485186d0f319" name="Shadow Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries>
-                <entry id="8e1aee2a-a49c-38c7-13f9-90c4bac8fd62" name="Shadow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="3536cf27-8812-2505-2dcb-2f85b3efabbb" targetId="310e-e081-e3ce-2942" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="314c9ce3-7af4-5777-2ff9-acfb06833e1e" name="Ship Class" hidden="false" collective="false" defaultSelectionEntryId="5e05db3b-00ad-6c76-bc05-ee1b65de3670">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e05db3b-00ad-6c76-bc05-ee1b65de3670" name="Phantom" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c8a7bce8-b623-c0d5-d895-53385bd9e0fc" hidden="false" targetId="dc2e-4826-5c8d-4b76" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="3bc2-ca3b-ff5e-5dd8" hidden="false" targetId="acc1-5438-5e26-eba6" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b3c7012-1058-f94b-ded1-6bc639ec11c1" name="Frigate Squadron" page="0" hidden="false" collective="false" categoryEntryId="ab987c46-f204-0bf9-a6a9-8498c13509ee" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="3.0">
+          <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="1200.0"/>
-                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+                <condition field="limit::points" scope="roster" value="1200.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atMost"/>
+                <condition field="limit::points" scope="roster" value="800.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="maxInRoster" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="5.0">
+          <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="roster" childId="no child" field="points limit" type="at most" value="2000.0"/>
-                <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="1200.0"/>
+                <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="atMost"/>
+                <condition field="limit::points" scope="roster" value="1200.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="05bbbb17-7eb9-f379-0d14-0ce3051631e9" name="Gunship Squadron" points="0.0" categoryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="0c345ba6-2b58-0fb3-a23e-860dedb60ed9" name="Ship Class" defaultEntryId="5a0c76ac-d52f-cdb6-4d8b-03f789e9825d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5a0c76ac-d52f-cdb6-4d8b-03f789e9825d" name="Wraith Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries>
-                <entry id="ff2eb7a7-6a56-c8da-107b-35ef34cff4cc" name="Wraith" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="ab4446d1-b37a-28a1-d0ab-b74d6cd6572f" targetId="b6f8-f9ca-96fc-d92b" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e38d6f85-90a1-b3c3-2707-4083ba0cc5b6" name="Ship Class" hidden="false" collective="false" defaultSelectionEntryId="95577c7b-fd1c-276f-fd35-485186d0f319">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="95577c7b-fd1c-276f-fd35-485186d0f319" name="Shadow Squadron" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8e1aee2a-a49c-38c7-13f9-90c4bac8fd62" name="Shadow" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="3536cf27-8812-2505-2dcb-2f85b3efabbb" hidden="false" targetId="310e-e081-e3ce-2942" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05bbbb17-7eb9-f379-0d14-0ce3051631e9" name="Gunship Squadron" page="0" hidden="false" collective="false" categoryEntryId="25598bba-53b3-5db3-d582-e6b933204c73" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers>
-        <modifier type="set" field="maxInRoster" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="2.0">
+          <repeats/>
           <conditions>
-            <condition parentId="roster" childId="no child" field="points limit" type="greater than" value="800.0"/>
+            <condition field="limit::points" scope="roster" value="800.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Unaligned Mercenaries" points="0.0" categoryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-  </entries>
-  <rules>
-    <rule id="126762a2-56b6-7506-9e9e-48fb86729437" name="Syndicate Fleet Statistics" hidden="false">
-      <description>
-Fleet Tactics Bonus: 2
-Command Distance: 6&quot;</description>
-      <modifiers/>
-    </rule>
-  </rules>
-  <links/>
-  <sharedEntries>
-    <entry id="dc2e-4826-5c8d-4b76" name="Phantom" points="180.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="6e91-1122-be5a-b18d" name="Hardpoints" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="e3a5-2c5d-2938-dfe9" name="+1 Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="4c0f-b0a3-4619-edd0" name="+1&quot; Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="7721-1ad8-0d5e-5119" name="+2 WC" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="98b6-6af4-0331-0ae9" name="Quick Launch" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c342-449d-a56d-89c6" targetId="aea705fe-9c9d-8ad2-a754-9169b0a03f75" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="fbb2-ba35-8c6c-8f46" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="1530-3ad3-2cba-876b" name="Decimator Beams" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f555-2f4d-7e66-4fc9" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="6b4b-4d7c-fee9-cb09" name="Countermeasures" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="06b8-b252-2fa4-cc6c" targetId="aa607d7e-e8cd-2f76-b5ed-fcd277712618" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="cba9-d88b-73bd-cce1" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="20.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="increment" field="maxPoints" value="10.0" repeat="true" numRepeats="1" incrementParentId="dc2e-4826-5c8d-4b76" incrementChildId="7721-1ad8-0d5e-5119" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="c7f6-721a-d05e-8266" targetId="848e-18d0-39b9-2bdc" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="15.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="4a5d-bae4-d0ce-48e2" targetId="bfe9098d-62c7-1c2f-2809-3e2f372a227c" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="f67f-5825-72ff-a4f4" value="Decimator_Warheads" repeat="true" numRepeats="1" incrementParentId="dc2e-4826-5c8d-4b76" incrementChildId="1530-3ad3-2cba-876b" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="3cb4-c36e-a035-63c3" targetId="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="2ecf-6ee5-33fc-6fcd" targetId="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4fbb-f0c6-3f41-fe85" targetId="38075ed8-773d-b4ce-fb22-f791ca90584b" linkType="profile">
-          <modifiers>
-            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="dc2e-4826-5c8d-4b76" incrementChildId="e3a5-2c5d-2938-dfe9" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="1" repeat="true" numRepeats="1" incrementParentId="dc2e-4826-5c8d-4b76" incrementChildId="4c0f-b0a3-4619-edd0" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="2" repeat="true" numRepeats="1" incrementParentId="dc2e-4826-5c8d-4b76" incrementChildId="7721-1ad8-0d5e-5119" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="9487-c071-289e-c757" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dfcf-8396-a31c-3fbf" targetId="de9f2f94-73a0-e023-4c70-1f327f2e50b7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="393d-e8b8-10c1-c9bf" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="310e-e081-e3ce-2942" name="Shadow" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="e716-ec16-aaf7-23a2" targetId="9f8775a8-9c70-d197-93f4-39a124fd1b8a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e780-27ff-e7d4-42b6" targetId="a9fa8097-71fe-97ca-d339-ad011ec3f736" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="0f58-72da-c484-c513" targetId="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="e8a4-2d55-f19d-0959" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7aad-9510-c91d-7003" name="Spur" points="140.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="f5d6-e5f1-4eee-4754" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="f5db-5a82-9408-4923" name="+1 Shield" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="3571-5e92-88f3-1e7b" name="+2&quot; Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="6207-6785-3da6-b69f" name="+4 WC" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="2f2a-aa8d-0f65-df5b" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="4fa3-8f47-dc29-d2a7" name="Decimator Beams" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="01ec-d432-308e-21ef" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="7752-d724-07e7-20f5" name="Countermeasures" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="5ff5-411a-d4a2-7465" targetId="aa607d7e-e8cd-2f76-b5ed-fcd277712618" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="5558-3575-9e3e-a1e5" name="Wings" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="10.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="increment" field="maxPoints" value="20.0" repeat="true" numRepeats="1" incrementParentId="7aad-9510-c91d-7003" incrementChildId="6207-6785-3da6-b69f" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="65b9-1a6b-82b5-b3fa" targetId="848e-18d0-39b9-2bdc" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1398-3b32-e43d-54be" targetId="bd4bf38e-5e85-4352-3020-fe0b96d595db" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="f67f-5825-72ff-a4f4" value="Decimator_Warheads" repeat="true" numRepeats="1" incrementParentId="7aad-9510-c91d-7003" incrementChildId="4fa3-8f47-dc29-d2a7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="bc67-5e1c-84f6-f400" targetId="eb94ab4b-4071-d10a-f28b-92a2aca4d3f5" linkType="profile">
-          <modifiers>
-            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="7aad-9510-c91d-7003" incrementChildId="3571-5e92-88f3-1e7b" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="7aad-9510-c91d-7003" incrementChildId="f5db-5a82-9408-4923" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="4" repeat="true" numRepeats="1" incrementParentId="7aad-9510-c91d-7003" incrementChildId="6207-6785-3da6-b69f" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="3f76-4e95-87b0-ed12" targetId="21dba64a-29d9-7b9e-a198-318f9bc758f1" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5b78-c43e-2d3c-c614" targetId="dbca63a6-6474-7275-e4cc-aaa083033d03" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="2a92-e523-5682-0c93" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4568-0b66-f273-021d" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b6f8-f9ca-96fc-d92b" name="Wraith" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="a31b-fddc-3431-23ab" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="cbdc-23ac-6789-1da2" name="Decimator Beams" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="44d2-e300-dfe1-a8bf" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="56ab-2938-bd77-022b" name="Hardpoints" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5930-0176-8b39-5d04" name="+1 Shield" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="c27a-e12b-ecbf-6d96" name="+2&quot; Mv" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="223c-b889-7791-60ac" targetId="16aa0df5-c752-b1b2-26bd-88a7f68ea267" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a0c8-9e70-c0ac-04f7" targetId="b93abd57-35f8-9835-2027-8bd09d163484" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="f67f-5825-72ff-a4f4" value="Decimator_Warheads" repeat="true" numRepeats="1" incrementParentId="b6f8-f9ca-96fc-d92b" incrementChildId="cbdc-23ac-6789-1da2" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="c0c0-ac87-f3ec-6e1f" targetId="e65f5f56-01a3-234b-3620-22b4f41b571d" linkType="profile">
-          <modifiers>
-            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2" repeat="true" numRepeats="1" incrementParentId="b6f8-f9ca-96fc-d92b" incrementChildId="c27a-e12b-ecbf-6d96" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1" repeat="true" numRepeats="1" incrementParentId="b6f8-f9ca-96fc-d92b" incrementChildId="5930-0176-8b39-5d04" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="e586-2e87-c9d0-5760" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e8cf-f7a3-0c10-7102" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-  </sharedEntries>
-  <sharedEntryGroups>
-    <entryGroup id="acc1-5438-5e26-eba6" name="Phantom Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="8618-38ce-6343-8418" name="Shadow Frigate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0c345ba6-2b58-0fb3-a23e-860dedb60ed9" name="Ship Class" hidden="false" collective="false" defaultSelectionEntryId="5a0c76ac-d52f-cdb6-4d8b-03f789e9825d">
           <profiles/>
-          <links>
-            <link id="6e65-79dd-61a9-3dcf" targetId="310e-e081-e3ce-2942" linkType="entry">
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5a0c76ac-d52f-cdb6-4d8b-03f789e9825d" name="Wraith Squadron" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ff2eb7a7-6a56-c8da-107b-35ef34cff4cc" name="Wraith" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="ab4446d1-b37a-28a1-d0ab-b74d6cd6572f" hidden="false" targetId="b6f8-f9ca-96fc-d92b" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" name="Unaligned Mercenaries" hidden="false" collective="false" categoryEntryId="d9648717-c771-44ba-8fdb-0dc2a0e8954b" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="dc2e-4826-5c8d-4b76" name="Phantom" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4a5d-bae4-d0ce-48e2" hidden="false" targetId="bfe9098d-62c7-1c2f-2809-3e2f372a227c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Decimator_Warheads">
+              <repeats>
+                <repeat field="selections" scope="dc2e-4826-5c8d-4b76" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1530-3ad3-2cba-876b" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3cb4-c36e-a035-63c3" hidden="false" targetId="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2ecf-6ee5-33fc-6fcd" hidden="false" targetId="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fbb-f0c6-3f41-fe85" hidden="false" targetId="38075ed8-773d-b4ce-fb22-f791ca90584b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1">
+              <repeats>
+                <repeat field="selections" scope="dc2e-4826-5c8d-4b76" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3a5-2c5d-2938-dfe9" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="1">
+              <repeats>
+                <repeat field="selections" scope="dc2e-4826-5c8d-4b76" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c0f-b0a3-4619-edd0" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="2">
+              <repeats>
+                <repeat field="selections" scope="dc2e-4826-5c8d-4b76" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7721-1ad8-0d5e-5119" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9487-c071-289e-c757" hidden="false" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dfcf-8396-a31c-3fbf" hidden="false" targetId="de9f2f94-73a0-e023-4c70-1f327f2e50b7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="393d-e8b8-10c1-c9bf" hidden="false" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="points" value="15.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6e91-1122-be5a-b18d" name="Hardpoints" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e3a5-2c5d-2938-dfe9" name="+1 Shield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c0f-b0a3-4619-edd0" name="+1&quot; Mv" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7721-1ad8-0d5e-5119" name="+2 WC" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="98b6-6af4-0331-0ae9" name="Quick Launch" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c342-449d-a56d-89c6" hidden="false" targetId="aea705fe-9c9d-8ad2-a754-9169b0a03f75" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fbb2-ba35-8c6c-8f46" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries>
+            <selectionEntry id="1530-3ad3-2cba-876b" name="Decimator Beams" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f555-2f4d-7e66-4fc9" hidden="false" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b4b-4d7c-fee9-cb09" name="Countermeasures" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="06b8-b252-2fa4-cc6c" hidden="false" targetId="aa607d7e-e8cd-2f76-b5ed-fcd277712618" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cba9-d88b-73bd-cce1" name="Wings" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxPoints" value="10.0">
+              <repeats>
+                <repeat field="selections" scope="dc2e-4826-5c8d-4b76" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7721-1ad8-0d5e-5119" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="points" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c7f6-721a-d05e-8266" hidden="false" targetId="848e-18d0-39b9-2bdc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="310e-e081-e3ce-2942" name="Shadow" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e716-ec16-aaf7-23a2" hidden="false" targetId="9f8775a8-9c70-d197-93f4-39a124fd1b8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e780-27ff-e7d4-42b6" hidden="false" targetId="a9fa8097-71fe-97ca-d339-ad011ec3f736" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f58-72da-c484-c513" hidden="false" targetId="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e8a4-2d55-f19d-0959" hidden="false" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7aad-9510-c91d-7003" name="Spur" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1398-3b32-e43d-54be" hidden="false" targetId="bd4bf38e-5e85-4352-3020-fe0b96d595db" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Decimator_Warheads">
+              <repeats>
+                <repeat field="selections" scope="7aad-9510-c91d-7003" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fa3-8f47-dc29-d2a7" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc67-5e1c-84f6-f400" hidden="false" targetId="eb94ab4b-4071-d10a-f28b-92a2aca4d3f5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2">
+              <repeats>
+                <repeat field="selections" scope="7aad-9510-c91d-7003" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3571-5e92-88f3-1e7b" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1">
+              <repeats>
+                <repeat field="selections" scope="7aad-9510-c91d-7003" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5db-5a82-9408-4923" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="4">
+              <repeats>
+                <repeat field="selections" scope="7aad-9510-c91d-7003" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6207-6785-3da6-b69f" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3f76-4e95-87b0-ed12" hidden="false" targetId="21dba64a-29d9-7b9e-a198-318f9bc758f1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5b78-c43e-2d3c-c614" hidden="false" targetId="dbca63a6-6474-7275-e4cc-aaa083033d03" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a92-e523-5682-0c93" hidden="false" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4568-0b66-f273-021d" hidden="false" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="points" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f5d6-e5f1-4eee-4754" name="Hardpoints" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f5db-5a82-9408-4923" name="+1 Shield" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3571-5e92-88f3-1e7b" name="+2&quot; Mv" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6207-6785-3da6-b69f" name="+4 WC" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2f2a-aa8d-0f65-df5b" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries>
+            <selectionEntry id="4fa3-8f47-dc29-d2a7" name="Decimator Beams" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="01ec-d432-308e-21ef" hidden="false" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7752-d724-07e7-20f5" name="Countermeasures" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5ff5-411a-d4a2-7465" hidden="false" targetId="aa607d7e-e8cd-2f76-b5ed-fcd277712618" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5558-3575-9e3e-a1e5" name="Wings" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxPoints" value="20.0">
+              <repeats>
+                <repeat field="selections" scope="7aad-9510-c91d-7003" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6207-6785-3da6-b69f" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="points" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="65b9-1a6b-82b5-b3fa" hidden="false" targetId="848e-18d0-39b9-2bdc" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6f8-f9ca-96fc-d92b" name="Wraith" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="223c-b889-7791-60ac" hidden="false" targetId="16aa0df5-c752-b1b2-26bd-88a7f68ea267" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a0c8-9e70-c0ac-04f7" hidden="false" targetId="b93abd57-35f8-9835-2027-8bd09d163484" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Decimator_Warheads">
+              <repeats>
+                <repeat field="selections" scope="b6f8-f9ca-96fc-d92b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbdc-23ac-6789-1da2" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c0c0-ac87-f3ec-6e1f" hidden="false" targetId="e65f5f56-01a3-234b-3620-22b4f41b571d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="2">
+              <repeats>
+                <repeat field="selections" scope="b6f8-f9ca-96fc-d92b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c27a-e12b-ecbf-6d96" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0068d495-66ca-6446-f906-63ed81c88477" value="1">
+              <repeats>
+                <repeat field="selections" scope="b6f8-f9ca-96fc-d92b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5930-0176-8b39-5d04" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e586-2e87-c9d0-5760" hidden="false" targetId="95891eb6-0a90-47f7-d896-ce77467b1424" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e8cf-f7a3-0c10-7102" hidden="false" targetId="b79cfe64-0c8e-80d5-beb0-3ababef29568" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ab8c42d-2ba7-0ed7-a261-e9f7e929b6b3" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a31b-fddc-3431-23ab" name="Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries>
+            <selectionEntry id="cbdc-23ac-6789-1da2" name="Decimator Beams" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="44d2-e300-dfe1-a8bf" hidden="false" targetId="31e51a8a-c994-e854-fd62-1a5547bbab3a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="56ab-2938-bd77-022b" name="Hardpoints" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5930-0176-8b39-5d04" name="+1 Shield" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c27a-e12b-ecbf-6d96" name="+2&quot; Mv" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="acc1-5438-5e26-eba6" name="Phantom Accompaniments" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8618-38ce-6343-8418" name="Shadow Frigate" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6e65-79dd-61a9-3dcf" hidden="false" targetId="310e-e081-e3ce-2942" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers>
-                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="maxSelections" value="2.0">
+                  <repeats/>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="64ae-d52f-8c0c-d416" name="Spur Accompaniments" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="64ae-d52f-8c0c-d416" name="Spur Accompaniments" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="f6fc-17e6-7520-d5b2" name="Shadow Frigate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f6fc-17e6-7520-d5b2" name="Shadow Frigate" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
-          <links>
-            <link id="941f-96a4-31e5-5ee1" targetId="310e-e081-e3ce-2942" linkType="entry">
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="941f-96a4-31e5-5ee1" hidden="false" targetId="310e-e081-e3ce-2942" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers>
-                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="maxSelections" value="2.0">
+                  <repeats/>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="848e-18d0-39b9-2bdc" name="SRS Tokens" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="848e-18d0-39b9-2bdc" name="SRS Tokens" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="e528-a90e-8871-c918" name="Support Shuttle Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="f9e8-5138-aa76-535d" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="a8cf-0c13-8171-f7d2" name="Support Shuttle" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e528-a90e-8871-c918" name="Support Shuttle Token" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="c536-5b64-4ad1-be6e" profileTypeId="1c02-13af-9604-8605" name="(SRS) Support Shuttle" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="8&quot;"/>
-                <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="0"/>
-                <characteristic characteristicId="5129-5f00-6506-3ce6" name="PD" value="0"/>
-                <characteristic characteristicId="4474-acef-601d-d3ec" name="AP" value="0"/>
-                <characteristic characteristicId="ee90-104e-254a-ac33" name="Token Size" value="Large"/>
-              </characteristics>
+            <profile id="c536-5b64-4ad1-be6e" name="(SRS) Support Shuttle" hidden="false" profileTypeId="2cf1-c9ab-3840-931a" profileTypeName="SRS Token">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <characteristics>
+                <characteristic name="Mv" characteristicTypeId="51cd-7087-6fe8-3c61" value="8&quot;"/>
+                <characteristic name="AD" characteristicTypeId="15fb-fff8-6d89-0c16" value="0"/>
+                <characteristic name="PD" characteristicTypeId="5129-5f00-6506-3ce6" value="0"/>
+                <characteristic name="AP" characteristicTypeId="4474-acef-601d-d3ec" value="0"/>
+                <characteristic name="Token Size" characteristicTypeId="ee90-104e-254a-ac33" value="Large"/>
+              </characteristics>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-        <entry id="f684-b022-8a93-30ff" name="Assault Shuttle Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="95ff-26bc-679b-e2e6" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="e1d3-e7dc-41f8-f6af" name="Assault Shuttle" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="981c-c6ec-b218-9f74" profileTypeId="1c02-13af-9604-8605" name="(SRS) Assault Shuttle" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="8&quot;"/>
-                <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="0"/>
-                <characteristic characteristicId="5129-5f00-6506-3ce6" name="PD" value="1"/>
-                <characteristic characteristicId="4474-acef-601d-d3ec" name="AP" value="2"/>
-                <characteristic characteristicId="ee90-104e-254a-ac33" name="Token Size" value="Large"/>
-              </characteristics>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f9e8-5138-aa76-535d" name="Wing" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <constraints/>
+              <selectionEntries>
+                <selectionEntry id="a8cf-0c13-8171-f7d2" name="Support Shuttle" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f684-b022-8a93-30ff" name="Assault Shuttle Token" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="981c-c6ec-b218-9f74" name="(SRS) Assault Shuttle" hidden="false" profileTypeId="2cf1-c9ab-3840-931a" profileTypeName="SRS Token">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Mv" characteristicTypeId="51cd-7087-6fe8-3c61" value="8&quot;"/>
+                <characteristic name="AD" characteristicTypeId="15fb-fff8-6d89-0c16" value="0"/>
+                <characteristic name="PD" characteristicTypeId="5129-5f00-6506-3ce6" value="1"/>
+                <characteristic name="AP" characteristicTypeId="4474-acef-601d-d3ec" value="2"/>
+                <characteristic name="Token Size" characteristicTypeId="ee90-104e-254a-ac33" value="Large"/>
+              </characteristics>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-        <entry id="2acd-b807-a912-9059" name="Bomber Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="f732-d432-b126-5bab" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="d75d-55ed-736f-28eb" name="Bomber" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="bb90-0efb-900e-93d4" profileTypeId="1c02-13af-9604-8605" name="(SRS) Bomber" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="12&quot;"/>
-                <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="3"/>
-                <characteristic characteristicId="5129-5f00-6506-3ce6" name="PD" value="1"/>
-                <characteristic characteristicId="4474-acef-601d-d3ec" name="AP" value="0"/>
-                <characteristic characteristicId="ee90-104e-254a-ac33" name="Token Size" value="Large"/>
-              </characteristics>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="95ff-26bc-679b-e2e6" name="Wing" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <constraints/>
+              <selectionEntries>
+                <selectionEntry id="e1d3-e7dc-41f8-f6af" name="Assault Shuttle" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2acd-b807-a912-9059" name="Bomber Token" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="bb90-0efb-900e-93d4" name="(SRS) Bomber" hidden="false" profileTypeId="2cf1-c9ab-3840-931a" profileTypeName="SRS Token">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Mv" characteristicTypeId="51cd-7087-6fe8-3c61" value="12&quot;"/>
+                <characteristic name="AD" characteristicTypeId="15fb-fff8-6d89-0c16" value="3"/>
+                <characteristic name="PD" characteristicTypeId="5129-5f00-6506-3ce6" value="1"/>
+                <characteristic name="AP" characteristicTypeId="4474-acef-601d-d3ec" value="0"/>
+                <characteristic name="Token Size" characteristicTypeId="ee90-104e-254a-ac33" value="Large"/>
+              </characteristics>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-        <entry id="dbfd-b339-69bb-5a50" name="Fighter Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="41f2-2980-f02e-12d3" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="8949-2bb2-6753-037a" name="Fighter" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="99c0-7758-16f7-5baf" profileTypeId="1c02-13af-9604-8605" name="(SRS) Fighter" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="18&quot;"/>
-                <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="2"/>
-                <characteristic characteristicId="5129-5f00-6506-3ce6" name="PD" value="1"/>
-                <characteristic characteristicId="4474-acef-601d-d3ec" name="AP" value="0"/>
-                <characteristic characteristicId="ee90-104e-254a-ac33" name="Token Size" value="Small"/>
-              </characteristics>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f732-d432-b126-5bab" name="Wing" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <constraints/>
+              <selectionEntries>
+                <selectionEntry id="d75d-55ed-736f-28eb" name="Bomber" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dbfd-b339-69bb-5a50" name="Fighter Token" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="99c0-7758-16f7-5baf" name="(SRS) Fighter" hidden="false" profileTypeId="2cf1-c9ab-3840-931a" profileTypeName="SRS Token">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Mv" characteristicTypeId="51cd-7087-6fe8-3c61" value="18&quot;"/>
+                <characteristic name="AD" characteristicTypeId="15fb-fff8-6d89-0c16" value="2"/>
+                <characteristic name="PD" characteristicTypeId="5129-5f00-6506-3ce6" value="1"/>
+                <characteristic name="AP" characteristicTypeId="4474-acef-601d-d3ec" value="0"/>
+                <characteristic name="Token Size" characteristicTypeId="ee90-104e-254a-ac33" value="Small"/>
+              </characteristics>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-        <entry id="e23b-da62-30f5-38f2" name="Interceptor Token" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="27a3-884f-cde5-ab78" name="Wing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="f50d-7508-e363-3b7a" name="Interceptor" points="5.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="04a0-60de-8e6d-8ba1" profileTypeId="1c02-13af-9604-8605" name="(SRS) Interceptor" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="51cd-7087-6fe8-3c61" name="Mv" value="12&quot;"/>
-                <characteristic characteristicId="15fb-fff8-6d89-0c16" name="AD" value="0"/>
-                <characteristic characteristicId="5129-5f00-6506-3ce6" name="PD" value="2"/>
-                <characteristic characteristicId="4474-acef-601d-d3ec" name="AP" value="0"/>
-                <characteristic characteristicId="ee90-104e-254a-ac33" name="Token Size" value="Small"/>
-              </characteristics>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="41f2-2980-f02e-12d3" name="Wing" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
               <modifiers/>
+              <constraints/>
+              <selectionEntries>
+                <selectionEntry id="8949-2bb2-6753-037a" name="Fighter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e23b-da62-30f5-38f2" name="Interceptor Token" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="04a0-60de-8e6d-8ba1" name="(SRS) Interceptor" hidden="false" profileTypeId="2cf1-c9ab-3840-931a" profileTypeName="SRS Token">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Mv" characteristicTypeId="51cd-7087-6fe8-3c61" value="12&quot;"/>
+                <characteristic name="AD" characteristicTypeId="15fb-fff8-6d89-0c16" value="0"/>
+                <characteristic name="PD" characteristicTypeId="5129-5f00-6506-3ce6" value="2"/>
+                <characteristic name="AP" characteristicTypeId="4474-acef-601d-d3ec" value="0"/>
+                <characteristic name="Token Size" characteristicTypeId="ee90-104e-254a-ac33" value="Small"/>
+              </characteristics>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-  </sharedEntryGroups>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="27a3-884f-cde5-ab78" name="Wing" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries>
+                <selectionEntry id="f50d-7508-e363-3b7a" name="Interceptor" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bae37eef-fb25-0a12-54b7-9327d7335920" name="Ambush" hidden="false" page="0">
+    <rule id="bae37eef-fb25-0a12-54b7-9327d7335920" name="Ambush" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A Squadron with the Ambush MAR may be deployed using the Hidden Set-Up rules.
 However, rather than only having one Hidden Set-Up Marker, you may place a number of Markers equal to the value of this MAR on the Board. Only one of these Markers has the Squadron name recorded on it, the others are left blank. When a blank Marker is revealed, nothing happens – the Marker is simply discarded.</description>
-      <modifiers/>
     </rule>
-    <rule id="95891eb6-0a90-47f7-d896-ce77467b1424" name="Beam Weapons" hidden="false" page="0">
+    <rule id="95891eb6-0a90-47f7-d896-ce77467b1424" name="Beam Weapons" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If ALL weapons involved in an attack are Beam Weapons and the target is within 10&quot; of all attacking models, any rolls of 1 in the initial roll may be Re-Rolled.</description>
-      <modifiers/>
     </rule>
-    <rule id="5f5c603b-8e76-8932-a300-2e858565c809" name="Bigger Batteries" hidden="false" page="0">
+    <rule id="5f5c603b-8e76-8932-a300-2e858565c809" name="Bigger Batteries" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>The Point Defense systems on a model with Bigger Batteries have a Range of 8” instead of 4”. This also increases the range of Attacks using the Point Defense Barrage MAR.</description>
-      <modifiers/>
     </rule>
-    <rule id="c3847bd0-4cfe-409f-fbe7-8af46f4ad5dc" name="Biohazard" hidden="false" page="0">
+    <rule id="c3847bd0-4cfe-409f-fbe7-8af46f4ad5dc" name="Biohazard" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If ALL Weapons contributing to an Attack have Biohazard Ammo, and the number of hits equals or exceeds the Damage Rating (DR) of the target model, the target model loses 1 Crew Point, in addition to any other effects.</description>
-      <modifiers/>
     </rule>
-    <rule id="aa607d7e-e8cd-2f76-b5ed-fcd277712618" name="Countermeasures" hidden="false" page="0">
+    <rule id="aa607d7e-e8cd-2f76-b5ed-fcd277712618" name="Countermeasures" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Any enemy model within 8” of one or more models with Countermeasures requires one additional success to pass any Command Checks.</description>
-      <modifiers/>
     </rule>
-    <rule id="31e51a8a-c994-e854-fd62-1a5547bbab3a" name="Decimator Warheads" hidden="false" page="0">
+    <rule id="31e51a8a-c994-e854-fd62-1a5547bbab3a" name="Decimator Warheads" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If all Weapons contributing to an Attack have the Decimator Warheads MAR and the Attack equals or exceeds the target’s CR, the target Squadron must take an immediate Disorder Check.</description>
-      <modifiers/>
     </rule>
-    <rule id="9033f0c7-1501-30ee-7d69-2f9c2bf3844f" name="Deck Crews" hidden="false" page="0">
+    <rule id="9033f0c7-1501-30ee-7d69-2f9c2bf3844f" name="Deck Crews" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A model with Deck Crew may roll a D6 during the Command Segment of its activation. On a result of 4, 5 or 6 take ONE previously Destroyed Wing and return it to a SRS Token that is currently on this model. The model’s maximum Wing complement and the maximum number of Wings in a SRS Token CANNOT be exceeded.</description>
-      <modifiers/>
     </rule>
-    <rule id="9f8775a8-9c70-d197-93f4-39a124fd1b8a" name="Difficult Target" hidden="false" page="0">
+    <rule id="9f8775a8-9c70-d197-93f4-39a124fd1b8a" name="Difficult Target" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If a Capital Class model makes a ranged attack against a Difficult Target, their Attack Dice will suffer a -1 ‘to hit’ modifier. Most commonly, this will mean that their Attack Dice will only score hits on a 5 or 6.</description>
-      <modifiers/>
     </rule>
-    <rule id="de9f2f94-73a0-e023-4c70-1f327f2e50b7" name="Dirty Secrets" hidden="false" page="0">
+    <rule id="de9f2f94-73a0-e023-4c70-1f327f2e50b7" name="Dirty Secrets" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>For each model in your Fleet with Dirty Secrets, once per game, when an opponent attempts to use a Tactical Ability Card, you may choose to lower your Battle Log by one to cancel the effects of the Card. The Card is discarded, and any effects, including any required Battle Log adjustment, are ignored.</description>
-      <modifiers/>
     </rule>
-    <rule id="b79cfe64-0c8e-80d5-beb0-3ababef29568" name="Elite Crew" hidden="false" page="0">
+    <rule id="b79cfe64-0c8e-80d5-beb0-3ababef29568" name="Elite Crew" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A model with Elite Crew receives a +1 ‘to hit’ modifier on all dice rolled to take Command Checks. When a Squadron (rather than a particular model) takes a Command Check, unless all models within the Squadron have this MAR, the effect is lost. Escort Type models are ignored for this purpose. This does not effect Command Tests taken for Hidden Set-Up.</description>
-      <modifiers/>
     </rule>
-    <rule id="9b93fb85-c72d-ac0a-51c0-c59789d77cbe" name="Hidden Killer" hidden="false" page="0">
+    <rule id="9b93fb85-c72d-ac0a-51c0-c59789d77cbe" name="Hidden Killer" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A Hidden Killer CANNOT be targeted by ANY weapons firing from further than 20” if it is at a Full Stop.</description>
-      <modifiers/>
     </rule>
-    <rule id="699eaed2-84c7-7342-d194-18b8278e4f7b" name="High Energy" hidden="false" page="0">
+    <rule id="699eaed2-84c7-7342-d194-18b8278e4f7b" name="High Energy" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If all Weapons contributing to an Attack have the High Energy MAR and the attack equals or exceeds the target’s Damage Rating, the target gains a Hazard Marker in addition to any other effects.</description>
-      <modifiers/>
     </rule>
-    <rule id="d629349a-57a1-6e82-7f9d-3b36350231be" name="Impervious" hidden="false" page="0">
+    <rule id="d629349a-57a1-6e82-7f9d-3b36350231be" name="Impervious" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>To Capture a model with Impervious, a Boarding Assault must roll successes equal to or in excess of TRIPLE the model’s current Crew Point total.</description>
-      <modifiers/>
     </rule>
-    <rule id="e4354ab9-2d5a-dfae-b538-6895ce55159e" name="Kinetic Weapons" hidden="false" page="0">
+    <rule id="e4354ab9-2d5a-dfae-b538-6895ce55159e" name="Kinetic Weapons" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If ALL weapons involved in the attack are Kinetic weapons and the attack equals or exceeds the target’s Critical Rating, the attacker may add +1 to the result of the roll on the critical hit table. If the Attack causes multiple Critical Hits, you may choose separately for each roll on the Critical Hit Table made.</description>
-      <modifiers/>
     </rule>
-    <rule id="a179a134-3d9a-ea12-d578-98b3549ea009" name="Maneuverable" hidden="false" page="0">
+    <rule id="a179a134-3d9a-ea12-d578-98b3549ea009" name="Maneuverable" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If a Maneuverable model is at a Full Stop, it can rotate up to 90 degrees around its Flight Peg during the Secondary Movement segment of its activation.</description>
-      <modifiers/>
     </rule>
-    <rule id="5ff2ade3-3ce6-a88e-d55c-e7d787a00d9e" name="Nuclear Weapons" hidden="false" page="0">
+    <rule id="5ff2ade3-3ce6-a88e-d55c-e7d787a00d9e" name="Nuclear Weapons" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If ALL weapons involved in an attack are Nuclear Weapons and the attack causes a Critical Hit, every model whose Flight Peg is within 4” of the target’s Flight Peg suffers an attack with HALF the Attack Dice of the initial attack.</description>
-      <modifiers/>
     </rule>
-    <rule id="026e0d99-5c5e-6e3a-36ec-a9859c087117" name="Ops Center" hidden="false" page="0">
+    <rule id="026e0d99-5c5e-6e3a-36ec-a9859c087117" name="Ops Center" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If a model with the Ops Centre MAR is your Fleet Admiral’s Vessel you may take an additional TAC at no extra cost.</description>
-      <modifiers/>
     </rule>
-    <rule id="c6cf24a2-4dc4-244e-2a34-79155f46fe0e" name="Precision Strike" hidden="false" page="0">
+    <rule id="c6cf24a2-4dc4-244e-2a34-79155f46fe0e" name="Precision Strike" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Coherence Effect - If ALL weapons contributing to a Targeted Strike have Precision Strike, you may choose to add +1 to the result on the Targeted Strike Damage Table.</description>
-      <modifiers/>
     </rule>
-    <rule id="aea705fe-9c9d-8ad2-a754-9169b0a03f75" name="Quick Launch" hidden="false" page="0">
+    <rule id="aea705fe-9c9d-8ad2-a754-9169b0a03f75" name="Quick Launch" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>When Launched from a Carrier with Quick Launch, SRS Tokens may be placed anywhere within the Carrier’s Command Distance, they are not restricted to being placed in contact with it.</description>
-      <modifiers/>
     </rule>
-    <rule id="dba5db98-4bb6-48dc-de4f-e90d85905fba" name="Sector Shielding" hidden="false" page="0">
+    <rule id="dba5db98-4bb6-48dc-de4f-e90d85905fba" name="Sector Shielding" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>During the Command Segment of its activation a model with Sector Shielding may nominate ONE direction, either the Fore, Aft, Port or Starboard 90 degree Arc of Fire, and increase its Shield Rating by 1 against any Attack from that direction.
 The bonus is applied if the Flight Pegs of all firing models contributing to the Attack are entirely within the target model’s nominated 90 degree Arc of Fire.
 
 The model’s Shield Rating is reduced by 1 against any Attack NOT from the nominated direction. The Shield Rating on the model will return to its original value at the beginning of the Command Segment of is next activation.
 A model may be deployed with Sector Shielding engaged, nominate the direction at the time of deployment.</description>
-      <modifiers/>
     </rule>
-    <rule id="e08bb9c9-c0f0-9f23-31fe-39fb65f92f75" name="Self Repair" hidden="false" page="0">
+    <rule id="e08bb9c9-c0f0-9f23-31fe-39fb65f92f75" name="Self Repair" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If a model with Self Repair does not have a Cloaking Field activated, it may restore 1 lost Hull Point on a D6 roll of a 4, 5 or 6. This roll is made at the end of the model’s activation. A model may only attempt this once per Turn and it cannot be used to increase a model’s Hull Points beyond its starting total.</description>
-      <modifiers/>
     </rule>
-    <rule id="5893402a-168a-a752-5ec1-e77685b29b55" name="Special Forces" hidden="false" page="0">
+    <rule id="5893402a-168a-a752-5ec1-e77685b29b55" name="Special Forces" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If all the models initiating a Boarding Assault have Special Forces, their Assault Point Dice receive a +1 ‘to hit’ modifier.
 If a model with Special Forces is the target of a Boarding Assault, the Assault Point Dice of the initiating models receive a -1 ‘to hit’ modifier.</description>
-      <modifiers/>
     </rule>
-    <rule id="ef4e2b68-0a64-3724-ff58-48c027420ff9" name="Split Fire" hidden="false" page="0">
+    <rule id="ef4e2b68-0a64-3724-ff58-48c027420ff9" name="Split Fire" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A Weapon with the Split Fire MAR may declare an Attack against any number of targets in its Arc of Fire and a single Attack Dice Range Band. It must divide its Attack Dice as evenly as possible between these Attacks. This cannot be used in conjunction with any Firing Options.</description>
-      <modifiers/>
     </rule>
-    <rule id="11563c5e-f4a3-b271-c920-7a8dc9d2458c" name="Stealth Systems" hidden="false" page="0">
+    <rule id="11563c5e-f4a3-b271-c920-7a8dc9d2458c" name="Stealth Systems" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Any Attack against a model with the Stealth Systems MAR must re-roll ALL successful rolls if any weapon in the Attack is firing from further than 20”. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
-      <modifiers/>
     </rule>
-    <rule id="6cce4f01-cb00-575f-630e-bef9777c0dca" name="Superior Design" hidden="false" page="0">
+    <rule id="6cce4f01-cb00-575f-630e-bef9777c0dca" name="Superior Design" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If this model suffers any Critical Hit Effect, the loss of any Crew Points is reduced by HALF (rounded down, to a minimum of one). This model NEVER gains a Hazard Marker as the result of a Critical Hit Effect or Targeted Strike, however it can gain them from other sources.</description>
-      <modifiers/>
     </rule>
-    <rule id="92262bfe-e4e1-70d6-a9f1-ec16245cb383" name="Target Resolution" hidden="false" page="0">
+    <rule id="92262bfe-e4e1-70d6-a9f1-ec16245cb383" name="Target Resolution" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A model with Target Resolution may forgo making any attacks in the Combat Segment of its activation to assist another model in its Squadron in making an attack.
 
 Once per Turn, when a model in its Squadron is about to resolve a Ranged Attack, a model with Target Resolution may take a Command Check. Any other models in its Squadron which also have Target Resolution may elect to assist it. For every assisting model one less success is required to pass the Command Check (to a minimum of one), whilst for every full 8” between the firing model and its target, one additional success is required.
 
 If the Test is passed, the firing model receives a +1 ‘to hit’ modifier for the attack.
 Only one Target Resolution attempt may be made for any one attack.</description>
-      <modifiers/>
     </rule>
-    <rule id="57f96d9f-cbcc-1354-5af0-98b8f243d21c" name="Torpedo Spook" hidden="false" page="0">
+    <rule id="57f96d9f-cbcc-1354-5af0-98b8f243d21c" name="Torpedo Spook" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If ALL models contributing to a Torpedo Attack have the Torpedo Spook MAR, all successful Point Defense rolls against this attack MUST be Re-Rolled. This re-roll is performed BEFORE any extra rolls for Exploding Dice, and before Hits are discounted by Shield Systems or Point Defense. Only ONE dice is re-rolled for any 6’s scored. The second result MUST be accepted.</description>
-      <modifiers/>
     </rule>
-    <rule id="e6e4a3e0-5a30-c853-c3c7-9aca9ba2245d" name="Weapon Shielding" hidden="false" page="0">
-      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
+    <rule id="e6e4a3e0-5a30-c853-c3c7-9aca9ba2245d" name="Weapon Shielding" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <description>A model with the Weapon Shielding MAR only reduces the Attack Dice values of its Weapon Systems by ONE for every TWO points of Hull Damage it has suffered.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="38075ed8-773d-b4ce-fb22-f791ca90584b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Phantom" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Battleship"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="7"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="10"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="8"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="6"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="4"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="6"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="2"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="4"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
-      </characteristics>
+    <profile id="38075ed8-773d-b4ce-fb22-f791ca90584b" name="Phantom" hidden="false" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Designation" characteristicTypeId="c06bce22-dd79-5941-f499-07552e47c604" value="Battleship"/>
+        <characteristic name="DR" characteristicTypeId="b06bce22-dd79-5941-f499-07552e47c603" value="7"/>
+        <characteristic name="CR" characteristicTypeId="45a72717-f553-eda0-574a-ed9c863706e4" value="10"/>
+        <characteristic name="Mv" characteristicTypeId="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="6"/>
+        <characteristic name="HP" characteristicTypeId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="8"/>
+        <characteristic name="CP" characteristicTypeId="98e41e8c-6557-e695-6a0e-87db5a68f78c" value="6"/>
+        <characteristic name="AP" characteristicTypeId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="4"/>
+        <characteristic name="PD" characteristicTypeId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="6"/>
+        <characteristic name="MN" characteristicTypeId="2a062323-777d-a32b-b604-0b133e93fd1e" value="0"/>
+        <characteristic name="Sh" characteristicTypeId="0068d495-66ca-6446-f906-63ed81c88477" value="2"/>
+        <characteristic name="WC" characteristicTypeId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="4"/>
+        <characteristic name="TL" characteristicTypeId="450d4be0-47db-8bc4-b15b-118250ac9615" value="1"/>
+      </characteristics>
     </profile>
-    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_I" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="bfe9098d-62c7-1c2f-2809-3e2f372a227c" name="Phantom_Weapon_I" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Fore"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="7"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="9"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="6"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="5"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Beam"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_II" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-      </characteristics>
+    <profile id="0fb71fae-cdb0-5c2d-e63d-988bef57f5af" name="Phantom_Weapon_II" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Port_OR_Starboard"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="9"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="9"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="6"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="6"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value="Gun_Rack"/>
+      </characteristics>
     </profile>
-    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Phantom_Weapon_III" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="7"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="c9f80b91-6ad5-e9e8-80a7-f1d611ace845" name="Phantom_Weapon_III" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Turrets"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="10"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="11"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="8"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="7"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Shadow" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Frigate"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="4"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="5"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="11"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="2"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="2"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="1"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="2"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="0"/>
-      </characteristics>
+    <profile id="fe1a60f9-ecba-2de3-0bd3-4f671021b0e8" name="Shadow" hidden="false" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Designation" characteristicTypeId="c06bce22-dd79-5941-f499-07552e47c604" value="Frigate"/>
+        <characteristic name="DR" characteristicTypeId="b06bce22-dd79-5941-f499-07552e47c603" value="4"/>
+        <characteristic name="CR" characteristicTypeId="45a72717-f553-eda0-574a-ed9c863706e4" value="5"/>
+        <characteristic name="Mv" characteristicTypeId="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="11"/>
+        <characteristic name="HP" characteristicTypeId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="2"/>
+        <characteristic name="CP" characteristicTypeId="98e41e8c-6557-e695-6a0e-87db5a68f78c" value="2"/>
+        <characteristic name="AP" characteristicTypeId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="1"/>
+        <characteristic name="PD" characteristicTypeId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="2"/>
+        <characteristic name="MN" characteristicTypeId="2a062323-777d-a32b-b604-0b133e93fd1e" value="0"/>
+        <characteristic name="Sh" characteristicTypeId="0068d495-66ca-6446-f906-63ed81c88477" value="1"/>
+        <characteristic name="WC" characteristicTypeId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="0"/>
+        <characteristic name="TL" characteristicTypeId="450d4be0-47db-8bc4-b15b-118250ac9615" value="0"/>
+      </characteristics>
     </profile>
-    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Shadow_Weapon_I" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="5"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="6"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="2"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="a9fa8097-71fe-97ca-d339-ad011ec3f736" name="Shadow_Weapon_I" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Turrets"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="5"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="6"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="2"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="-"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="eb94ab4b-4071-d10a-f28b-92a2aca4d3f5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Spur" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Battlecruiser"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="6"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="9"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="7"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="6"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="5"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="4"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="2"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
-      </characteristics>
+    <profile id="eb94ab4b-4071-d10a-f28b-92a2aca4d3f5" name="Spur" hidden="false" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Designation" characteristicTypeId="c06bce22-dd79-5941-f499-07552e47c604" value="Battlecruiser"/>
+        <characteristic name="DR" characteristicTypeId="b06bce22-dd79-5941-f499-07552e47c603" value="6"/>
+        <characteristic name="CR" characteristicTypeId="45a72717-f553-eda0-574a-ed9c863706e4" value="9"/>
+        <characteristic name="Mv" characteristicTypeId="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="7"/>
+        <characteristic name="HP" characteristicTypeId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="6"/>
+        <characteristic name="CP" characteristicTypeId="98e41e8c-6557-e695-6a0e-87db5a68f78c" value="5"/>
+        <characteristic name="AP" characteristicTypeId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="3"/>
+        <characteristic name="PD" characteristicTypeId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="4"/>
+        <characteristic name="MN" characteristicTypeId="2a062323-777d-a32b-b604-0b133e93fd1e" value="0"/>
+        <characteristic name="Sh" characteristicTypeId="0068d495-66ca-6446-f906-63ed81c88477" value="1"/>
+        <characteristic name="WC" characteristicTypeId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="2"/>
+        <characteristic name="TL" characteristicTypeId="450d4be0-47db-8bc4-b15b-118250ac9615" value="1"/>
+      </characteristics>
     </profile>
-    <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_I" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="9"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="11"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="8"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="bd4bf38e-5e85-4352-3020-fe0b96d595db" name="Spur_Weapon_I" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Fore"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="9"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="11"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="8"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="6"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Beam"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_II" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Port_OR_Starboard"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="7"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="4"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value="Gun_Rack"/>
-      </characteristics>
+    <profile id="21dba64a-29d9-7b9e-a198-318f9bc758f1" name="Spur_Weapon_II" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Port_OR_Starboard"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="7"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="7"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="4"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="4"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value="Gun_Rack"/>
+      </characteristics>
     </profile>
-    <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Spur_Weapon_III" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="dbca63a6-6474-7275-e4cc-aaa083033d03" name="Spur_Weapon_III" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Turrets"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="7"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="8"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="5"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="4"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="e65f5f56-01a3-234b-3620-22b4f41b571d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Wraith" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="c06bce22-dd79-5941-f499-07552e47c604" name="Designation" value="Gunship"/>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="DR" value="5"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="CR" value="7"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="Mv" value="7"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="HP" value="5"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="CP" value="4"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="AP" value="3"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="PD" value="5"/>
-        <characteristic characteristicId="2a062323-777d-a32b-b604-0b133e93fd1e" name="MN" value="0"/>
-        <characteristic characteristicId="0068d495-66ca-6446-f906-63ed81c88477" name="Sh" value="1"/>
-        <characteristic characteristicId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" name="WC" value="0"/>
-        <characteristic characteristicId="450d4be0-47db-8bc4-b15b-118250ac9615" name="TL" value="1"/>
-      </characteristics>
+    <profile id="e65f5f56-01a3-234b-3620-22b4f41b571d" name="Wraith" hidden="false" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Designation" characteristicTypeId="c06bce22-dd79-5941-f499-07552e47c604" value="Gunship"/>
+        <characteristic name="DR" characteristicTypeId="b06bce22-dd79-5941-f499-07552e47c603" value="5"/>
+        <characteristic name="CR" characteristicTypeId="45a72717-f553-eda0-574a-ed9c863706e4" value="7"/>
+        <characteristic name="Mv" characteristicTypeId="37d832b5-effe-31e5-3d80-be0e0f0facaa" value="7"/>
+        <characteristic name="HP" characteristicTypeId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" value="5"/>
+        <characteristic name="CP" characteristicTypeId="98e41e8c-6557-e695-6a0e-87db5a68f78c" value="4"/>
+        <characteristic name="AP" characteristicTypeId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" value="3"/>
+        <characteristic name="PD" characteristicTypeId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" value="5"/>
+        <characteristic name="MN" characteristicTypeId="2a062323-777d-a32b-b604-0b133e93fd1e" value="0"/>
+        <characteristic name="Sh" characteristicTypeId="0068d495-66ca-6446-f906-63ed81c88477" value="1"/>
+        <characteristic name="WC" characteristicTypeId="93537291-d3e3-5ccb-ec44-a5770b0a2a61" value="0"/>
+        <characteristic name="TL" characteristicTypeId="450d4be0-47db-8bc4-b15b-118250ac9615" value="1"/>
+      </characteristics>
     </profile>
-    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Wraith_Weapon_I" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Fore"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="6"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="5"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Beam"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="10&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="b93abd57-35f8-9835-2027-8bd09d163484" name="Wraith_Weapon_I" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Fore"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="7"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="9"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="6"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="5"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Beam"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="10&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
-    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" profileTypeId="5e210bab-d67d-6239-f8cb-e95795c2d639" name="Wraith_Weapon_II" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="7ec8-b63f-42a4-9d40" name="Arc" value="Turrets"/>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="1" value="7"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="2" value="8"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="3" value="5"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="4" value="4"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Category" value="Primary"/>
-        <characteristic characteristicId="248f72a0-5e87-27c8-4bda-b57f623ab04f" name="Incr." value="8&quot;"/>
-        <characteristic characteristicId="f67f-5825-72ff-a4f4" name="MARs" value=""/>
-      </characteristics>
+    <profile id="16aa0df5-c752-b1b2-26bd-88a7f68ea267" name="Wraith_Weapon_II" hidden="false" profileTypeId="b43e-2222-4230-3aac" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Arc" characteristicTypeId="7ec8-b63f-42a4-9d40" value="Turrets"/>
+        <characteristic name="1" characteristicTypeId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" value="7"/>
+        <characteristic name="2" characteristicTypeId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" value="8"/>
+        <characteristic name="3" characteristicTypeId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" value="5"/>
+        <characteristic name="4" characteristicTypeId="27dc470e-85e8-929a-80ed-7058a163b995" value="4"/>
+        <characteristic name="Category" characteristicTypeId="88222587-060a-9230-b947-2bffa3b052dd" value="Primary"/>
+        <characteristic name="Incr." characteristicTypeId="248f72a0-5e87-27c8-4bda-b57f623ab04f" value="8&quot;"/>
+        <characteristic name="MARs" characteristicTypeId="f67f-5825-72ff-a4f4" value=""/>
+      </characteristics>
     </profile>
   </sharedProfiles>
 </catalogue>
